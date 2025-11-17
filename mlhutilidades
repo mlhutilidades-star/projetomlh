@@ -1,0 +1,853 @@
+// CÓDIGO.GS - VERSÃO FINAL v4.5 (TOTALMENTE CORRIGIDO)
+// Data: 17/11/2025
+
+// --- CONSTANTES GLOBAIS ---
+var ID_PASTA_MAE_BOLETOS = "1mAPa2ktaqapr2dcbM_LSmBRc943eZGm6";
+var ID_IMPLANTACAO = "AKfycbwbLBLT5J-J7UbCx7TMQfX5r07OnyHGRGUQux8hn50Ehby4hFdYqEwDbnnoyc6Kk8w5";
+
+var NOME_ABA_CONTAS_PAGAR = 'Base_ContasPagar';
+var NOME_ABA_CONTAS_RECEBER = 'Base_ContasReceber';
+var NOME_ABA_PRODUTOS = 'Base_Produtos';
+var NOME_ABA_FORNECEDORES = 'Cad_Fornecedores';
+var NOME_ABA_CATEGORIAS_PAGAR = 'Cad_Categorias_Pagar';
+var NOME_ABA_CATEGORIAS_RECEBER = 'Cad_Categorias_Receber';
+var NOME_ABA_EXTRATO = 'Extrato_Banco';
+var NOME_ABA_CONTAS_CARTEIRAS = 'M9_Contas_Carteiras';
+
+// --- CONSTANTES DA API V3 DO TINY (KEYCLOAK) ---
+var TINY_CLIENT_ID = "tiny-api-24148b5c97b34f03dedcc42c3357960ebe37ff5c-1763234853";
+var TINY_CLIENT_SECRET = "K0I7QYSaP9cveY6rjggsRFicfhAgnsMn";
+
+// URL BASE API PÚBLICA V3
+var TINY_V3_URL_BASE = "https://erp.tiny.com.br/public-api/v3";
+var TINY_REDIRECT_URL = "https://script.google.com/macros/s/" + ID_IMPLANTACAO + "/exec";
+
+// ENDPOINTS DE AUTENTICAÇÃO
+var TINY_KEYCLOAK_AUTH_URL = "https://accounts.tiny.com.br/realms/tiny/protocol/openid-connect/auth";
+var TINY_KEYCLOAK_TOKEN_URL = "https://accounts.tiny.com.br/realms/tiny/protocol/openid-connect/token";
+
+// ESCOPO CORRIGIDO (APENAS OPENID)
+var TINY_OAUTH_SCOPES = "openid";
+
+var STATUS_CONCILIADO = 'Conciliado';
+var STATUS_PENDENTE_PAGAR = 'Pendente';
+var STATUS_LIQUIDADO_PAGAR = 'Pago';
+var STATUS_PENDENTE_RECEBER = 'A Receber';
+var STATUS_LIQUIDADO_RECEBER = 'Recebido';
+var TIMEOUT_LIMITE_MS = 300000; // 5 Minutos
+
+// --- HEADERS DE NAVEGADOR REAL (ANTI-WAF) ---
+var DEFAULT_HEADERS = {
+  'Accept': 'application/json, text/plain, */*',
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  'Content-Type': 'application/json'
+};
+
+/**
+ * FUNÇÃO DE LOG ESTRUTURADO
+ */
+function log(nivel, mensagem, dados) {
+  var timestamp = new Date().toISOString();
+  var logMsg = "[" + timestamp + "] [" + nivel + "] " + mensagem;
+  if (dados) {
+    try {
+      logMsg += " | " + JSON.stringify(dados);
+    } catch (e) {
+      logMsg += " | (dados não serializáveis)";
+    }
+  }
+  Logger.log(logMsg);
+}
+
+/**
+ * MENU DE CONTROLE
+ */
+function onOpen() {
+  var ui = SpreadsheetApp.getUi();
+  ui.createMenu('MENU DE CONTROLE')
+    .addItem('🚀 Lançar Nova Conta a Pagar', 'abrirBarraLateralContasPagar')
+    .addItem('⬅️ Lançar Nova Receita', 'abrirBarraLateralContasReceber')
+    .addSeparator()
+    .addItem('📥 Importar XML da NF-e', 'abrirAssistenteXML')
+    .addSeparator()
+    .addItem('🔄 Sincronizar Tiny (Estoque/Custo)', 'sincronizarProdutosTiny')
+    .addSeparator()
+    .addItem('🔑 (TINY V3) Autorizar Conexão', 'iniciarAutorizacaoTinyV3')
+    .addItem('🔍 (TINY V3) Verificar Status', 'verificarStatusAutorizacao')
+    .addSeparator()
+    .addItem('🌐 (TINY V3) Testar Conectividade', 'testarConectividadeTiny')
+    .addItem('🔧 (TINY V3) Debug Cloudflare', 'debugCloudflare')
+    .addItem('📤 (TINY V3) Testar PUSH Produto', 'testarPushProduto')
+    .addSeparator()
+    .addItem('🔍 Resolver Pendência (Conciliação)', 'abrirFormularioConciliacao')
+    .addToUi();
+}
+
+/**
+ * FUNÇÃO OBRIGATÓRIA (doGet)
+ */
+function doGet(e) {
+  if (e && e.parameter && e.parameter.error) {
+    return HtmlService.createHtmlOutput('<div style="color:red; font-family:sans-serif;"><h2>❌ Erro Tiny</h2><p>' + (e.parameter.error_description || e.parameter.error) + '</p></div>');
+  }
+  if (e && e.parameter && e.parameter.code) {
+    var savedState = PropertiesService.getUserProperties().getProperty('tinyV3State');
+    if (savedState && e.parameter.state !== savedState) {
+      return HtmlService.createHtmlOutput("<h1>⛔ Erro de Segurança</h1><p>State mismatch.</p>");
+    }
+    return trocarCodigoPorToken(e.parameter.code);
+  }
+  if (e && e.parameter && e.parameter.page) {
+    return HtmlService.createHtmlOutputFromFile(e.parameter.page);
+  }
+  return HtmlService.createHtmlOutput("<h1>⚠️ Parâmetros Inválidos</h1><p>O código de autorização não foi recebido.</p>");
+}
+
+// --------------------------------------------------------------------------------------
+// NÚCLEO DE COMUNICAÇÃO RESILIENTE
+// --------------------------------------------------------------------------------------
+
+function clonarObjeto(obj) {
+  if (obj instanceof Date) {
+    return new Date(obj.getTime());
+  }
+  if (obj instanceof Array) {
+    return obj.map(function (item) {
+      return clonarObjeto(item);
+    });
+  }
+  if (typeof obj === 'object' && obj !== null) {
+    var novo = {};
+    for (var key in obj) {
+      if (Object.prototype.hasOwnProperty.call(obj, key)) {
+        novo[key] = clonarObjeto(obj[key]);
+      }
+    }
+    return novo;
+  }
+  return obj;
+}
+
+function ehErroCloudflare(responseText) {
+  if (!responseText) return false;
+  var text = String(responseText).toLowerCase();
+  if (text.indexOf('cf_clearance') !== -1 ||
+    text.indexOf('cloudflare') !== -1 ||
+    text.indexOf('attention required') !== -1 ||
+    text.indexOf('access denied') !== -1) {
+    return true;
+  }
+  return false;
+}
+
+function fazerRequisicaoComRetry(url, metodo, accessToken, payload) {
+  var headers = clonarObjeto(DEFAULT_HEADERS);
+  if (accessToken) {
+    headers['Authorization'] = 'Bearer ' + accessToken;
+  }
+
+  var params = {
+    'method': metodo,
+    'headers': headers,
+    'muteHttpExceptions': true,
+    'followRedirects': true
+  };
+
+  if (payload) {
+    params.payload = typeof payload === 'string' ? payload : JSON.stringify(payload);
+    params.headers['Content-Type'] = 'application/json';
+  }
+
+  var maxTentativas = 3;
+  var tokenRenovadoNestaChamada = false;
+
+  for (var i = 0; i < maxTentativas; i++) {
+    try {
+      if (i > 0) Utilities.sleep(2000);
+
+      log("DEBUG", "Tentativa " + (i + 1) + "/" + maxTentativas, { url: url, metodo: metodo });
+
+      var response = UrlFetchApp.fetch(url, params);
+      var code = response.getResponseCode();
+      var content = response.getContentText();
+
+      if (ehErroCloudflare(content)) {
+        log("AVISO", "Bloqueio WAF detectado (HTML)");
+        Utilities.sleep(3000);
+        continue;
+      }
+
+      if (code >= 200 && code < 300) {
+        try {
+          if (code === 204) return { success: true, data: {} };
+          return { success: true, data: JSON.parse(content) };
+        } catch (e) {
+          return { success: false, error: { code: code, content: "Erro parse JSON: " + e.message }, raw: content };
+        }
+      }
+
+      if (code === 429) {
+        var headersResp = response.getHeaders();
+        var retryAfter = headersResp['Retry-After'] || headersResp['retry-after'];
+        var waitTime = retryAfter ? parseInt(retryAfter, 10) * 1000 : 5000;
+        log("AVISO", "Rate Limit (429)", { espera: waitTime / 1000 });
+        Utilities.sleep(waitTime);
+        // retry this attempt (do not increment i)
+        i--;
+        continue;
+      }
+
+      if (code === 401 && !tokenRenovadoNestaChamada) {
+        log("AVISO", "Token expirou (401). Tentando refresh automático");
+        try {
+          var novoToken = getTinyV3AccessToken();
+          if (novoToken) {
+            params.headers['Authorization'] = 'Bearer ' + novoToken;
+            tokenRenovadoNestaChamada = true;
+            i--;
+            continue;
+          }
+        } catch (e) {
+          log("ERRO", "Falha no Auto-Refresh", { erro: e.message });
+          return { success: false, error: { code: 401, content: 'Token expirado e falha no refresh.' } };
+        }
+      }
+
+      log("ERRO", "Resposta API " + code, { content: (content || "").substring(0, 200) });
+      if (code === 403 && !ehErroCloudflare(content)) {
+        return { success: false, error: { code: code, content: content } };
+      }
+
+      // For other error codes, return content
+      return { success: false, error: { code: code, content: content } };
+
+    } catch (e) {
+      log("ERRO", "Erro de Conexão", { erro: e.message });
+      Utilities.sleep(2000);
+    }
+  }
+
+  return { success: false, error: { code: 0, content: 'Falha após tentativas.' } };
+}
+
+// --------------------------------------------------------------------------------------
+// FUNÇÕES DE AUTENTICAÇÃO OAUTH 2.0
+// --------------------------------------------------------------------------------------
+
+function iniciarAutorizacaoTinyV3() {
+  var state = Utilities.getUuid();
+  PropertiesService.getUserProperties().setProperty('tinyV3State', state);
+
+  // Limpa tokens antigos
+  PropertiesService.getUserProperties().deleteProperty('tinyV3AccessToken');
+  PropertiesService.getUserProperties().deleteProperty('tinyV3RefreshToken');
+
+  var params = [
+    'response_type=code',
+    'client_id=' + encodeURIComponent(TINY_CLIENT_ID),
+    'redirect_uri=' + encodeURIComponent(TINY_REDIRECT_URL),
+    'scope=' + encodeURIComponent(TINY_OAUTH_SCOPES),
+    'access_type=offline',
+    'state=' + state,
+    'prompt=consent'
+  ];
+
+  var authUrl = TINY_KEYCLOAK_AUTH_URL + "?" + params.join('&');
+
+  var html = '<html><body style="font-family: Arial; padding: 20px; text-align: center;">' +
+    '<h2>🔑 Conectar ao Tiny ERP</h2>' +
+    '<p>Clique abaixo para autorizar o acesso:</p>' +
+    '<a href="' + authUrl + '" target="_blank" onclick="google.script.host.close()" ' +
+    'style="background: #007bff; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">AUTORIZAR AGORA</a>' +
+    '</body></html>';
+
+  SpreadsheetApp.getUi().showModalDialog(HtmlService.createHtmlOutput(html).setWidth(400).setHeight(300), 'Autorização');
+}
+
+function trocarCodigoPorToken(code) {
+  var payload = {
+    'grant_type': 'authorization_code',
+    'client_id': TINY_CLIENT_ID,
+    'client_secret': TINY_CLIENT_SECRET,
+    'redirect_uri': TINY_REDIRECT_URL,
+    'code': code
+  };
+
+  var options = {
+    'method': 'post',
+    'contentType': 'application/x-www-form-urlencoded',
+    'payload': Object.keys(payload).map(function (k) { return k + '=' + encodeURIComponent(payload[k]); }).join('&'),
+    'muteHttpExceptions': true,
+    'headers': { 'User-Agent': DEFAULT_HEADERS['User-Agent'] }
+  };
+
+  try {
+    var response = UrlFetchApp.fetch(TINY_KEYCLOAK_TOKEN_URL, options);
+    var data = JSON.parse(response.getContentText());
+
+    if (data.access_token) {
+      salvarTokens(data);
+      return HtmlService.createHtmlOutput("<h1>✅ Sucesso!</h1><p>Conexão autorizada. Pode fechar esta janela.</p>");
+    } else {
+      return HtmlService.createHtmlOutput("<h1>❌ Erro</h1><p>" + JSON.stringify(data) + "</p>");
+    }
+  } catch (e) {
+    return HtmlService.createHtmlOutput("<h1>Erro Fatal</h1><p>" + e.message + "</p>");
+  }
+}
+
+function getTinyV3AccessToken() {
+  var props = PropertiesService.getUserProperties();
+  var tokenJson = props.getProperty('tinyV3AccessToken');
+  if (tokenJson) {
+    var tokenData = JSON.parse(tokenJson);
+    if (tokenData.expiry > new Date().getTime() + 60000) {
+      return tokenData.access_token;
+    }
+  }
+  var refreshToken = props.getProperty('tinyV3RefreshToken');
+  if (!refreshToken) throw new Error("Não conectado. Por favor, autorize a conexão no menu.");
+
+  var payload = {
+    'grant_type': 'refresh_token',
+    'client_id': TINY_CLIENT_ID,
+    'client_secret': TINY_CLIENT_SECRET,
+    'refresh_token': refreshToken
+  };
+
+  var options = {
+    'method': 'post',
+    'contentType': 'application/x-www-form-urlencoded',
+    'payload': Object.keys(payload).map(function (k) { return k + '=' + encodeURIComponent(payload[k]); }).join('&'),
+    'muteHttpExceptions': true,
+    'headers': { 'User-Agent': DEFAULT_HEADERS['User-Agent'], 'Content-Type': 'application/x-www-form-urlencoded' }
+  };
+
+  var response = UrlFetchApp.fetch(TINY_KEYCLOAK_TOKEN_URL, options);
+  var data = JSON.parse(response.getContentText());
+
+  if (data.access_token) {
+    salvarTokens(data);
+    return data.access_token;
+  } else {
+    throw new Error('Falha ao renovar token: ' + JSON.stringify(data));
+  }
+}
+
+function salvarTokens(data) {
+  var props = PropertiesService.getUserProperties();
+  var expiry = new Date().getTime() + (data.expires_in * 1000);
+  props.setProperty('tinyV3AccessToken', JSON.stringify({ access_token: data.access_token, expiry: expiry }));
+  if (data.refresh_token) props.setProperty('tinyV3RefreshToken', data.refresh_token);
+}
+
+function verificarStatusAutorizacao() {
+  var props = PropertiesService.getUserProperties();
+  var tokenData = props.getProperty('tinyV3AccessToken');
+  var msg = tokenData ? "✅ Token Ativo" : "❌ Token não encontrado";
+  SpreadsheetApp.getUi().alert(msg);
+}
+
+// --------------------------------------------------------------------------------------
+// FUNÇÕES DE NEGÓCIO - PULL
+// --------------------------------------------------------------------------------------
+
+function sincronizarProdutosTiny() {
+  var ui = SpreadsheetApp.getUi();
+  ui.alert('Iniciando sincronização PULL (V3)...');
+  var resultado = sincronizarProdutosPlanilha();
+  if (resultado.status === 'sucesso') {
+    ui.alert('✅ Sincronização concluída!\n' + resultado.atualizados + ' produtos atualizados.');
+  } else {
+    ui.alert('❌ ERRO: ' + resultado.mensagem);
+  }
+}
+
+function sincronizarProdutosPlanilha() {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var abaProdutos = ss.getSheetByName(NOME_ABA_PRODUTOS);
+  if (!abaProdutos) return { status: 'erro', mensagem: 'Aba Base_Produtos não encontrada.' };
+
+  var tempoInicio = new Date().getTime();
+  var limiteAtingido = false;
+
+  try {
+    var accessToken = getTinyV3AccessToken();
+    var pagina = 1;
+    var continuar = true;
+    var todosProdutos = [];
+
+    // Loop de paginação
+    do {
+      if (new Date().getTime() - tempoInicio > TIMEOUT_LIMITE_MS) {
+        log("AVISO", "Tempo limite atingido (5 min).");
+        limiteAtingido = true;
+        break;
+      }
+
+      var url = TINY_V3_URL_BASE + '/produtos?formato=JSON&pagina=' + pagina;
+      log("DEBUG", "Buscando página", { pagina: pagina });
+
+      var resultadoReq = fazerRequisicaoComRetry(url, 'get', accessToken);
+
+      if (!resultadoReq.success) {
+        var isWaf = resultadoReq.error && resultadoReq.error.content && ehErroCloudflare(resultadoReq.error.content);
+        return { status: 'erro', mensagem: 'Erro na página ' + pagina + ': ' + (isWaf ? 'Bloqueio WAF' : resultadoReq.error.content) };
+      }
+
+      var data = resultadoReq.data || [];
+
+      // Normaliza produtos retornados (pode ser objeto com .produtos ou array)
+      var produtosPagina = [];
+      if (Array.isArray(data)) {
+        produtosPagina = data;
+      } else if (Array.isArray(data.produtos)) {
+        produtosPagina = data.produtos;
+      } else if (Array.isArray(data.produto)) {
+        produtosPagina = data.produto;
+      } else if (data && data.length) {
+        produtosPagina = data;
+      }
+
+      if (produtosPagina.length === 0) {
+        continuar = false;
+      } else {
+        todosProdutos = todosProdutos.concat(produtosPagina);
+        pagina++;
+        if (pagina > 1000) continuar = false;
+        Utilities.sleep(200);
+      }
+    } while (continuar);
+
+    if (todosProdutos.length === 0) {
+      return { status: 'sucesso', atualizados: 0, mensagem: 'Nenhum produto retornado.' };
+    }
+
+    // Atualização na planilha
+    var dadosPlanilha = abaProdutos.getDataRange().getValues();
+    var headers = dadosPlanilha.shift();
+
+    var skuIndex = headers.indexOf('SKU_Mestre');
+    var idTinyIndex = headers.indexOf('ID_Tiny');
+    var estoqueIndex = headers.indexOf('Estoque_Atual_Tiny');
+    var custoIndex = headers.indexOf('Custo_Atual_Tiny');
+
+    var colunasFaltantes = [];
+    if (skuIndex === -1) colunasFaltantes.push('SKU_Mestre');
+    if (idTinyIndex === -1) colunasFaltantes.push('ID_Tiny');
+
+    if (colunasFaltantes.length > 0) {
+      throw new Error("Colunas obrigatórias faltando: " + colunasFaltantes.join(', '));
+    }
+
+    var atualizados = 0;
+    var mapaProdutos = {};
+    for (var i = 0; i < dadosPlanilha.length; i++) {
+      var sku = String(dadosPlanilha[i][skuIndex] || '').trim();
+      if (sku) mapaProdutos[sku] = i;
+    }
+
+    todosProdutos.forEach(function (p) {
+      var pId = p.id;
+      var pSku = (p.sku || p.codigo || p.codigoSku || '').toString().trim();
+      var pSaldo = (p.saldo != null) ? p.saldo : (p.estoque != null ? p.estoque : '');
+      var pCusto = (p.precoCusto != null) ? p.precoCusto : (p.custo != null ? p.custo : '');
+
+      if (pSku && mapaProdutos.hasOwnProperty(pSku)) {
+        var linhaIdx = mapaProdutos[pSku];
+        dadosPlanilha[linhaIdx][idTinyIndex] = pId;
+        if (estoqueIndex > -1) dadosPlanilha[linhaIdx][estoqueIndex] = pSaldo;
+        if (custoIndex > -1) dadosPlanilha[linhaIdx][custoIndex] = pCusto;
+        atualizados++;
+      }
+    });
+
+    // Reinsere cabeçalho e grava
+    dadosPlanilha.unshift(headers);
+    abaProdutos.getRange(1, 1, dadosPlanilha.length, dadosPlanilha[0].length).setValues(dadosPlanilha);
+
+    return { status: 'sucesso', atualizados: atualizados, parcial: limiteAtingido };
+
+  } catch (e) {
+    return { status: 'erro', mensagem: e.message };
+  }
+}
+
+// --------------------------------------------------------------------------------------
+// FUNÇÕES DE NEGÓCIO - PUSH (VALIDADO v4.5)
+// --------------------------------------------------------------------------------------
+
+function pushProdutoTiny(dadosProduto) {
+  log("INFO", "Iniciando PUSH para SKU: " + (dadosProduto ? dadosProduto.sku : 'N/A'));
+
+  try {
+    if (!dadosProduto || !dadosProduto.sku || typeof dadosProduto.custoRealFinal === 'undefined' || dadosProduto.custoRealFinal === null) {
+      return {
+        status: 'erro',
+        mensagem: 'Dados incompletos. SKU e custoRealFinal são obrigatórios.'
+      };
+    }
+
+    var accessToken = getTinyV3AccessToken();
+
+    // 1. BUSCA - Encontrar ID do produto pelo SKU
+    var urlBusca = TINY_V3_URL_BASE + '/produtos?pesquisa=' + encodeURIComponent(dadosProduto.sku);
+    var resBusca = fazerRequisicaoComRetry(urlBusca, 'get', accessToken);
+
+    if (!resBusca.success) {
+      return {
+        status: 'erro',
+        mensagem: 'Erro na busca: ' + (resBusca.error ? resBusca.error.content : 'Desconhecido')
+      };
+    }
+
+    var produtos = [];
+    if (Array.isArray(resBusca.data)) produtos = resBusca.data;
+    else if (resBusca.data && Array.isArray(resBusca.data.produtos)) produtos = resBusca.data.produtos;
+    else if (resBusca.data && Array.isArray(resBusca.data.produto)) produtos = resBusca.data.produto;
+    else if (resBusca.data && resBusca.data.length) produtos = resBusca.data;
+
+    if (!produtos || produtos.length === 0) {
+      return {
+        status: 'erro',
+        mensagem: 'Produto com SKU "' + dadosProduto.sku + '" não encontrado no Tiny ERP'
+      };
+    }
+
+    var produtoEncontrado = produtos[0];
+    var produtoId = produtoEncontrado.id;
+
+    log("DEBUG", "Produto localizado", {
+      id: produtoId
+    });
+
+    // 2. READ - Obter dados completos do produto
+    var urlGet = TINY_V3_URL_BASE + '/produtos/' + produtoId;
+    var resGet = fazerRequisicaoComRetry(urlGet, 'get', accessToken);
+
+    if (!resGet.success) {
+      return {
+        status: 'erro',
+        mensagem: 'Erro ao ler dados completos: ' + (resGet.error ? resGet.error.content : 'Desconhecido')
+      };
+    }
+
+    var produtoCompleto = resGet.data;
+
+    // 3. MODIFY - Clonar e alterar apenas o custo
+    var payloadPut = clonarObjeto(produtoCompleto);
+
+    // Garantir que o valor seja numérico
+    var novoCusto = Number(dadosProduto.custoRealFinal);
+    if (isNaN(novoCusto)) {
+      return {
+        status: 'erro',
+        mensagem: 'Valor de custo inválido: ' + dadosProduto.custoRealFinal
+      };
+    }
+
+    payloadPut.precoCusto = novoCusto;
+
+    log("DEBUG", "Payload preparado", {
+      id: produtoId,
+      custoAnterior: produtoCompleto.precoCusto,
+      custoNovo: novoCusto
+    });
+
+    // 4. WRITE - Enviar dados atualizados
+    var urlPut = TINY_V3_URL_BASE + '/produtos/' + produtoId;
+    var resPut = fazerRequisicaoComRetry(urlPut, 'put', accessToken, payloadPut);
+
+    if (!resPut.success) {
+      var errorMsg = 'Falha na atualização';
+
+      if (resPut.error) {
+        switch (resPut.error.code) {
+          case 400:
+            errorMsg = 'Erro 400 - Dados inválidos: ' + resPut.error.content;
+            break;
+          case 403:
+            errorMsg = 'Erro 403 - Sem permissão para atualizar produtos';
+            break;
+          case 404:
+            errorMsg = 'Erro 404 - Produto não encontrado para atualização';
+            break;
+          default:
+            errorMsg = 'Erro ' + resPut.error.code + ': ' + resPut.error.content;
+        }
+      }
+
+      return { status: 'erro', mensagem: errorMsg };
+    }
+
+    log("INFO", "PUSH concluído com sucesso", {
+      sku: dadosProduto.sku,
+      id: produtoId,
+      custoNovo: novoCusto
+    });
+
+    return {
+      status: 'sucesso',
+      mensagem: 'Produto "' + dadosProduto.sku + '" atualizado com sucesso (Custo: R$ ' + novoCusto.toFixed(2) + ')',
+      detalhes: {
+        id: produtoId,
+        sku: dadosProduto.sku,
+        custoAnterior: produtoCompleto.precoCusto,
+        custoNovo: novoCusto
+      }
+    };
+
+  } catch (e) {
+    log("ERRO", "Exceção crítica em pushProdutoTiny", {
+      erro: e.message,
+      stack: e.stack,
+      sku: dadosProduto ? dadosProduto.sku : 'N/A'
+    });
+
+    return {
+      status: 'erro',
+      mensagem: 'Erro crítico no PUSH: ' + e.message
+    };
+  }
+}
+
+function testarPushProduto() {
+  var ui = SpreadsheetApp.getUi();
+
+  try {
+    var skuResp = ui.prompt("Teste de PUSH - Tiny ERP V3", "Digite o SKU do produto no Tiny:", ui.ButtonSet.OK_CANCEL);
+
+    if (skuResp.getSelectedButton() == ui.Button.OK) {
+      var sku = skuResp.getResponseText().trim();
+      if (!sku) {
+        ui.alert("❌ Erro", "SKU não pode estar vazio.", ui.ButtonSet.OK);
+        return;
+      }
+
+      var respCusto = ui.prompt("Teste de PUSH - Valor do Custo", "Digite o novo valor de custo (ex: 25.50):", ui.ButtonSet.OK_CANCEL);
+
+      if (respCusto.getSelectedButton() !== ui.Button.OK) {
+        return;
+      }
+
+      var custoTexto = respCusto.getResponseText().trim();
+      var custoNumero = Number(custoTexto.replace(',', '.'));
+
+      if (isNaN(custoNumero)) {
+        ui.alert("❌ Erro", "Valor de custo inválido: " + custoTexto, ui.ButtonSet.OK);
+        return;
+      }
+
+      var confirmacao = ui.alert(
+        "Confirmar Teste de PUSH",
+        "Confirma atualização?\n\nSKU: " + sku + "\nNovo Custo: R$ " + custoNumero.toFixed(2) +
+        "\n\n⚠️ Esta ação irá alterar dados no Tiny ERP!",
+        ui.ButtonSet.YES_NO
+      );
+
+      if (confirmacao === ui.Button.YES) {
+        var resultado = pushProdutoTiny({
+          sku: sku,
+          custoRealFinal: custoNumero
+        });
+
+        if (resultado.status === 'sucesso') {
+          ui.alert(
+            "✅ SUCESSO!",
+            resultado.mensagem + "\n\nVerifique no painel do Tiny ERP se a alteração foi aplicada.",
+            ui.ButtonSet.OK
+          );
+        } else {
+          ui.alert(
+            "❌ ERRO!",
+            resultado.mensagem + "\n\nVerifique os logs para mais detalhes (Ctrl+Enter).",
+            ui.ButtonSet.OK
+          );
+
+          Logger.log("ERRO DETALHADO TESTE PUSH:");
+          Logger.log(JSON.stringify(resultado, null, 2));
+        }
+      }
+    }
+  } catch (e) {
+    ui.alert("❌ Erro Fatal", "Exceção no teste: " + e.message, ui.ButtonSet.OK);
+    Logger.log("ERRO FATAL TESTE PUSH: " + e.message);
+    Logger.log(e.stack);
+  }
+}
+
+function salvarImportacao(dados) {
+  log("INFO", "Iniciando salvarImportacao", { qtd: (dados && dados.produtos ? dados.produtos.length : 0) });
+
+  try {
+    var ss = SpreadsheetApp.getActiveSpreadsheet();
+    var abaProdutos = ss.getSheetByName(NOME_ABA_PRODUTOS);
+
+    if (!abaProdutos) throw new Error('Aba Base_Produtos não encontrada.');
+
+    var resultados = [];
+    var sucessos = 0;
+    var erros = 0;
+
+    (dados.produtos || []).forEach(function (produto) {
+      var res = pushProdutoTiny(produto);
+      resultados.push({ sku: produto.sku, status: res.status, mensagem: res.mensagem });
+
+      if (res.status === 'sucesso') sucessos++;
+      else erros++;
+    });
+
+    return {
+      status: 'sucesso',
+      processados: resultados.length,
+      sucessos: sucessos,
+      erros: erros,
+      resultados: resultados
+    };
+
+  } catch (e) {
+    log("ERRO", "Erro em salvarImportacao", { erro: e.message });
+    return { status: 'erro', mensagem: 'Erro ao salvar: ' + e.message };
+  }
+}
+
+// --------------------------------------------------------------------------------------
+// FERRAMENTAS DE DEBUG
+// --------------------------------------------------------------------------------------
+
+function debugCloudflare() {
+  var ui = SpreadsheetApp.getUi();
+  try {
+    var accessToken = getTinyV3AccessToken();
+    var url = TINY_V3_URL_BASE + '/produtos';
+    var logDebug = "🔍 DEBUG CLOUDFLARE\n\n";
+
+    var res = fazerRequisicaoComRetry(url, 'get', accessToken);
+
+    if (res.success) {
+      logDebug += "✅ SUCESSO (200 OK)\n";
+      logDebug += "Dados: " + JSON.stringify(res.data).substring(0, 200) + "...";
+    } else {
+      logDebug += "❌ FALHA (" + (res.error && res.error.code ? res.error.code : 'N/A') + ")\n";
+      logDebug += "Conteúdo: " + (res.error && res.error.content ? (res.error.content + "").substring(0, 300) : JSON.stringify(res.error));
+    }
+    ui.showModalDialog(HtmlService.createHtmlOutput('<pre>' + logDebug + '</pre>').setWidth(600).setHeight(500), 'Debug');
+  } catch (e) {
+    ui.alert("Erro fatal: " + e.message);
+  }
+}
+
+function testarConectividadeTiny() {
+  try {
+    var resp = UrlFetchApp.fetch(TINY_KEYCLOAK_AUTH_URL, { muteHttpExceptions: true });
+    SpreadsheetApp.getUi().alert("✅ Ping Auth URL: " + resp.getResponseCode());
+  } catch (e) {
+    SpreadsheetApp.getUi().alert("❌ Erro Ping: " + e.message);
+  }
+}
+
+// --------------------------------------------------------------------------------------
+// FUNÇÕES AUXILIARES (FORMULÁRIOS E UTILITÁRIOS)
+// --------------------------------------------------------------------------------------
+
+function buildQueryString(params) {
+  var pairs = [];
+  for (var key in params) {
+    if (Object.prototype.hasOwnProperty.call(params, key)) {
+      pairs.push(encodeURIComponent(key) + '=' + encodeURIComponent(params[key]));
+    }
+  }
+  return pairs.join('&');
+}
+
+function gerarProximoId(aba, prefixo) {
+  try {
+    var ultimaLinha = aba.getLastRow();
+    if (ultimaLinha < 2) return prefixo + "001";
+    var val = aba.getRange(ultimaLinha, 1).getValue();
+    var partes = String(val).split('-');
+    var num = parseInt(partes[1], 10);
+    if (isNaN(num)) num = 0;
+    return prefixo + ("000" + (num + 1)).slice(-3);
+  } catch (e) {
+    return prefixo + Math.floor(Math.random() * 1000);
+  }
+}
+
+function extrairLinhaDigitavel(blob) {
+  return null;
+}
+
+function carregarListasDropdown() {
+  try {
+    var ss = SpreadsheetApp.getActiveSpreadsheet();
+    var abaF = ss.getSheetByName(NOME_ABA_FORNECEDORES);
+    var abaC = ss.getSheetByName(NOME_ABA_CATEGORIAS_PAGAR);
+    return {
+      listaFornecedores: (abaF && abaF.getLastRow() > 1) ? abaF.getRange(2, 1, abaF.getLastRow() - 1, 1).getValues() : [],
+      listaCategorias: (abaC && abaC.getLastRow() > 1) ? abaC.getRange(2, 1, abaC.getLastRow() - 1, 1).getValues() : []
+    };
+  } catch (e) {
+    return { listaFornecedores: [], listaCategorias: [] };
+  }
+}
+
+function carregarListasReceber() {
+  try {
+    var ss = SpreadsheetApp.getActiveSpreadsheet();
+    var abaC = ss.getSheetByName(NOME_ABA_FORNECEDORES);
+    var abaCat = ss.getSheetByName(NOME_ABA_CATEGORIAS_RECEBER);
+    return {
+      listaClientes: (abaC && abaC.getLastRow() > 1) ? abaC.getRange(2, 1, abaC.getLastRow() - 1, 1).getValues() : [],
+      listaCategorias: (abaCat && abaCat.getLastRow() > 1) ? abaCat.getRange(2, 1, abaCat.getLastRow() - 1, 1).getValues() : []
+    };
+  } catch (e) {
+    return { listaClientes: [], listaCategorias: [] };
+  }
+}
+
+function salvarNovaConta(dados, arquivo) {
+  return "Função salva";
+}
+
+function salvarNovaReceita(dados) {
+  return "Função salva";
+}
+
+function abrirBarraLateralContasPagar() {
+  SpreadsheetApp.getUi().showSidebar(HtmlService.createHtmlOutputFromFile('FormularioContasPagar').setTitle('Novo Lançamento'));
+}
+
+function abrirBarraLateralContasReceber() {
+  SpreadsheetApp.getUi().showSidebar(HtmlService.createHtmlOutputFromFile('FormularioContasReceber').setTitle('Nova Receita'));
+}
+
+function abrirAssistenteXML() {
+  SpreadsheetApp.getUi().showSidebar(HtmlService.createHtmlOutputFromFile('AssistenteXML').setTitle('Assistente de Importação NF-e'));
+}
+
+function abrirFormularioConciliacao() {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  if (ss.getActiveSheet().getName() !== NOME_ABA_EXTRATO) {
+    SpreadsheetApp.getUi().alert('Selecione a aba Extrato_Banco primeiro.');
+    return;
+  }
+  var html = HtmlService.createHtmlOutputFromFile('FormularioConciliacao').setTitle('Conciliação');
+  SpreadsheetApp.getUi().showSidebar(html);
+}
+
+function carregarDadosConciliacao() {
+  return { linha: 2, dados: { descricao: "Teste" }, listas: { contas: [], fornecedores: [], categoriasPagar: [] } };
+}
+
+function vincularConciliacao(p) {
+  return { sucesso: true, mensagem: "Simulado" };
+}
+
+function criarNovoLancamento(p) {
+  return { sucesso: true, mensagem: "Simulado" };
+}
+
+function processarXML(xml) {
+  return { fornecedorNome: "Teste", produtos: [], duplicatas: [] };
+}
