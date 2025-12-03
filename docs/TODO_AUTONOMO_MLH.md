@@ -11,7 +11,7 @@
 
 - [ ] Leitura de PDF
   - [ ] Extração de dados de boletos
-  - [ ] Extração de dados de notas fiscais
+  - [x] Extração de dados de notas fiscais
   - [ ] Associação automática com contas
 
 - [ ] Integração Tiny ERP
