@@ -34,7 +34,7 @@
 - [x] Configuração do backend (API)
 - [x] Configuração do frontend (Streamlit)
 - [x] Documentação dos módulos
-- [ ] Testes automatizados
+- [x] Testes automatizados
 
 ### Próximo passo
 

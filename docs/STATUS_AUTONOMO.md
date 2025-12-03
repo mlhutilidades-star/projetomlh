@@ -6,7 +6,7 @@
 
 ## Próxima tarefa
 
-- Testes automatizados.
+- Todas as tarefas concluídas.
 
 ## O que já está pronto
 
