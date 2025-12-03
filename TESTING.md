@@ -51,6 +51,16 @@ pytest tests/test_validation_expanded.py -v
 pytest -v -s
 ```
 
+## Configuração de Banco de Dados (Testes/CI)
+
+- Padrão local (dev): `DATABASE_URL=sqlite:///hub_financeiro.db`
+- Recomendado para testes locais: `DATABASE_URL=sqlite:///./data/mlh_test.db`
+	- O diretório `./data` é criado automaticamente por `modules/database.py` quando necessário.
+- CI (GitHub Actions): `DATABASE_URL=sqlite:///./data/mlh_test.db`
+	- O workflow cria o diretório `data/` antes de rodar os testes.
+
+As tabelas são criadas chamando `init_database()` do módulo `modules.database`. A maioria dos testes já faz isso indiretamente.
+
 ## Métricas de Cobertura
 
 | Módulo | Cobertura | Status |
