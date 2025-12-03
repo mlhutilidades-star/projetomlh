@@ -6,7 +6,7 @@
 
 ## Próxima tarefa
 
-- Visualização de contas a pagar no Dashboard.
+- Gráficos de receitas/despesas no Dashboard.
 
 ## O que já está pronto
 

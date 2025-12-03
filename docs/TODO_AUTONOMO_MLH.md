@@ -24,7 +24,7 @@
   - [x] Importação de vendas/pedidos
 
 - [ ] Dashboard
-  - [ ] Visualização de contas a pagar
+  - [x] Visualização de contas a pagar
   - [ ] Gráficos de receitas/despesas
   - [ ] Indicadores principais
 
