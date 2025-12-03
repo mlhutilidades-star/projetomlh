@@ -2,7 +2,7 @@
 
 ## Última tarefa concluída
 
-- Revisão final e ajustes.
+- Todas as tarefas concluídas.
 
 ## O que já está pronto
 
