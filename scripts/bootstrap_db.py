@@ -10,8 +10,8 @@ if str(ROOT) not in sys.path:
 def main():
     try:
         from sqlalchemy import create_engine
-        # Ajuste o import abaixo para apontar ao Base/metadata do seu projeto:
-        from modules.database import Base  # <-- SUBSTITUIR para o caminho correto
+        # Create schema using project's Base model
+        from modules.database import Base
         engine = create_engine(os.environ['DATABASE_URL'])
         Base.metadata.create_all(engine)
         print('Schema created successfully.')
