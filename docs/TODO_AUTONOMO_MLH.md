@@ -4,8 +4,8 @@
 
 - [x] Contas a Pagar
   - [x] Cadastro de contas
-  - [ ] Edição de contas
-  - [ ] Exclusão de contas
+  - [x] Edição de contas
+  - [x] Exclusão de contas
   - [x] Marcação como paga
   - [x] Listagem de contas pendentes/pagas
 
@@ -38,4 +38,4 @@
 
 ### Próximo passo
 
-- Implementar endpoints de edição e exclusão de contas a pagar na API.
+- Iniciar implementação da leitura de PDF: extração de dados de boletos.
