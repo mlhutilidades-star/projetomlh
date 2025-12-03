@@ -16,7 +16,7 @@
 
 - [ ] Integração Tiny ERP
   - [x] Autenticação e conexão com API Tiny
-  - [ ] Sincronização de dados financeiros
+  - [x] Sincronização de dados financeiros
   - [ ] Sincronização de estoque
 
 - [ ] Integração Shopee
@@ -38,4 +38,4 @@
 
 ### Próximo passo
 
-- Iniciar implementação da leitura de PDF: extração de dados de boletos.
+- Sincronização de dados financeiros com Tiny.

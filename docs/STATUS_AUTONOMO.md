@@ -6,7 +6,7 @@
 
 ## Próxima tarefa
 
-- Sincronização de dados financeiros com Tiny.
+- Sincronização de estoque com Tiny.
 
 ## O que já está pronto
 
