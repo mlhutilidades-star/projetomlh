@@ -33,5 +33,5 @@
 - [ ] Estruturação do banco de dados
 - [ ] Configuração do backend (API)
 - [ ] Configuração do frontend (Streamlit)
-- [ ] Documentação dos módulos
+- [x] Documentação dos módulos
 - [ ] Testes automatizados

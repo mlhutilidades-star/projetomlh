@@ -20,3 +20,8 @@
 - Integração real com Tiny e Shopee
 - Leitura e extração de dados de PDF
 - Dashboard funcional
+
+## Observações recentes
+
+- Toda a documentação inicial foi criada e revisada.
+- Pronto para iniciar a estruturação do banco de dados e backend.
