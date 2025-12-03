@@ -6,7 +6,7 @@
 
 ## Próxima tarefa
 
-- Indicadores principais no Dashboard.
+- Configuração do frontend (Streamlit).
 
 ## O que já está pronto
 

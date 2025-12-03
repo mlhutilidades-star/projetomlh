@@ -15,7 +15,15 @@ def visualizar_contas_a_pagar():
 
     st.dataframe(df_contas)
 
-    # Gráfico de receitas/despesas
+    # Indicadores principais
+    st.subheader("Indicadores Principais")
+    total_pagar = df_contas['valor'].sum()
+    total_pagas = df_contas[df_contas['status'] == 'paga']['valor'].sum()
+    total_pendentes = total_pagar - total_pagas
+
+    st.metric(label="Total a Pagar", value=f"R$ {total_pagar:.2f}")
+    st.metric(label="Total Pagas", value=f"R$ {total_pagas:.2f}")
+    st.metric(label="Total Pendentes", value=f"R$ {total_pendentes:.2f}")
     st.subheader("Gráficos de Receitas/Despesas")
     if not df_contas.empty:
         fig = px.bar(df_contas, x='data_vencimento', y='valor', color='status', title="Receitas/Despesas ao longo do tempo")
