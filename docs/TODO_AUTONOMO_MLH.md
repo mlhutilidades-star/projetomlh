@@ -12,7 +12,7 @@
 - [ ] Leitura de PDF
   - [x] Extração de dados de boletos
   - [x] Extração de dados de notas fiscais
-  - [ ] Associação automática com contas
+  - [x] Associação automática com contas
 
 - [ ] Integração Tiny ERP
   - [ ] Autenticação e conexão com API Tiny

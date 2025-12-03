@@ -6,7 +6,7 @@
 
 ## Próxima tarefa
 
-- Associação automática com contas.
+- Autenticação e conexão com API Tiny.
 
 ## O que já está pronto
 
