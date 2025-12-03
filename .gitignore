@@ -39,3 +39,7 @@ dist/
 # Temporary
 tmp/
 temp/
+
+# Test databases
+data/mlh_test.db
+mlh.db
