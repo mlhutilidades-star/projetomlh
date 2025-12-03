@@ -5,8 +5,10 @@ from models.contas_pagar import Base, ContaPagar, StatusConta
 from pydantic import BaseModel
 from typing import List, Optional
 from datetime import date
+import os
 
-DATABASE_URL = "sqlite:///./mlh.db"
+# Usar DATABASE_URL do ambiente ou fallback para mlh.db
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./mlh.db")
 
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)

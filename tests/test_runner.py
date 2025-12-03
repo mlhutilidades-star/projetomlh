@@ -7,9 +7,8 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
-# Forçar banco em memória nos testes de runner para evitar quaisquer
-# problemas de permissão no filesystem do CI
-os.environ.setdefault("DATABASE_URL", "sqlite:///:memory:")
+# DATABASE_URL agora é gerenciado pelo tests/conftest.py
+# que garante um banco gravável tanto em CI quanto localmente
 
 from modules.database import init_database, get_db, ContaPagar, RegraM11, add_conta, get_regra, add_or_update_regra
 from modules.pdf_parser import extract_from_pdf, ocr_status
