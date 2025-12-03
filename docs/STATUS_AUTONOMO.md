@@ -6,7 +6,7 @@
 
 ## Próxima tarefa
 
-- Gráficos de receitas/despesas no Dashboard.
+- Indicadores principais no Dashboard.
 
 ## O que já está pronto
 

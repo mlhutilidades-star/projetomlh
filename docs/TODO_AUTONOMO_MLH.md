@@ -25,7 +25,7 @@
 
 - [ ] Dashboard
   - [x] Visualização de contas a pagar
-  - [ ] Gráficos de receitas/despesas
+  - [x] Gráficos de receitas/despesas
   - [ ] Indicadores principais
 
 ## Técnicos
