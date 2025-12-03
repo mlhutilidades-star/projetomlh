@@ -55,9 +55,9 @@ jobs:
             import os
             try:
                 from sqlalchemy import create_engine
-                # ADAPTAR: ajustar o import abaixo para o módulo real que define Base
+                # Create schema using project's Base model
                 try:
-                    from modules.database import Base  # <-- SUBSTITUIR 'app.models' pelo módulo real
+                    from modules.database import Base
                     engine = create_engine(os.environ['DATABASE_URL'])
                     Base.metadata.create_all(engine)
                     print('Schema created via SQLAlchemy Base')
