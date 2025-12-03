@@ -21,7 +21,7 @@
 
 - [ ] Integração Shopee
   - [x] Autenticação e conexão com API Shopee
-  - [ ] Importação de vendas/pedidos
+  - [x] Importação de vendas/pedidos
 
 - [ ] Dashboard
   - [ ] Visualização de contas a pagar

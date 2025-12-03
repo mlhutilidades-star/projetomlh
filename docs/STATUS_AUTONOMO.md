@@ -6,7 +6,7 @@
 
 ## Próxima tarefa
 
-- Importação de vendas/pedidos da Shopee.
+- Visualização de contas a pagar no Dashboard.
 
 ## O que já está pronto
 
