@@ -12,7 +12,15 @@ import os
 Base = declarative_base()
 
 # Engine do banco
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///hub_financeiro.db")
+# Prefer a writable path during tests/CI to avoid readonly issues on runners
+_env_db = os.getenv("DATABASE_URL")
+if not _env_db:
+    # If running under pytest or CI, force a data/ path
+    if os.getenv("PYTEST_CURRENT_TEST") or os.getenv("CI"):
+        _env_db = "sqlite:///./data/mlh_test.db"
+    else:
+        _env_db = "sqlite:///hub_financeiro.db"
+DATABASE_URL = _env_db
 
 # Garante que o diretório do arquivo SQLite exista em ambientes de CI/teste
 if DATABASE_URL.startswith("sqlite:///"):
