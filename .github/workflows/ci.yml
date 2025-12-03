@@ -10,8 +10,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Banco dedicado para CI em diretório gravável
-      DATABASE_URL: sqlite:///./data/mlh_test.db
+      # Banco dedicado para CI em diretório gravável (usar caminho absoluto do workspace)
+      DATABASE_URL: sqlite:///${{ github.workspace }}/data/mlh_test.db
 
     steps:
       - name: Checkout
@@ -30,8 +30,9 @@ jobs:
       - name: Prepare writable database directory
         run: |
           mkdir -p data
-          ls -la
+          chmod -R 777 data
           echo "Using DATABASE_URL=$DATABASE_URL"
+          python -c "import os; print('Workspace:', os.getcwd()); print('Data exists:', os.path.isdir('data'))"
 
       - name: Run tests
         run: |
