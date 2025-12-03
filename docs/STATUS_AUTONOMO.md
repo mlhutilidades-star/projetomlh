@@ -6,7 +6,7 @@
 
 ## Próxima tarefa
 
-- Sincronização de estoque com Tiny.
+- Autenticação e conexão com API Shopee.
 
 ## O que já está pronto
 

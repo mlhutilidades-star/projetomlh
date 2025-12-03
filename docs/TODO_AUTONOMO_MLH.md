@@ -17,7 +17,7 @@
 - [ ] Integração Tiny ERP
   - [x] Autenticação e conexão com API Tiny
   - [x] Sincronização de dados financeiros
-  - [ ] Sincronização de estoque
+  - [x] Sincronização de estoque
 
 - [ ] Integração Shopee
   - [ ] Autenticação e conexão com API Shopee
