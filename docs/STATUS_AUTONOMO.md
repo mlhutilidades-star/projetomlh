@@ -5,23 +5,30 @@
 - Documentação inicial das especificações do projeto (MLH_SPEC.md)
 - Listagem de tarefas (TODO_AUTONOMO_MLH.md)
 - Prompt para desenvolvimento da interface Streamlit (PROMPT_SUPREMO_MLH_STREAMLIT.md)
+- Modelagem inicial do banco de dados (SQLAlchemy)
+- API FastAPI para Contas a Pagar (endpoints básicos de listagem, criação e marcação como paga)
 
 ## O que está incompleto
 
-- Implementação de todas as funcionalidades principais (Contas a Pagar, Leitura de PDF, Integrações, Dashboard)
-- Estruturação do banco de dados
-- Backend e frontend
-
-## O que falta implementar
-
-- Todo o backend (API, banco de dados, integrações)
-- Todo o frontend (Streamlit)
+- Edição e exclusão de contas a pagar
 - Testes automatizados
 - Integração real com Tiny e Shopee
 - Leitura e extração de dados de PDF
 - Dashboard funcional
+- Frontend em Streamlit
+
+## O que falta implementar
+
+- Endpoints de edição e exclusão de contas a pagar
+- Testes automatizados para API e modelos
+- Integração com Tiny ERP (autenticação, sincronização de dados)
+- Integração com Shopee (autenticação, importação de vendas/pedidos)
+- Leitura de PDF (extração de dados de boletos e notas fiscais)
+- Associação automática dos dados extraídos às contas
+- Dashboard em Streamlit (visualização de contas, receitas, despesas, indicadores)
+- Autenticação de usuário e permissões
 
 ## Observações recentes
 
-- Toda a documentação inicial foi criada e revisada.
-- Pronto para iniciar a estruturação do banco de dados e backend.
+- Backend básico para Contas a Pagar já funcional.
+- Pronto para avançar com endpoints complementares, testes e início da integração com frontend e outras funcionalidades.

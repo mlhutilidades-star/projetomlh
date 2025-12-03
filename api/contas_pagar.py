@@ -68,3 +68,31 @@ def marcar_como_paga(conta_id: int, data_pagamento: Optional[date] = None):
     db.refresh(conta)
     db.close()
     return conta
+
+@app.put("/contas_pagar/{conta_id}", response_model=ContaPagarOut)
+def editar_conta(conta_id: int, conta_update: ContaPagarCreate):
+    db = SessionLocal()
+    conta = db.query(ContaPagar).filter(ContaPagar.id == conta_id).first()
+    if not conta:
+        db.close()
+        raise HTTPException(status_code=404, detail="Conta não encontrada")
+    conta.descricao = conta_update.descricao
+    conta.valor = conta_update.valor
+    conta.data_vencimento = conta_update.data_vencimento
+    conta.fornecedor = conta_update.fornecedor
+    db.commit()
+    db.refresh(conta)
+    db.close()
+    return conta
+
+@app.delete("/contas_pagar/{conta_id}", response_model=ContaPagarOut)
+def excluir_conta(conta_id: int):
+    db = SessionLocal()
+    conta = db.query(ContaPagar).filter(ContaPagar.id == conta_id).first()
+    if not conta:
+        db.close()
+        raise HTTPException(status_code=404, detail="Conta não encontrada")
+    db.delete(conta)
+    db.commit()
+    db.close()
+    return conta

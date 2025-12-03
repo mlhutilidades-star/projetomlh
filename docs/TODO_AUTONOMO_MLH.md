@@ -2,12 +2,12 @@
 
 ## Funcionalidades Principais
 
-- [ ] Contas a Pagar
-  - [ ] Cadastro de contas
+- [x] Contas a Pagar
+  - [x] Cadastro de contas
   - [ ] Edição de contas
   - [ ] Exclusão de contas
-  - [ ] Marcação como paga
-  - [ ] Listagem de contas pendentes/pagas
+  - [x] Marcação como paga
+  - [x] Listagem de contas pendentes/pagas
 
 - [ ] Leitura de PDF
   - [ ] Extração de dados de boletos
@@ -31,18 +31,11 @@
 ## Técnicos
 
 - [x] Estruturação do banco de dados (modelagem inicial planejada)
-- [ ] Configuração do backend (API)
+- [x] Configuração do backend (API)
 - [ ] Configuração do frontend (Streamlit)
 - [x] Documentação dos módulos
 - [ ] Testes automatizados
 
 ### Próximo passo
 
-- Criar a modelagem inicial do banco de dados para Contas a Pagar (tabela: contas_pagar) com os campos essenciais:
-  - id (inteiro, chave primária)
-  - descricao (texto)
-  - valor (decimal)
-  - data_vencimento (data)
-  - status (pago/pendente)
-  - data_pagamento (data, opcional)
-  - fornecedor (texto, opcional)
+- Implementar endpoints de edição e exclusão de contas a pagar na API.
