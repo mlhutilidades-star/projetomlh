@@ -38,4 +38,4 @@
 
 ### Próximo passo
 
-- Todas as tarefas concluídas.
+- Revisão final e ajustes.
