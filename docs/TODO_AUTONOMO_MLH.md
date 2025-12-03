@@ -15,7 +15,7 @@
   - [x] Associação automática com contas
 
 - [ ] Integração Tiny ERP
-  - [ ] Autenticação e conexão com API Tiny
+  - [x] Autenticação e conexão com API Tiny
   - [ ] Sincronização de dados financeiros
   - [ ] Sincronização de estoque
 

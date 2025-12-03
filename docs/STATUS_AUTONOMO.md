@@ -6,7 +6,7 @@
 
 ## Próxima tarefa
 
-- Autenticação e conexão com API Tiny.
+- Sincronização de dados financeiros com Tiny.
 
 ## O que já está pronto
 
