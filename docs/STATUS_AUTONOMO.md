@@ -6,7 +6,7 @@
 
 ## Próxima tarefa
 
-- Autenticação e conexão com API Shopee.
+- Importação de vendas/pedidos da Shopee.
 
 ## O que já está pronto
 

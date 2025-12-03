@@ -20,7 +20,7 @@
   - [x] Sincronização de estoque
 
 - [ ] Integração Shopee
-  - [ ] Autenticação e conexão com API Shopee
+  - [x] Autenticação e conexão com API Shopee
   - [ ] Importação de vendas/pedidos
 
 - [ ] Dashboard
