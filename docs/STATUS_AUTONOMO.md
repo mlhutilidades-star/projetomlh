@@ -1,5 +1,13 @@
 # STATUS AUTÔNOMO MLH
 
+## Última tarefa concluída
+
+- Extração de dados de boletos bancários em PDF implementada em `pdf_utils/extrator_boletos.py`.
+
+## Próxima tarefa
+
+- Implementar extração de dados de notas fiscais a partir de PDF.
+
 ## O que já está pronto
 
 - Documentação inicial das especificações do projeto (MLH_SPEC.md)
@@ -10,20 +18,18 @@
 
 ## O que está incompleto
 
-- Edição e exclusão de contas a pagar
 - Testes automatizados
 - Integração real com Tiny e Shopee
-- Leitura e extração de dados de PDF
+- Leitura e extração de dados de PDF (notas fiscais)
 - Dashboard funcional
 - Frontend em Streamlit
 
 ## O que falta implementar
 
-- Endpoints de edição e exclusão de contas a pagar
 - Testes automatizados para API e modelos
 - Integração com Tiny ERP (autenticação, sincronização de dados)
 - Integração com Shopee (autenticação, importação de vendas/pedidos)
-- Leitura de PDF (extração de dados de boletos e notas fiscais)
+- Leitura de PDF (extração de dados de notas fiscais)
 - Associação automática dos dados extraídos às contas
 - Dashboard em Streamlit (visualização de contas, receitas, despesas, indicadores)
 - Autenticação de usuário e permissões
