@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # Banco em memória para testes no CI (evita problemas de permissão)
-      DATABASE_URL: sqlite:///:memory:
+      DATABASE_URL: "sqlite:///:memory:"
 
     steps:
       - name: Checkout
