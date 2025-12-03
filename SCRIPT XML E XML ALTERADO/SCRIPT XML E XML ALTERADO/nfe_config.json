@@ -1,0 +1,98 @@
+{
+  "emit": {
+    "CNPJ": "12124596000110",
+    "xNome": "ARK BRASIL IMP EXP LTDA",
+    "xFant": "ARK BRASIL",
+    "enderEmit": {
+      "xLgr": "RUA WALDEMIRO FERREIRA DOS SANTOS, SN",
+      "nro": "SN",
+      "xCpl": "LT 1019 B-1 QD 68",
+      "xBairro": "CHACARAS ARCAMPO",
+      "cMun": "3301702",
+      "xMun": "DUQUE DE CAXIAS",
+      "UF": "RJ",
+      "CEP": "25251285",
+      "fone": "35534418"
+    },
+    "IE": "79098027",
+    "IM": "04744420",
+    "CNAE": "4641903",
+    "CRT": "3"
+  },
+  "dest": {
+    "CNPJ": "62468045000142",
+    "xNome": "MLH COMERCIO E DISTRIBUICAO",
+    "enderDest": {
+      "xLgr": "RUA NUNO",
+      "nro": "492",
+      "xBairro": "OURO VERDE",
+      "cMun": "3303500",
+      "xMun": "NOVA IGUACU",
+      "UF": "RJ",
+      "CEP": "26263260",
+      "fone": "021982643677"
+    },
+    "IE": "15754834",
+    "email": "mlhutilidades@gmail.com; mlhutilidadesfinanceiro@gmail.com;"
+  },
+  "ide": {
+    "cUF": "33",
+    "cNF": "89587539",
+    "natOp": "VENDA",
+    "mod": "55",
+    "serie": "1",
+    "nNF": "33679",
+    "tpNF": "1",
+    "idDest": "1",
+    "cMunFG": "3301702",
+    "tpImp": "1",
+    "tpEmis": "1",
+    "cDV": "6",
+    "tpAmb": "1",
+    "finNFe": "1",
+    "indFinal": "0",
+    "indPres": "9",
+    "indIntermed": "0",
+    "procEmi": "0",
+    "verProc": "12.1.2410 | 3.0"
+  },
+  "transp": {
+    "modFrete": "0",
+    "transporta": {
+      "CNPJ": "50346978000188",
+      "xNome": "TRANSFRAGA TRANSPORTE LTDA",
+      "IE": "14839810",
+      "xEnder": "RUA DO MILHO, 00086",
+      "UF": "RJ"
+    },
+    "vol": {
+      "qVol": "9",
+      "esp": "CAIXA",
+      "pesoL": "66.497",
+      "pesoB": "74.190"
+    }
+  },
+  "pag": {
+    "indPag": "0",
+    "tPag": "16"
+  },
+  "infAdic": {
+    "infAdFisco": "(FCP):Adicional de aliquota - Fundo Estadual de Combate a Pobreza e as Desigualdades Sociais (FECP)",
+    "infCpl": "Ped. Nr.: 034014 Cond.Pagto.: A VISTA Vendedor: R M S COMERCIO E REPRESENTACOES LTDA ME"
+  },
+  "infRespTec": {
+    "CNPJ": "53113791000122",
+    "xContato": "Rodrigo de Almeida Sartorio",
+    "email": "resp_tecnico_dfe_protheus@totvs.com.br",
+    "fone": "1128593904"
+  },
+  "impostos": {
+    "pICMS": 20.0,
+    "pFCP": 2.0,
+    "pIPI": 0.0
+  },
+  "opcoes": {
+    "multiplicar_preco": false,
+    "multiplicador": 2.0
+  }
+}

@@ -29,8 +29,7 @@ class ContaPagarOut(BaseModel):
     data_pagamento: Optional[date]
     fornecedor: Optional[str]
 
-    class Config:
-        orm_mode = True
+    model_config = {"from_attributes": True}
 
 @app.get("/contas_pagar/", response_model=List[ContaPagarOut])
 def listar_contas():

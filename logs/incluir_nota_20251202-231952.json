@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "status_code": 200,
+  "data": {
+    "retorno": {
+      "status_processamento": "3",
+      "status": "OK",
+      "idNotaFiscal": 353713417
+    }
+  },
+  "text": "{\"retorno\":{\"status_processamento\":\"3\",\"status\":\"OK\",\"idNotaFiscal\":353713417}}",
+  "tentativa": 1,
+  "waited": 0.0,
+  "x_limit_api": "60",
+  "x_remaining_api": null,
+  "idNotaFiscal": 353713417
+}
