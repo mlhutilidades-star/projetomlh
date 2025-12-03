@@ -10,8 +10,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Banco dedicado para CI em diretório temporário gravável
-      DATABASE_URL: sqlite:////tmp/mlh_test.db
+      # Banco em memória para testes no CI (evita problemas de permissão)
+      DATABASE_URL: sqlite:///:memory:
 
     steps:
       - name: Checkout
@@ -27,13 +27,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Prepare writable database directory
+      - name: Show environment
         run: |
-          mkdir -p /tmp
-          touch /tmp/mlh_test.db
-          chmod 666 /tmp/mlh_test.db
           echo "Using DATABASE_URL=$DATABASE_URL"
-          python -c "import os; print('Workspace:', os.getcwd()); print('Tmp exists:', os.path.isdir('/tmp')); print('DB exists:', os.path.isfile('/tmp/mlh_test.db'))"
+          python -c "import os; print('Workspace:', os.getcwd())"
 
       - name: Run tests
         run: |
