@@ -32,7 +32,7 @@
 
 - [x] Estruturação do banco de dados (modelagem inicial planejada)
 - [x] Configuração do backend (API)
-- [ ] Configuração do frontend (Streamlit)
+- [x] Configuração do frontend (Streamlit)
 - [x] Documentação dos módulos
 - [ ] Testes automatizados
 

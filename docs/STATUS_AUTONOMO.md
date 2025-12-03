@@ -6,7 +6,7 @@
 
 ## Próxima tarefa
 
-- Configuração do frontend (Streamlit).
+- Testes automatizados.
 
 ## O que já está pronto
 
