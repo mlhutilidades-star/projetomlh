@@ -23,6 +23,12 @@ print("=" * 60)
 print("🧪 TESTE DE ESTRESSE E PERFORMANCE")
 print("=" * 60)
 
+# Garantir que o banco e as tabelas existem antes dos testes de estresse
+try:
+    init_database()
+except Exception as e:
+    print(f"[SETUP] Falha ao inicializar banco de testes: {e}")
+
 # Dados para geração de massa
 fornecedores = [
     "Fornecedor ABC Ltda", "Energia Eletrica SA", "Telecom Brasil",
