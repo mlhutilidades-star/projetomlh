@@ -19,11 +19,11 @@
   - [x] Sincronização de dados financeiros
   - [x] Sincronização de estoque
 
-- [ ] Integração Shopee
+- [x] Integração Shopee
   - [x] Autenticação e conexão com API Shopee
   - [x] Importação de vendas/pedidos
 
-- [ ] Dashboard
+- [x] Dashboard
   - [x] Visualização de contas a pagar
   - [x] Gráficos de receitas/despesas
   - [x] Indicadores principais
@@ -38,4 +38,4 @@
 
 ### Próximo passo
 
-- Sincronização de dados financeiros com Tiny.
+- Todas as tarefas concluídas.
