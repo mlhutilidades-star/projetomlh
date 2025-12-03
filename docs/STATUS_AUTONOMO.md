@@ -2,11 +2,11 @@
 
 ## Última tarefa concluída
 
-- Extração de dados de boletos bancários em PDF implementada em `pdf_utils/extrator_boletos.py`.
+- Extração de dados de notas fiscais a partir de PDF implementada em `pdf_utils/extrator_notas_fiscais.py`.
 
 ## Próxima tarefa
 
-- Implementar extração de dados de notas fiscais a partir de PDF.
+- Associação automática com contas.
 
 ## O que já está pronto
 

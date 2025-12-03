@@ -10,7 +10,7 @@
   - [x] Listagem de contas pendentes/pagas
 
 - [ ] Leitura de PDF
-  - [ ] Extração de dados de boletos
+  - [x] Extração de dados de boletos
   - [x] Extração de dados de notas fiscais
   - [ ] Associação automática com contas
 
