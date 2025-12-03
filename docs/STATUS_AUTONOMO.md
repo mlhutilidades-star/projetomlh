@@ -2,10 +2,6 @@
 
 ## Última tarefa concluída
 
-- Extração de dados de notas fiscais a partir de PDF implementada em `pdf_utils/extrator_notas_fiscais.py`.
-
-## Próxima tarefa
-
 - Todas as tarefas concluídas.
 
 ## O que já está pronto

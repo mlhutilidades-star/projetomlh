@@ -9,12 +9,12 @@
   - [x] Marcação como paga
   - [x] Listagem de contas pendentes/pagas
 
-- [ ] Leitura de PDF
+- [x] Leitura de PDF
   - [x] Extração de dados de boletos
   - [x] Extração de dados de notas fiscais
   - [x] Associação automática com contas
 
-- [ ] Integração Tiny ERP
+- [x] Integração Tiny ERP
   - [x] Autenticação e conexão com API Tiny
   - [x] Sincronização de dados financeiros
   - [x] Sincronização de estoque
