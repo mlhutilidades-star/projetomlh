@@ -1,0 +1,13 @@
+# Exemplo de config para Named Tunnel (colocar em %USERPROFILE%\.cloudflared\config.yml)
+# Ajuste os valores marcados com TODO
+
+# TODO: substitua pelo UUID real do túnel (após criar: cloudflared tunnel create shopee-oauth)
+tunnel: 00000000-0000-0000-0000-000000000000
+# TODO: ajuste o caminho se necessário
+credentials-file: C:\\Users\\SEU-USUARIO\\.cloudflared\\00000000-0000-0000-0000-000000000000.json
+
+ingress:
+  # TODO: substitua pelo seu subdomínio
+  - hostname: oauth.seudominio.com
+    service: http://localhost:8000
+  - service: http_status:404

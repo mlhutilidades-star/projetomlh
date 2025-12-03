@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe>
+    <infNFe Id="NFe43221012345678901234550010000123451234567890" versao="4.00">
+      <ide>
+        <nNF>12345</nNF>
+        <serie>1</serie>
+      </ide>
+      <emit>
+        <xNome>FORNECEDOR TESTE LTDA</xNome>
+      </emit>
+      <dest>
+        <xNome>CLIENTE TESTE LTDA</xNome>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>001</cProd>
+          <cEAN>7891234567890</cEAN>
+          <xProd>PRODUTO TESTE 001</xProd>
+          <NCM>12345678</NCM>
+          <CFOP>5102</CFOP>
+          <qCom>10.0000</qCom>
+          <vUnCom>50.0000000000</vUnCom>
+          <vProd>500.00</vProd>
+        </prod>
+        <imposto>
+          <IPI>
+            <IPITrib>
+              <pIPI>10.00</pIPI>
+              <vIPI>50.00</vIPI>
+            </IPITrib>
+          </IPI>
+          <ICMS>
+            <ICMS00>
+              <vICMS>85.00</vICMS>
+            </ICMS00>
+          </ICMS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vFrete>20.00</vFrete>
+          <vSeg>5.00</vSeg>
+          <vDesc>10.00</vDesc>
+          <vOutro>0.00</vOutro>
+        </ICMSTot>
+      </total>
+    </infNFe>
+  </NFe>
+</nfeProc>
