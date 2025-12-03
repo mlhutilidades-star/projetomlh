@@ -13,6 +13,21 @@ Base = declarative_base()
 
 # Engine do banco
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///hub_financeiro.db")
+
+# Garante que o diretório do arquivo SQLite exista em ambientes de CI/teste
+if DATABASE_URL.startswith("sqlite:///"):
+    # Caminho após sqlite:///
+    db_path = DATABASE_URL.replace("sqlite:///", "")
+    # Apenas paths de arquivo (não :memory:)
+    if db_path and db_path != ":memory:":
+        db_dir = os.path.dirname(db_path)
+        if db_dir and db_dir not in ("", "."):
+            try:
+                os.makedirs(db_dir, exist_ok=True)
+            except Exception as e:
+                # Evitar falha por permissão; logs mínimos para diagnóstico em CI
+                print(f"[DB] Aviso: não foi possível criar diretório '{db_dir}': {e}")
+
 engine = create_engine(DATABASE_URL, echo=False)
 SessionLocal = sessionmaker(bind=engine)
 
