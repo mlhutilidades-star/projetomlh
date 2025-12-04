@@ -36,7 +36,11 @@ if DATABASE_URL.startswith("sqlite:///"):
                 # Evitar falha por permissão; logs mínimos para diagnóstico em CI
                 print(f"[DB] Aviso: não foi possível criar diretório '{db_dir}': {e}")
 
-engine = create_engine(DATABASE_URL, echo=False)
+engine = create_engine(
+    DATABASE_URL, 
+    echo=False,
+    connect_args={"check_same_thread": False, "uri": True} if DATABASE_URL.startswith("sqlite") else {}
+)
 SessionLocal = sessionmaker(bind=engine)
 
 # Modelos

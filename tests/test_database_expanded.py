@@ -9,8 +9,6 @@ from modules.database import (
     get_all_contas, get_regra_custo, add_or_update_regra_custo,
     ContaPagar, RegraM11, RegraFornecedorCusto
 )
-import os
-import tempfile
 
 
 class TestDatabaseExpanded:
@@ -18,30 +16,27 @@ class TestDatabaseExpanded:
     
     @pytest.fixture(autouse=True)
     def setup_test_db(self):
-        """Setup temporary test database"""
-        # Create temp database
-        self.temp_db = tempfile.NamedTemporaryFile(delete=False, suffix='.db')
-        self.temp_db.close()
-        
-        # Set environment variable
-        os.environ["DATABASE_URL"] = f"sqlite:///{self.temp_db.name}"
-        
-        # Force reload database module to use new URL
-        import importlib
-        import modules.database
-        importlib.reload(modules.database)
-        
-        # Initialize
-        from modules.database import init_database
+        """Setup test database - use the same database as other tests"""
+        # Initialize database if needed (conftest already does this, but ensure it's done)
+        from modules.database import init_database, get_db
         init_database()
+        
+        # Clean up any existing test data before each test to ensure isolation
+        db = get_db()
+        try:
+            # Clean tables
+            db.query(ContaPagar).delete()
+            db.query(RegraM11).delete()
+            db.query(RegraFornecedorCusto).delete()
+            db.commit()
+        except:
+            db.rollback()
+        finally:
+            db.close()
         
         yield
         
-        # Cleanup
-        try:
-            os.unlink(self.temp_db.name)
-        except:
-            pass
+        # No cleanup needed - database persists for other tests
     
     def test_get_db_returns_session(self):
         """Test that get_db returns a valid session"""
