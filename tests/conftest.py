@@ -8,6 +8,9 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+# Set TESTING environment variable for cache module
+os.environ['TESTING'] = '1'
+
 # Import shared fixtures
 pytest_plugins = ['tests.fixtures']
 
