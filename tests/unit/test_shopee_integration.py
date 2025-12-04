@@ -9,6 +9,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../.
 from integrations.shopee.auth import ShopeeAuth
 from integrations.shopee.orders import ShopeeOrders
 from integrations.shopee.products import ShopeeProducts
+from integrations.shopee.fees import ShopeeFees
 
 
 class TestShopeeIntegration(unittest.TestCase):
@@ -156,5 +157,67 @@ class TestShopeeProducts(unittest.TestCase):
         self.assertEqual(len(product), 0)
 
 
+class TestShopeeFees(unittest.TestCase):
+    def setUp(self):
+        self.fees_calculator = ShopeeFees()
+
+    def test_calculate_commission_general(self):
+        result = self.fees_calculator.calculate_commission(100.0, category="general")
+        
+        self.assertEqual(result["order_amount"], 100.0)
+        self.assertEqual(result["commission_rate"], 5.0)
+        self.assertEqual(result["commission_value"], 5.0)
+
+    def test_calculate_commission_electronics(self):
+        result = self.fees_calculator.calculate_commission(100.0, category="electronics")
+        
+        self.assertEqual(result["order_amount"], 100.0)
+        self.assertEqual(result["commission_rate"], 6.0)
+        self.assertEqual(result["commission_value"], 6.0)
+
+    def test_calculate_payment_processing_fee_card(self):
+        result = self.fees_calculator.calculate_payment_processing_fee(100.0, payment_method="card")
+        
+        self.assertEqual(result["order_amount"], 100.0)
+        self.assertEqual(result["processing_rate"], 2.0)
+        self.assertEqual(result["processing_fee"], 2.0)
+
+    def test_calculate_payment_processing_fee_wallet(self):
+        result = self.fees_calculator.calculate_payment_processing_fee(100.0, payment_method="wallet")
+        
+        self.assertEqual(result["order_amount"], 100.0)
+        self.assertEqual(result["processing_rate"], 1.5)
+        self.assertAlmostEqual(result["processing_fee"], 1.5, places=2)
+
+    def test_calculate_total_fees(self):
+        result = self.fees_calculator.calculate_total_fees(100.0, category="general", payment_method="card")
+        
+        self.assertEqual(result["gross_amount"], 100.0)
+        self.assertEqual(result["commission"]["commission_value"], 5.0)
+        self.assertEqual(result["payment_processing"]["processing_fee"], 2.0)
+        self.assertEqual(result["total_fees"], 7.0)
+        self.assertEqual(result["net_amount"], 93.0)
+
+    def test_calculate_total_fees_with_percentage(self):
+        result = self.fees_calculator.calculate_total_fees(200.0, category="electronics", payment_method="wallet")
+        
+        self.assertEqual(result["gross_amount"], 200.0)
+        # Commission: 200 * 6% = 12.0
+        # Payment: 200 * 1.5% = 3.0
+        # Total: 15.0, Net: 185.0
+        self.assertAlmostEqual(result["total_fees"], 15.0, places=1)
+        self.assertAlmostEqual(result["net_amount"], 185.0, places=1)
+
+
 if __name__ == '__main__':
     unittest.main()
+
+    def test_calculate_total_fees_with_percentage(self):
+        result = self.fees_calculator.calculate_total_fees(200.0, category="electronics", payment_method="wallet")
+        
+        self.assertEqual(result["gross_amount"], 200.0)
+        # Commission: 200 * 6% = 12.0
+        # Payment: 200 * 1.5% = 3.0
+        # Total: 15.0, Net: 185.0
+        self.assertAlmostEqual(result["total_fees"], 15.0, places=1)
+        self.assertAlmostEqual(result["net_amount"], 185.0, places=1)
