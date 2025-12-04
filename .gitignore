@@ -1,28 +1,32 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.so
-
-# Virtual envs
-.venv/
-.venv-*/
-venv/
-
-# Databases and data
+# Bancos de dados locais
 *.db
-mlh.db
-data/
-logs/
 
-# Coverage and reports
+# Testes e coverage
 coverage.xml
+.coverage
 htmlcov/
 
-# VSCode
-.vscode/
+# Streamlit
+.streamlit/
 
-# Misc
+# Aider AI logs
+.aider.chat.history.md
+.aider.input.history
+.aider.tags.cache.v4/
+
+# Arquivos de sistema temporários
+_pycache_/
+.tmp.driveupload/
 *.log
-projetomlh/
+
+# Executáveis e scripts locais
+*.bat
+*.vbs
+*.exe
+installed_requirements.json
+agent_monitor_state.json
+
+# Diretórios de build
+build/
+app_universal*/
+SCRIPT XML E XML ALTERADO/
