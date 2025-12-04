@@ -10,6 +10,6 @@ PyMuPDF>=1.23.0
 redis>=5.0.0
 fakeredis>=2.30.0
 streamlit-authenticator>=0.3.0
-fastapi>=0.109.1,<1.0.0
+fastapi>=0.109.1,<2.0.0
 httpx>=0.24.0
 sqlalchemy>=2.0.0
