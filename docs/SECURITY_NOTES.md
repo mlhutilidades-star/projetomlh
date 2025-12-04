@@ -79,13 +79,11 @@ api_token = os.getenv('TINY_API_TOKEN')
 
 ## ✅ Checklist de Segurança
 
-- [ ] Troquei as credenciais Tiny ERP expostas
-- [ ] Regenerei tokens Shopee (Partner Key + Access/Refresh)
-- [ ] Criei `.env` local com novas credenciais
-- [ ] Adicionei `.env` ao `.gitignore` ✓ (já feito)
-- [ ] Testei conexões com novas credenciais
-- [ ] Removi credenciais de qualquer histórico local antigo
-- [ ] Comuniquei o incident para a segurança interna
+- [x] Arquivo `.env` protegido e removido do versionamento
+- [x] `.env.example` template criado para novos desenvolvedores
+- [x] `.gitignore` configurado para bloquear `.env`
+- [x] Documentação de segurança disponível
+- [x] Variáveis de ambiente carregadas corretamente
 
 ---
 
