@@ -1,6 +1,6 @@
 # TODO List - Executor Autônomo MLH
 
-Lista consolidada de tarefas para as FASES 3 e 4.
+Lista consolidada de tarefas para TODAS as FASES (3 a 11).
 
 ## FASE 3: Integrações e Serviços
 
@@ -22,5 +22,77 @@ Lista consolidada de tarefas para as FASES 3 e 4.
 - [x] **STREAMLIT_DASHBOARD_V2:** Aprimorar o dashboard com gráficos interativos e integração de dados reais.
 - [x] **UNIT_TESTS_COVERAGE:** Expandir a cobertura de testes unitários com mocks.
 - [x] **E2E_TESTS_SETUP:** Configurar um framework de testes End-to-End para o dashboard.
-- [ ] **CI_CD_PIPELINE:** Criar um workflow de GitHub Actions para automação de testes.
-- [ ] **CLOUD_DEPLOY_PLAN:** Documentar o plano de deploy da aplicação em nuvem.
+- [x] **CI_CD_PIPELINE:** Criar um workflow de GitHub Actions para automação de testes.
+- [x] **CLOUD_DEPLOY_PLAN:** Documentar o plano de deploy da aplicação em nuvem.
+
+## FASE 5: Autenticação Multiusuário e RBAC
+
+- [x] **AUTH_MODULE:** Criar módulo de autenticação com streamlit-authenticator.
+- [x] **RBAC_IMPLEMENTATION:** Implementar controle de acesso baseado em roles (Admin, Analista, Operador).
+- [x] **AUTH_CONFIG:** Criar arquivo auth_config.yaml com usuários e roles pré-configurados.
+- [x] **AUTH_INTEGRATION:** Integrar autenticação ao app.py e validar permissões em todas as páginas.
+- [x] **AUTH_TESTS:** Criar testes para validar fluxo de autenticação e RBAC.
+- [x] **AUTH_DOCUMENTATION:** Documentar guia de uso do sistema de autenticação.
+
+## FASE 6: Logging Estruturado e Monitoramento
+
+- [x] **LOGGING_CONFIG:** Configurar logging centralizado com estrutura consistente.
+- [x] **LOG_LEVELS:** Implementar diferentes níveis de log (DEBUG, INFO, WARNING, ERROR, CRITICAL).
+- [x] **LOG_FILE_ROTATION:** Configurar rotação de logs e limpeza automática.
+- [x] **AUDIT_LOGGING:** Implementar logging de auditoria para todas as ações críticas.
+- [x] **MONITORING_INTEGRATION:** Integrar monitoramento com ferramentas externas (opcional).
+- [x] **LOGGING_TESTS:** Criar testes para validar logging e auditoria.
+
+## FASE 7: Linting, Formatação e Code Quality
+
+- [x] **PYLINT_CONFIG:** Configurar pylint com arquivo .pylintrc personalizado.
+- [x] **FLAKE8_CONFIG:** Configurar flake8 para verificação de estilo.
+- [x] **BLACK_FORMATTING:** Aplicar Black para formatação automática de código.
+- [x] **ISORT_IMPORTS:** Configurar isort para organização de importações.
+- [x] **PRE_COMMIT_HOOKS:** Configurar pre-commit hooks para validação automática.
+- [x] **CI_LINTING:** Integrar linting ao pipeline de CI/CD.
+- [x] **CODEBASE_REFACTOR:** Refatorar codebase existente para passar em todas as verificações.
+
+## FASE 8: Testes Avançados e Documentação Final
+
+- [x] **UNIT_TESTS_EXPAND:** Expandir cobertura de testes unitários para >90%.
+- [x] **INTEGRATION_TESTS:** Criar testes de integração entre módulos.
+- [x] **E2E_WORKFLOW_TESTS:** Criar testes end-to-end de fluxos completos.
+- [x] **PERFORMANCE_TESTS:** Criar testes de performance para APIs e processos críticos.
+- [x] **DOCS_FINALIZE:** Finalizar documentação completa (README, DEPLOYMENT, ARCHITECTURE).
+- [x] **GITHUB_PUSH:** Fazer push de todo o código para o GitHub com histórico limpo.
+- [x] **RELEASE_TAG:** Criar tag de release para versão 1.0.0.
+
+## FASE 9: Cache Persistente com Redis
+
+- [x] **REDIS_SETUP:** Configurar conexão com Redis e fallback para FakeRedis em testes.
+- [x] **CACHE_MODULE:** Implementar módulo de cache com funções: cache_set, cache_get, cache_clear.
+- [x] **CACHE_TESTS:** Criar testes para validar funcionalidade do cache (set/get, expiry, clear).
+- [x] **REDIS_INTEGRATION:** Integrar Redis ao requirements.txt e conftest.py.
+- [x] **CACHE_DOCUMENTATION:** Documentar uso do cache e configuração do Redis.
+
+## FASE 10: Integração de Cache e Métricas de Performance
+
+- [ ] **CACHE_INTEGRATION:** Integrar cache em funções críticas (Shopee API, Tiny ERP, PDF parsing).
+- [ ] **PERFORMANCE_METRICS:** Implementar coleta de métricas (tempo de execução, cache hit/miss).
+- [ ] **METRICS_LOGGING:** Criar logging de métricas para análise de performance.
+- [ ] **DASHBOARD_METRICS:** Adicionar página de dashboard para visualizar métricas.
+- [ ] **CACHE_STRATEGIES:** Definir e implementar estratégias de cache para cada tipo de dado.
+- [ ] **PERFORMANCE_TESTS_V2:** Criar testes de performance com cache.
+
+## FASE 11: Otimizações Finais e Deploy em Produção
+
+- [ ] **CODE_OPTIMIZATION:** Otimizar código crítico baseado em métricas.
+- [ ] **DATABASE_OPTIMIZATION:** Criar índices e otimizar queries no banco de dados.
+- [ ] **ASYNC_PROCESSING:** Implementar processamento assíncrono para operações pesadas.
+- [ ] **ERROR_HANDLING:** Melhorar tratamento de erros e recuperação de falhas.
+- [ ] **SECURITY_HARDENING:** Implementar validações adicionais de segurança.
+- [ ] **PRODUCTION_READY:** Preparar ambiente de produção com todas as validações.
+
+---
+
+## Status Geral
+
+**Fases Completas:** 5, 6, 7, 8, 9
+**Fase em Andamento:** 10
+**Fases Planejadas:** 11
