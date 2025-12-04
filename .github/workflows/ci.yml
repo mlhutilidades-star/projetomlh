@@ -10,8 +10,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Banco em memória para testes no CI (evita problemas de permissão)
-      DATABASE_URL: "sqlite:///:memory:"
+      # Use file-based SQLite for CI to avoid permission issues with in-memory database
+      DATABASE_URL: "sqlite:////tmp/projetomlh_test.db"
 
     steps:
       - name: Checkout
@@ -31,6 +31,34 @@ jobs:
         run: |
           echo "Using DATABASE_URL=$DATABASE_URL"
           python -c "import os; print('Workspace:', os.getcwd())"
+
+      - name: Prepare test database
+        run: |
+          python - <<'EOF'
+          from pathlib import Path
+          import os
+          p = Path('/tmp/projetomlh_test.db')
+          p.parent.mkdir(parents=True, exist_ok=True)
+          if not p.exists():
+              p.touch()
+          # Ensure write permissions
+          os.chmod(str(p), 0o666)
+          print('Prepared DB file at', p)
+          EOF
+
+      - name: Initialize database schema
+        run: |
+          python - <<'EOF'
+          import os
+          try:
+              from sqlalchemy import create_engine
+              from modules.database import Base
+              engine = create_engine(os.environ['DATABASE_URL'])
+              Base.metadata.create_all(engine)
+              print('Schema created via SQLAlchemy Base')
+          except Exception as e:
+              print('Database initialization:', e)
+          EOF
 
       - name: Run tests
         run: |

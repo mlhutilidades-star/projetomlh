@@ -7,9 +7,10 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
-# Forçar banco em memória nos testes de runner para evitar quaisquer
-# problemas de permissão no filesystem do CI
-os.environ.setdefault("DATABASE_URL", "sqlite:///:memory:")
+# Default to in-memory database for local testing, but respect DATABASE_URL from CI
+# The CI environment will set DATABASE_URL to a file-based database that is properly prepared
+if "DATABASE_URL" not in os.environ:
+    os.environ["DATABASE_URL"] = "sqlite:///:memory:"
 
 from modules.database import init_database, get_db, ContaPagar, RegraM11, add_conta, get_regra, add_or_update_regra
 from modules.pdf_parser import extract_from_pdf, ocr_status
