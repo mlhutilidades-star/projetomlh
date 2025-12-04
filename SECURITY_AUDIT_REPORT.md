@@ -66,7 +66,7 @@ git clone https://github.com/mlhutilidades-star/projetomlh
 # 2. Copiar template
 cp .env.example .env
 
-# 3. Editar .env com credenciais locais
+# 3. Editar .env com valores locais
 # Seu editor: .env
 
 # 4. Verificar que .env não está no Git
