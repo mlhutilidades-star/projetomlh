@@ -1,0 +1,77 @@
+# Multi-stage Dockerfile for Hub-Financeiro-Streamlit
+# Production-ready with optimizations
+
+# Stage 1: Builder
+FROM python:3.13-slim as builder
+
+WORKDIR /app
+
+# Instalar build dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copiar requirements
+COPY requirements.txt .
+
+# Build wheels
+RUN pip wheel --no-cache-dir --no-deps --wheel-dir /app/wheels -r requirements.txt
+
+# Stage 2: Runtime
+FROM python:3.13-slim
+
+# Metadados
+LABEL maintainer="MLH Utilidades <dev@mlh-utilidades.com>"
+LABEL description="Hub Financeiro - Streamlit Application"
+LABEL version="1.0"
+
+# Configurar ambiente
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PYTHONPATH=/app:$PYTHONPATH
+
+# Instalar runtime dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Copiar wheels do builder
+COPY --from=builder /app/wheels /wheels
+COPY --from=builder /app/requirements.txt .
+
+# Instalar Python packages
+RUN pip install --no-cache /wheels/*
+
+# Copiar código da aplicação
+COPY . .
+
+# Criar diretórios necessários
+RUN mkdir -p logs data backups
+
+# Criar usuário não-root
+RUN useradd -m -u 1000 streamlit && \
+    chown -R streamlit:streamlit /app
+
+# Trocar para usuário não-root
+USER streamlit
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
+    CMD curl -f http://localhost:8080/health || exit 1
+
+# Expor porta
+EXPOSE 8080
+
+# Streamlit config
+ENV STREAMLIT_SERVER_PORT=8080 \
+    STREAMLIT_SERVER_ADDRESS=0.0.0.0 \
+    STREAMLIT_SERVER_HEADLESS=true \
+    STREAMLIT_CLIENT_TOOLBARPOSITION=minimal
+
+# Run application
+CMD ["streamlit", "run", "app.py", "--server.port=8080"]
