@@ -1,41 +1,28 @@
-# Virtualenvs
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual envs
 .venv/
-.venv-aider/
+.venv-*/
+venv/
+
+# Databases and data
+*.db
+mlh.db
+data/
+logs/
+
+# Coverage and reports
+coverage.xml
+htmlcov/
 
 # VSCode
 .vscode/
 
-# Python cache
-_pycache_/
-*.pyc
-*.pyo
-*.pyd
-
-# Coverage
-.coverage
-htmlcov/
-.coverage.*
-
-# Logs
+# Misc
 *.log
-
-# State files gerados pelo Aider / Auto-Installers
-agent_monitor_state.json
-installed_requirements.json
-
-# Streamlit state
-.streamlit/
-
-# Windows executáveis gerados
-*.exe
-*.bat
-*.vbs
-
-# Build artifacts
-build/
-dist/
-*.spec
-
-# Temporary
-tmp/
-temp/
+projetomlh/
