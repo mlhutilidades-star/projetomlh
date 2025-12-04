@@ -10,7 +10,7 @@ Lista consolidada de tarefas para as FASES 3 e 4.
 - [x] **TINY_TESTS:** Criar testes unitários para todos os módulos do Tiny ERP.
 - [x] **SHOPEE_AUTH_REFACTOR:** Implementar o módulo de autenticação para a API v2 da Shopee.
 - [x] **SHOPEE_FETCH_ORDERS:** Implementar a busca de pedidos na Shopee.
-- [ ] **SHOPEE_FETCH_PRODUCTS:** Implementar a busca de produtos e estoque na Shopee.
+- [x] **SHOPEE_FETCH_PRODUCTS:** Implementar a busca de produtos e estoque na Shopee.
 - [ ] **SHOPEE_PROCESS_FEES:** Implementar o processamento de taxas e comissões da Shopee.
 - [ ] **SHOPEE_TESTS:** Criar testes unitários para todos os módulos da Shopee.
 - [ ] **PDF_PROCESS_BOLETOS:** Criar o serviço para extrair dados de boletos em PDF.
