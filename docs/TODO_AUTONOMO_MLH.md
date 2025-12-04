@@ -19,7 +19,7 @@ Lista consolidada de tarefas para as FASES 3 e 4.
 ## FASE 4: Dashboard, Testes e Deploy
 
 - [x] **STREAMLIT_DASHBOARD_V1:** Criar a estrutura inicial do dashboard em Streamlit com layout de abas.
-- [ ] **STREAMLIT_DASHBOARD_V2:** Aprimorar o dashboard com gráficos interativos e integração de dados reais.
+- [x] **STREAMLIT_DASHBOARD_V2:** Aprimorar o dashboard com gráficos interativos e integração de dados reais.
 - [ ] **UNIT_TESTS_COVERAGE:** Expandir a cobertura de testes unitários com mocks.
 - [ ] **E2E_TESTS_SETUP:** Configurar um framework de testes End-to-End para o dashboard.
 - [ ] **CI_CD_PIPELINE:** Criar um workflow de GitHub Actions para automação de testes.
