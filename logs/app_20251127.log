@@ -1,0 +1,1490 @@
+2025-11-27 12:12:35,351 [INFO] root: Logging inicializado.
+2025-11-27 12:12:35,352 [INFO] test_runner: 
+============================================================
+2025-11-27 12:12:35,352 [INFO] test_runner: 🧪 INICIANDO TESTES AUTOMATIZADOS
+2025-11-27 12:12:35,352 [INFO] test_runner: ============================================================
+
+2025-11-27 12:12:35,352 [INFO] test_runner: === Test 1: Database Init ===
+2025-11-27 12:12:35,356 [INFO] test_runner: ✅ Database initialization OK
+2025-11-27 12:12:35,356 [INFO] test_runner: 
+2025-11-27 12:12:35,356 [INFO] test_runner: === Test 2: Add Conta ===
+2025-11-27 12:12:35,385 [INFO] test_runner: ✅ Conta adicionada com ID: 2
+2025-11-27 12:12:35,386 [INFO] test_runner: 
+2025-11-27 12:12:35,386 [INFO] test_runner: === Test 3: Regra Creation ===
+2025-11-27 12:12:35,404 [INFO] test_runner: Regra registrada - uso 1/3
+2025-11-27 12:12:35,423 [INFO] test_runner: Regra registrada - uso 2/3
+2025-11-27 12:12:35,438 [INFO] test_runner: Regra registrada - uso 3/3
+2025-11-27 12:12:35,440 [INFO] test_runner: ✅ Regra ativada: {'id': 1, 'cnpj': '98.765.432/0001-10', 'fornecedor': 'Fornecedor Test 3', 'categoria': 'Categoria Teste', 'contador_usos': 3, 'ativo': True, 'ultima_atualizacao': datetime.datetime(2025, 11, 27, 12, 12, 35, 424733)}
+2025-11-27 12:12:35,440 [INFO] test_runner: 
+2025-11-27 12:12:35,440 [INFO] test_runner: === Test 4: PDF Parser Fallback ===
+2025-11-27 12:12:35,441 [DEBUG] pdf_parser: Starting PDF extraction for file: boleto_teste_11.222.333-0001-44.pdf (187 bytes)
+2025-11-27 12:12:35,448 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:12:35,493 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:12:35,493 [INFO] pdf_parser: CNPJ found: 11.222.333/0001-44
+2025-11-27 12:12:35,494 [INFO] pdf_parser: Valor found: 2500.00
+2025-11-27 12:12:35,494 [INFO] pdf_parser: Vencimento found: 30/12/2025
+2025-11-27 12:12:35,494 [INFO] pdf_parser: Linha digitável found
+2025-11-27 12:12:35,496 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '11.222.333/0001-44', 'valor': '2500.00', 'vencimento': '30/12/2025', 'linha_digitavel': '12345.67890 12345.678901 12345.678901 1 99887766554433', 'ocr_usado': True}
+2025-11-27 12:12:35,497 [INFO] test_runner: OCR Status: OCR completo ativo
+2025-11-27 12:12:35,498 [INFO] test_runner: Dados extraídos: {'cnpj': '11.222.333/0001-44', 'valor': '2500.00', 'vencimento': '30/12/2025', 'linha_digitavel': '12345.67890 12345.678901 12345.678901 1 99887766554433', 'ocr_usado': True}
+2025-11-27 12:12:35,498 [INFO] test_runner: ✅ PDF parser working (fallback mode)
+2025-11-27 12:12:35,498 [INFO] test_runner: 
+2025-11-27 12:12:35,499 [INFO] test_runner: === Test 5: Database Queries ===
+2025-11-27 12:12:35,502 [INFO] test_runner: Total contas: 2
+2025-11-27 12:12:35,502 [INFO] test_runner: Total regras: 1
+2025-11-27 12:12:35,502 [INFO] test_runner: ✅ Database queries OK
+2025-11-27 12:12:35,503 [INFO] test_runner: 
+2025-11-27 12:12:35,503 [INFO] test_runner: 
+============================================================
+2025-11-27 12:12:35,503 [INFO] test_runner: 📊 RESULTADOS DOS TESTES
+2025-11-27 12:12:35,504 [INFO] test_runner: ============================================================
+2025-11-27 12:12:35,504 [INFO] test_runner: ✅ PASS: test_database_initialization
+2025-11-27 12:12:35,504 [INFO] test_runner: ✅ PASS: test_add_conta
+2025-11-27 12:12:35,505 [INFO] test_runner: ✅ PASS: test_regra_creation
+2025-11-27 12:12:35,505 [INFO] test_runner: ✅ PASS: test_pdf_parser_fallback
+2025-11-27 12:12:35,505 [INFO] test_runner: ✅ PASS: test_database_queries
+2025-11-27 12:12:35,505 [INFO] test_runner: 
+🎯 Total: 5/5 testes passaram
+2025-11-27 12:12:35,506 [INFO] test_runner: ============================================================
+
+2025-11-27 12:13:54,744 [INFO] root: Logging inicializado.
+2025-11-27 12:13:54,745 [INFO] root: === Hub Financeiro iniciando ===
+2025-11-27 12:13:54,746 [INFO] root: Streamlit page config OK
+2025-11-27 12:13:54,755 [INFO] root: Banco de dados inicializado com sucesso
+2025-11-27 12:16:42,549 [INFO] root: Logging inicializado.
+2025-11-27 12:16:42,550 [INFO] root: === Hub Financeiro iniciando ===
+2025-11-27 12:16:42,552 [INFO] root: Streamlit page config OK
+2025-11-27 12:16:42,556 [INFO] root: Banco de dados inicializado com sucesso
+2025-11-27 12:18:21,092 [INFO] root: Logging inicializado.
+2025-11-27 12:18:21,093 [INFO] validation: 
+======================================================================
+2025-11-27 12:18:21,094 [INFO] validation: 🎯 VALIDAÇÃO COMPLETA DO SISTEMA
+2025-11-27 12:18:21,095 [INFO] validation: ======================================================================
+
+2025-11-27 12:18:21,095 [INFO] validation: 📦 Teste 1: Validando imports...
+2025-11-27 12:18:22,730 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-11-27 12:18:22,937 [INFO] validation: ✅ Todos os módulos importados com sucesso
+2025-11-27 12:18:22,938 [INFO] validation: 
+💾 Teste 2: Operações de banco de dados...
+2025-11-27 12:18:23,014 [INFO] validation: ✅ Conta criada (ID: 3), Regra ativada (usos: 3)
+2025-11-27 12:18:23,014 [INFO] validation: 
+📄 Teste 3: Parser de PDF (múltiplos cenários)...
+2025-11-27 12:18:23,015 [DEBUG] pdf_parser: Starting PDF extraction for file: boleto_completo.pdf (187 bytes)
+2025-11-27 12:18:23,019 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:18:23,025 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:18:23,025 [INFO] pdf_parser: CNPJ found: 12.345.678/0001-99
+2025-11-27 12:18:23,026 [INFO] pdf_parser: Valor found: 1234.56
+2025-11-27 12:18:23,027 [INFO] pdf_parser: Vencimento found: 15/01/2026
+2025-11-27 12:18:23,027 [INFO] pdf_parser: Linha digitável found
+2025-11-27 12:18:23,028 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '12.345.678/0001-99', 'valor': '1234.56', 'vencimento': '15/01/2026', 'linha_digitavel': '12345.67890 12345.678901 12345.678901 2 98765432109876', 'ocr_usado': True}
+2025-11-27 12:18:23,028 [DEBUG] pdf_parser: Starting PDF extraction for file: fatura_88.999.000-0001-22.pdf (16 bytes)
+2025-11-27 12:18:23,032 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:18:23,035 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:18:23,035 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:18:23,036 [DEBUG] pdf_parser: Starting PDF extraction for file: documento.pdf (0 bytes)
+2025-11-27 12:18:23,040 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:18:23,044 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:18:23,045 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:18:23,045 [ERROR] validation: ❌ Erro no parser: CNPJ não extraído do filename: {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\tests\validate_e2e.py", line 95, in validate_system
+    assert dados2['cnpj'] != '', f"CNPJ não extraído do filename: {dados2}"
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: CNPJ não extraído do filename: {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:18:23,049 [INFO] validation: 
+📑 Teste 4: Estrutura de páginas...
+2025-11-27 12:18:23,049 [INFO] validation: ✅ Todas as 6 páginas existem
+2025-11-27 12:18:23,050 [INFO] validation:    ✓ 1_📊_Dashboard.py
+2025-11-27 12:18:23,050 [INFO] validation:    ✓ 2_💳_Contas_Pagar.py
+2025-11-27 12:18:23,050 [INFO] validation:    ✓ 3_📄_Upload_PDF.py
+2025-11-27 12:18:23,051 [INFO] validation:    ✓ 4_🏢_Tiny_ERP.py
+2025-11-27 12:18:23,051 [INFO] validation:    ✓ 5_🛍️_Shopee.py
+2025-11-27 12:18:23,051 [INFO] validation:    ✓ 6_🧠_Regras_PDF.py
+2025-11-27 12:18:23,052 [INFO] validation: 
+⚙️ Teste 5: Arquivos de configuração...
+2025-11-27 12:18:23,053 [INFO] validation: ✅ Todos os arquivos de configuração presentes
+2025-11-27 12:18:23,053 [INFO] validation: 
+📝 Teste 6: Sistema de logging...
+2025-11-27 12:18:23,075 [INFO] validation: ✅ Sistema de logs ativo (19139 bytes)
+2025-11-27 12:18:23,076 [INFO] validation: 
+======================================================================
+2025-11-27 12:18:23,076 [INFO] validation: 📊 RESUMO DA VALIDAÇÃO
+2025-11-27 12:18:23,077 [INFO] validation: ======================================================================
+2025-11-27 12:18:23,077 [INFO] validation: 
+✅ Testes passados: 5/6
+2025-11-27 12:18:23,077 [INFO] validation:    ✓ Imports
+2025-11-27 12:18:23,078 [INFO] validation:    ✓ Database
+2025-11-27 12:18:23,078 [INFO] validation:    ✓ Pages Structure
+2025-11-27 12:18:23,078 [INFO] validation:    ✓ Configuration
+2025-11-27 12:18:23,078 [INFO] validation:    ✓ Logging
+2025-11-27 12:18:23,079 [INFO] validation: 
+❌ Testes falhos: 1/6
+2025-11-27 12:18:23,079 [INFO] validation:    ✗ PDF Parser
+2025-11-27 12:18:23,080 [INFO] validation: 
+======================================================================
+2025-11-27 12:18:23,080 [WARNING] validation: ⚠️ Sistema parcialmente validado. Revisar falhas.
+2025-11-27 12:18:23,081 [INFO] validation: ======================================================================
+
+2025-11-27 12:18:31,072 [INFO] root: Logging inicializado.
+2025-11-27 12:18:31,072 [INFO] validation: 
+======================================================================
+2025-11-27 12:18:31,072 [INFO] validation: 🎯 VALIDAÇÃO COMPLETA DO SISTEMA
+2025-11-27 12:18:31,073 [INFO] validation: ======================================================================
+
+2025-11-27 12:18:31,074 [INFO] validation: 📦 Teste 1: Validando imports...
+2025-11-27 12:18:32,542 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-11-27 12:18:32,715 [INFO] validation: ✅ Todos os módulos importados com sucesso
+2025-11-27 12:18:32,715 [INFO] validation: 
+💾 Teste 2: Operações de banco de dados...
+2025-11-27 12:18:32,785 [INFO] validation: ✅ Conta criada (ID: 4), Regra ativada (usos: 6)
+2025-11-27 12:18:32,785 [INFO] validation: 
+📄 Teste 3: Parser de PDF (múltiplos cenários)...
+2025-11-27 12:18:32,785 [DEBUG] pdf_parser: Starting PDF extraction for file: boleto_completo.pdf (187 bytes)
+2025-11-27 12:18:32,790 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:18:32,793 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:18:32,793 [INFO] pdf_parser: CNPJ found: 12.345.678/0001-99
+2025-11-27 12:18:32,793 [INFO] pdf_parser: Valor found: 1234.56
+2025-11-27 12:18:32,794 [INFO] pdf_parser: Vencimento found: 15/01/2026
+2025-11-27 12:18:32,794 [INFO] pdf_parser: Linha digitável found
+2025-11-27 12:18:32,794 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '12.345.678/0001-99', 'valor': '1234.56', 'vencimento': '15/01/2026', 'linha_digitavel': '12345.67890 12345.678901 12345.678901 2 98765432109876', 'ocr_usado': True}
+2025-11-27 12:18:32,794 [DEBUG] pdf_parser: Starting PDF extraction for file: fatura_88.999.000-0001-22.pdf (16 bytes)
+2025-11-27 12:18:32,799 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:18:32,802 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:18:32,802 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:18:32,803 [DEBUG] pdf_parser: Starting PDF extraction for file: documento.pdf (0 bytes)
+2025-11-27 12:18:32,805 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:18:32,819 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:18:32,819 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:18:32,819 [ERROR] validation: ❌ Erro no parser: CNPJ não extraído do filename: {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\tests\validate_e2e.py", line 95, in validate_system
+    assert dados2['cnpj'] != '', f"CNPJ não extraído do filename: {dados2}"
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: CNPJ não extraído do filename: {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:18:32,820 [INFO] validation: 
+📑 Teste 4: Estrutura de páginas...
+2025-11-27 12:18:32,821 [INFO] validation: ✅ Todas as 6 páginas existem
+2025-11-27 12:18:32,821 [INFO] validation:    ✓ 1_📊_Dashboard.py
+2025-11-27 12:18:32,821 [INFO] validation:    ✓ 2_💳_Contas_Pagar.py
+2025-11-27 12:18:32,821 [INFO] validation:    ✓ 3_📄_Upload_PDF.py
+2025-11-27 12:18:32,821 [INFO] validation:    ✓ 4_🏢_Tiny_ERP.py
+2025-11-27 12:18:32,821 [INFO] validation:    ✓ 5_🛍️_Shopee.py
+2025-11-27 12:18:32,821 [INFO] validation:    ✓ 6_🧠_Regras_PDF.py
+2025-11-27 12:18:32,821 [INFO] validation: 
+⚙️ Teste 5: Arquivos de configuração...
+2025-11-27 12:18:32,821 [INFO] validation: ✅ Todos os arquivos de configuração presentes
+2025-11-27 12:18:32,822 [INFO] validation: 
+📝 Teste 6: Sistema de logging...
+2025-11-27 12:18:32,848 [INFO] validation: ✅ Sistema de logs ativo (32403 bytes)
+2025-11-27 12:18:32,848 [INFO] validation: 
+======================================================================
+2025-11-27 12:18:32,849 [INFO] validation: 📊 RESUMO DA VALIDAÇÃO
+2025-11-27 12:18:32,849 [INFO] validation: ======================================================================
+2025-11-27 12:18:32,849 [INFO] validation: 
+✅ Testes passados: 5/6
+2025-11-27 12:18:32,850 [INFO] validation:    ✓ Imports
+2025-11-27 12:18:32,850 [INFO] validation:    ✓ Database
+2025-11-27 12:18:32,850 [INFO] validation:    ✓ Pages Structure
+2025-11-27 12:18:32,851 [INFO] validation:    ✓ Configuration
+2025-11-27 12:18:32,851 [INFO] validation:    ✓ Logging
+2025-11-27 12:18:32,851 [INFO] validation: 
+❌ Testes falhos: 1/6
+2025-11-27 12:18:32,851 [INFO] validation:    ✗ PDF Parser
+2025-11-27 12:18:32,852 [INFO] validation: 
+======================================================================
+2025-11-27 12:18:32,852 [WARNING] validation: ⚠️ Sistema parcialmente validado. Revisar falhas.
+2025-11-27 12:18:32,852 [INFO] validation: ======================================================================
+
+2025-11-27 12:19:56,276 [INFO] root: Logging inicializado.
+2025-11-27 12:19:56,276 [INFO] validation: 
+======================================================================
+2025-11-27 12:19:56,276 [INFO] validation: 🎯 VALIDAÇÃO COMPLETA DO SISTEMA
+2025-11-27 12:19:56,276 [INFO] validation: ======================================================================
+
+2025-11-27 12:19:56,276 [INFO] validation: 📦 Teste 1: Validando imports...
+2025-11-27 12:19:57,860 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-11-27 12:19:58,049 [INFO] validation: ✅ Todos os módulos importados com sucesso
+2025-11-27 12:19:58,049 [INFO] validation: 
+💾 Teste 2: Operações de banco de dados...
+2025-11-27 12:19:58,131 [INFO] validation: ✅ Conta criada (ID: 5), Regra ativada (usos: 9)
+2025-11-27 12:19:58,131 [INFO] validation: 
+📄 Teste 3: Parser de PDF (múltiplos cenários)...
+2025-11-27 12:19:58,131 [DEBUG] pdf_parser: Starting PDF extraction for file: boleto_completo.pdf (187 bytes)
+2025-11-27 12:19:58,135 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:19:58,139 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:19:58,140 [INFO] pdf_parser: CNPJ found: 12.345.678/0001-99
+2025-11-27 12:19:58,140 [INFO] pdf_parser: Valor found: 1234.56
+2025-11-27 12:19:58,140 [INFO] pdf_parser: Vencimento found: 15/01/2026
+2025-11-27 12:19:58,140 [INFO] pdf_parser: Linha digitável found
+2025-11-27 12:19:58,140 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '12.345.678/0001-99', 'valor': '1234.56', 'vencimento': '15/01/2026', 'linha_digitavel': '12345.67890 12345.678901 12345.678901 2 98765432109876', 'ocr_usado': True}
+2025-11-27 12:19:58,140 [DEBUG] pdf_parser: Starting PDF extraction for file: fatura_88.999.000-0001-22.pdf (16 bytes)
+2025-11-27 12:19:58,143 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:19:58,147 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:19:58,147 [DEBUG] pdf_parser: CNPJ not found in text, searching filename: fatura_88.999.000-0001-22.pdf
+2025-11-27 12:19:58,147 [DEBUG] pdf_parser: CNPJ not found in text or filename
+2025-11-27 12:19:58,148 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:19:58,148 [DEBUG] pdf_parser: Starting PDF extraction for file: documento.pdf (0 bytes)
+2025-11-27 12:19:58,150 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:19:58,152 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:19:58,152 [DEBUG] pdf_parser: CNPJ not found in text, searching filename: documento.pdf
+2025-11-27 12:19:58,153 [DEBUG] pdf_parser: CNPJ not found in text or filename
+2025-11-27 12:19:58,153 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:19:58,153 [ERROR] validation: ❌ Erro no parser: CNPJ não extraído do filename: {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\tests\validate_e2e.py", line 95, in validate_system
+    assert dados2['cnpj'] != '', f"CNPJ não extraído do filename: {dados2}"
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: CNPJ não extraído do filename: {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:19:58,154 [INFO] validation: 
+📑 Teste 4: Estrutura de páginas...
+2025-11-27 12:19:58,154 [INFO] validation: ✅ Todas as 6 páginas existem
+2025-11-27 12:19:58,154 [INFO] validation:    ✓ 1_📊_Dashboard.py
+2025-11-27 12:19:58,154 [INFO] validation:    ✓ 2_💳_Contas_Pagar.py
+2025-11-27 12:19:58,154 [INFO] validation:    ✓ 3_📄_Upload_PDF.py
+2025-11-27 12:19:58,154 [INFO] validation:    ✓ 4_🏢_Tiny_ERP.py
+2025-11-27 12:19:58,154 [INFO] validation:    ✓ 5_🛍️_Shopee.py
+2025-11-27 12:19:58,154 [INFO] validation:    ✓ 6_🧠_Regras_PDF.py
+2025-11-27 12:19:58,154 [INFO] validation: 
+⚙️ Teste 5: Arquivos de configuração...
+2025-11-27 12:19:58,155 [INFO] validation: ✅ Todos os arquivos de configuração presentes
+2025-11-27 12:19:58,155 [INFO] validation: 
+📝 Teste 6: Sistema de logging...
+2025-11-27 12:19:58,172 [INFO] validation: ✅ Sistema de logs ativo (46045 bytes)
+2025-11-27 12:19:58,173 [INFO] validation: 
+======================================================================
+2025-11-27 12:19:58,173 [INFO] validation: 📊 RESUMO DA VALIDAÇÃO
+2025-11-27 12:19:58,173 [INFO] validation: ======================================================================
+2025-11-27 12:19:58,173 [INFO] validation: 
+✅ Testes passados: 5/6
+2025-11-27 12:19:58,173 [INFO] validation:    ✓ Imports
+2025-11-27 12:19:58,174 [INFO] validation:    ✓ Database
+2025-11-27 12:19:58,174 [INFO] validation:    ✓ Pages Structure
+2025-11-27 12:19:58,174 [INFO] validation:    ✓ Configuration
+2025-11-27 12:19:58,174 [INFO] validation:    ✓ Logging
+2025-11-27 12:19:58,174 [INFO] validation: 
+❌ Testes falhos: 1/6
+2025-11-27 12:19:58,175 [INFO] validation:    ✗ PDF Parser
+2025-11-27 12:19:58,175 [INFO] validation: 
+======================================================================
+2025-11-27 12:19:58,175 [WARNING] validation: ⚠️ Sistema parcialmente validado. Revisar falhas.
+2025-11-27 12:19:58,176 [INFO] validation: ======================================================================
+
+2025-11-27 12:21:40,603 [INFO] root: Logging inicializado.
+2025-11-27 12:21:40,603 [INFO] validation: 
+======================================================================
+2025-11-27 12:21:40,603 [INFO] validation: 🎯 VALIDAÇÃO COMPLETA DO SISTEMA
+2025-11-27 12:21:40,604 [INFO] validation: ======================================================================
+
+2025-11-27 12:21:40,604 [INFO] validation: 📦 Teste 1: Validando imports...
+2025-11-27 12:21:42,305 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-11-27 12:21:42,509 [INFO] validation: ✅ Todos os módulos importados com sucesso
+2025-11-27 12:21:42,509 [INFO] validation: 
+💾 Teste 2: Operações de banco de dados...
+2025-11-27 12:21:42,577 [INFO] validation: ✅ Conta criada (ID: 6), Regra ativada (usos: 12)
+2025-11-27 12:21:42,577 [INFO] validation: 
+📄 Teste 3: Parser de PDF (múltiplos cenários)...
+2025-11-27 12:21:42,577 [DEBUG] pdf_parser: Starting PDF extraction for file: boleto_completo.pdf (187 bytes)
+2025-11-27 12:21:42,582 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:21:42,585 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:21:42,585 [INFO] pdf_parser: CNPJ found: 12.345.678/0001-99
+2025-11-27 12:21:42,585 [INFO] pdf_parser: Valor found: 1234.56
+2025-11-27 12:21:42,586 [INFO] pdf_parser: Vencimento found: 15/01/2026
+2025-11-27 12:21:42,586 [INFO] pdf_parser: Linha digitável found
+2025-11-27 12:21:42,586 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '12.345.678/0001-99', 'valor': '1234.56', 'vencimento': '15/01/2026', 'linha_digitavel': '12345.67890 12345.678901 12345.678901 2 98765432109876', 'ocr_usado': True}
+2025-11-27 12:21:42,586 [DEBUG] pdf_parser: Starting PDF extraction for file: fatura_88.999.000-0001-22.pdf (16 bytes)
+2025-11-27 12:21:42,588 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:21:42,591 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:21:42,592 [DEBUG] pdf_parser: CNPJ not found in text, searching filename: fatura_88.999.000-0001-22.pdf
+2025-11-27 12:21:42,592 [INFO] pdf_parser: CNPJ found: 88.999.000-0001-22
+2025-11-27 12:21:42,592 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '88.999.000-0001-22', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:21:42,592 [DEBUG] pdf_parser: Starting PDF extraction for file: documento.pdf (0 bytes)
+2025-11-27 12:21:42,596 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:21:42,598 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:21:42,598 [DEBUG] pdf_parser: CNPJ not found in text, searching filename: documento.pdf
+2025-11-27 12:21:42,599 [DEBUG] pdf_parser: CNPJ not found in text or filename
+2025-11-27 12:21:42,599 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:21:42,599 [INFO] validation: ✅ Parser validado em 3 cenários
+2025-11-27 12:21:42,599 [INFO] validation:    Cenário 1 (completo): 5 campos
+2025-11-27 12:21:42,599 [INFO] validation:    Cenário 2 (filename): CNPJ=88.999.000-0001-22
+2025-11-27 12:21:42,599 [INFO] validation:    Cenário 3 (vazio): {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:21:42,599 [INFO] validation: 
+📑 Teste 4: Estrutura de páginas...
+2025-11-27 12:21:42,599 [INFO] validation: ✅ Todas as 6 páginas existem
+2025-11-27 12:21:42,599 [INFO] validation:    ✓ 1_📊_Dashboard.py
+2025-11-27 12:21:42,599 [INFO] validation:    ✓ 2_💳_Contas_Pagar.py
+2025-11-27 12:21:42,600 [INFO] validation:    ✓ 3_📄_Upload_PDF.py
+2025-11-27 12:21:42,600 [INFO] validation:    ✓ 4_🏢_Tiny_ERP.py
+2025-11-27 12:21:42,600 [INFO] validation:    ✓ 5_🛍️_Shopee.py
+2025-11-27 12:21:42,600 [INFO] validation:    ✓ 6_🧠_Regras_PDF.py
+2025-11-27 12:21:42,600 [INFO] validation: 
+⚙️ Teste 5: Arquivos de configuração...
+2025-11-27 12:21:42,600 [INFO] validation: ✅ Todos os arquivos de configuração presentes
+2025-11-27 12:21:42,600 [INFO] validation: 
+📝 Teste 6: Sistema de logging...
+2025-11-27 12:21:42,617 [INFO] validation: ✅ Sistema de logs ativo (59533 bytes)
+2025-11-27 12:21:42,617 [INFO] validation: 
+======================================================================
+2025-11-27 12:21:42,617 [INFO] validation: 📊 RESUMO DA VALIDAÇÃO
+2025-11-27 12:21:42,617 [INFO] validation: ======================================================================
+2025-11-27 12:21:42,618 [INFO] validation: 
+✅ Testes passados: 6/6
+2025-11-27 12:21:42,618 [INFO] validation:    ✓ Imports
+2025-11-27 12:21:42,618 [INFO] validation:    ✓ Database
+2025-11-27 12:21:42,618 [INFO] validation:    ✓ PDF Parser
+2025-11-27 12:21:42,618 [INFO] validation:    ✓ Pages Structure
+2025-11-27 12:21:42,619 [INFO] validation:    ✓ Configuration
+2025-11-27 12:21:42,619 [INFO] validation:    ✓ Logging
+2025-11-27 12:21:42,619 [INFO] validation: 
+======================================================================
+2025-11-27 12:21:42,620 [INFO] validation: 🎉 SISTEMA 100% VALIDADO E OPERACIONAL!
+2025-11-27 12:21:42,620 [INFO] validation: ======================================================================
+
+2025-11-27 12:22:27,852 [INFO] root: Logging inicializado.
+2025-11-27 12:22:27,853 [INFO] test_runner: 
+============================================================
+2025-11-27 12:22:27,853 [INFO] test_runner: 🧪 INICIANDO TESTES AUTOMATIZADOS
+2025-11-27 12:22:27,853 [INFO] test_runner: ============================================================
+
+2025-11-27 12:22:27,854 [INFO] test_runner: === Test 1: Database Init ===
+2025-11-27 12:22:27,858 [INFO] test_runner: ✅ Database initialization OK
+2025-11-27 12:22:27,859 [INFO] test_runner: 
+2025-11-27 12:22:27,859 [INFO] test_runner: === Test 2: Add Conta ===
+2025-11-27 12:22:27,889 [INFO] test_runner: ✅ Conta adicionada com ID: 7
+2025-11-27 12:22:27,890 [INFO] test_runner: 
+2025-11-27 12:22:27,890 [INFO] test_runner: === Test 3: Regra Creation ===
+2025-11-27 12:22:27,907 [INFO] test_runner: Regra registrada - uso 1/3
+2025-11-27 12:22:27,920 [INFO] test_runner: Regra registrada - uso 2/3
+2025-11-27 12:22:27,934 [INFO] test_runner: Regra registrada - uso 3/3
+2025-11-27 12:22:27,936 [INFO] test_runner: ✅ Regra ativada: {'id': 1, 'cnpj': '98.765.432/0001-10', 'fornecedor': 'Fornecedor Test 3', 'categoria': 'Categoria Teste', 'contador_usos': 6, 'ativo': True, 'ultima_atualizacao': datetime.datetime(2025, 11, 27, 12, 22, 27, 921781)}
+2025-11-27 12:22:27,937 [INFO] test_runner: 
+2025-11-27 12:22:27,937 [INFO] test_runner: === Test 4: PDF Parser Fallback ===
+2025-11-27 12:22:27,937 [DEBUG] pdf_parser: Starting PDF extraction for file: boleto_teste_11.222.333-0001-44.pdf (187 bytes)
+2025-11-27 12:22:27,942 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:22:27,948 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:22:27,948 [INFO] pdf_parser: CNPJ found: 11.222.333/0001-44
+2025-11-27 12:22:27,949 [INFO] pdf_parser: Valor found: 2500.00
+2025-11-27 12:22:27,949 [INFO] pdf_parser: Vencimento found: 30/12/2025
+2025-11-27 12:22:27,950 [INFO] pdf_parser: Linha digitável found
+2025-11-27 12:22:27,950 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '11.222.333/0001-44', 'valor': '2500.00', 'vencimento': '30/12/2025', 'linha_digitavel': '12345.67890 12345.678901 12345.678901 1 99887766554433', 'ocr_usado': True}
+2025-11-27 12:22:27,950 [INFO] test_runner: OCR Status: OCR completo ativo
+2025-11-27 12:22:27,951 [INFO] test_runner: Dados extraídos: {'cnpj': '11.222.333/0001-44', 'valor': '2500.00', 'vencimento': '30/12/2025', 'linha_digitavel': '12345.67890 12345.678901 12345.678901 1 99887766554433', 'ocr_usado': True}
+2025-11-27 12:22:27,951 [INFO] test_runner: ✅ PDF parser working (fallback mode)
+2025-11-27 12:22:27,952 [INFO] test_runner: 
+2025-11-27 12:22:27,953 [INFO] test_runner: === Test 5: Database Queries ===
+2025-11-27 12:22:27,957 [INFO] test_runner: Total contas: 7
+2025-11-27 12:22:27,958 [INFO] test_runner: Total regras: 2
+2025-11-27 12:22:27,958 [INFO] test_runner: ✅ Database queries OK
+2025-11-27 12:22:27,958 [INFO] test_runner: 
+2025-11-27 12:22:27,958 [INFO] test_runner: 
+============================================================
+2025-11-27 12:22:27,959 [INFO] test_runner: 📊 RESULTADOS DOS TESTES
+2025-11-27 12:22:27,959 [INFO] test_runner: ============================================================
+2025-11-27 12:22:27,960 [INFO] test_runner: ✅ PASS: test_database_initialization
+2025-11-27 12:22:27,960 [INFO] test_runner: ✅ PASS: test_add_conta
+2025-11-27 12:22:27,960 [INFO] test_runner: ✅ PASS: test_regra_creation
+2025-11-27 12:22:27,960 [INFO] test_runner: ✅ PASS: test_pdf_parser_fallback
+2025-11-27 12:22:27,960 [INFO] test_runner: ✅ PASS: test_database_queries
+2025-11-27 12:22:27,961 [INFO] test_runner: 
+🎯 Total: 5/5 testes passaram
+2025-11-27 12:22:27,961 [INFO] test_runner: ============================================================
+
+2025-11-27 12:22:28,376 [INFO] root: Logging inicializado.
+2025-11-27 12:22:28,377 [INFO] validation: 
+======================================================================
+2025-11-27 12:22:28,377 [INFO] validation: 🎯 VALIDAÇÃO COMPLETA DO SISTEMA
+2025-11-27 12:22:28,377 [INFO] validation: ======================================================================
+
+2025-11-27 12:22:28,377 [INFO] validation: 📦 Teste 1: Validando imports...
+2025-11-27 12:22:29,884 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-11-27 12:22:30,064 [INFO] validation: ✅ Todos os módulos importados com sucesso
+2025-11-27 12:22:30,064 [INFO] validation: 
+💾 Teste 2: Operações de banco de dados...
+2025-11-27 12:22:30,138 [INFO] validation: ✅ Conta criada (ID: 8), Regra ativada (usos: 15)
+2025-11-27 12:22:30,138 [INFO] validation: 
+📄 Teste 3: Parser de PDF (múltiplos cenários)...
+2025-11-27 12:22:30,139 [DEBUG] pdf_parser: Starting PDF extraction for file: boleto_completo.pdf (187 bytes)
+2025-11-27 12:22:30,143 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:22:30,149 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:22:30,149 [INFO] pdf_parser: CNPJ found: 12.345.678/0001-99
+2025-11-27 12:22:30,149 [INFO] pdf_parser: Valor found: 1234.56
+2025-11-27 12:22:30,150 [INFO] pdf_parser: Vencimento found: 15/01/2026
+2025-11-27 12:22:30,150 [INFO] pdf_parser: Linha digitável found
+2025-11-27 12:22:30,150 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '12.345.678/0001-99', 'valor': '1234.56', 'vencimento': '15/01/2026', 'linha_digitavel': '12345.67890 12345.678901 12345.678901 2 98765432109876', 'ocr_usado': True}
+2025-11-27 12:22:30,151 [DEBUG] pdf_parser: Starting PDF extraction for file: fatura_88.999.000-0001-22.pdf (16 bytes)
+2025-11-27 12:22:30,154 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:22:30,156 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:22:30,157 [DEBUG] pdf_parser: CNPJ not found in text, searching filename: fatura_88.999.000-0001-22.pdf
+2025-11-27 12:22:30,157 [INFO] pdf_parser: CNPJ found: 88.999.000-0001-22
+2025-11-27 12:22:30,157 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '88.999.000-0001-22', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:22:30,158 [DEBUG] pdf_parser: Starting PDF extraction for file: documento.pdf (0 bytes)
+2025-11-27 12:22:30,162 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:22:30,166 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:22:30,167 [DEBUG] pdf_parser: CNPJ not found in text, searching filename: documento.pdf
+2025-11-27 12:22:30,167 [DEBUG] pdf_parser: CNPJ not found in text or filename
+2025-11-27 12:22:30,167 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:22:30,168 [INFO] validation: ✅ Parser validado em 3 cenários
+2025-11-27 12:22:30,168 [INFO] validation:    Cenário 1 (completo): 5 campos
+2025-11-27 12:22:30,169 [INFO] validation:    Cenário 2 (filename): CNPJ=88.999.000-0001-22
+2025-11-27 12:22:30,169 [INFO] validation:    Cenário 3 (vazio): {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:22:30,169 [INFO] validation: 
+📑 Teste 4: Estrutura de páginas...
+2025-11-27 12:22:30,170 [INFO] validation: ✅ Todas as 6 páginas existem
+2025-11-27 12:22:30,171 [INFO] validation:    ✓ 1_📊_Dashboard.py
+2025-11-27 12:22:30,171 [INFO] validation:    ✓ 2_💳_Contas_Pagar.py
+2025-11-27 12:22:30,171 [INFO] validation:    ✓ 3_📄_Upload_PDF.py
+2025-11-27 12:22:30,172 [INFO] validation:    ✓ 4_🏢_Tiny_ERP.py
+2025-11-27 12:22:30,172 [INFO] validation:    ✓ 5_🛍️_Shopee.py
+2025-11-27 12:22:30,172 [INFO] validation:    ✓ 6_🧠_Regras_PDF.py
+2025-11-27 12:22:30,172 [INFO] validation: 
+⚙️ Teste 5: Arquivos de configuração...
+2025-11-27 12:22:30,173 [INFO] validation: ✅ Todos os arquivos de configuração presentes
+2025-11-27 12:22:30,173 [INFO] validation: 
+📝 Teste 6: Sistema de logging...
+2025-11-27 12:22:30,199 [INFO] validation: ✅ Sistema de logs ativo (79468 bytes)
+2025-11-27 12:22:30,199 [INFO] validation: 
+======================================================================
+2025-11-27 12:22:30,200 [INFO] validation: 📊 RESUMO DA VALIDAÇÃO
+2025-11-27 12:22:30,200 [INFO] validation: ======================================================================
+2025-11-27 12:22:30,201 [INFO] validation: 
+✅ Testes passados: 6/6
+2025-11-27 12:22:30,202 [INFO] validation:    ✓ Imports
+2025-11-27 12:22:30,202 [INFO] validation:    ✓ Database
+2025-11-27 12:22:30,203 [INFO] validation:    ✓ PDF Parser
+2025-11-27 12:22:30,203 [INFO] validation:    ✓ Pages Structure
+2025-11-27 12:22:30,203 [INFO] validation:    ✓ Configuration
+2025-11-27 12:22:30,203 [INFO] validation:    ✓ Logging
+2025-11-27 12:22:30,204 [INFO] validation: 
+======================================================================
+2025-11-27 12:22:30,204 [INFO] validation: 🎉 SISTEMA 100% VALIDADO E OPERACIONAL!
+2025-11-27 12:22:30,204 [INFO] validation: ======================================================================
+
+2025-11-27 12:52:19,842 [INFO] root: Logging inicializado.
+2025-11-27 12:52:19,843 [INFO] validation: 
+======================================================================
+2025-11-27 12:52:19,844 [INFO] validation: 🎯 VALIDAÇÃO COMPLETA DO SISTEMA
+2025-11-27 12:52:19,844 [INFO] validation: ======================================================================
+
+2025-11-27 12:52:19,845 [INFO] validation: 📦 Teste 1: Validando imports...
+2025-11-27 12:52:21,371 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-11-27 12:52:21,691 [INFO] validation: ✅ Todos os módulos importados com sucesso
+2025-11-27 12:52:21,691 [INFO] validation: 
+💾 Teste 2: Operações de banco de dados...
+2025-11-27 12:52:21,764 [INFO] validation: ✅ Conta criada (ID: 615), Regra ativada (usos: 18)
+2025-11-27 12:52:21,764 [INFO] validation: 
+📄 Teste 3: Parser de PDF (múltiplos cenários)...
+2025-11-27 12:52:21,765 [DEBUG] pdf_parser: Starting PDF extraction for file: boleto_completo.pdf (187 bytes)
+2025-11-27 12:52:21,771 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:52:21,847 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:52:21,847 [INFO] pdf_parser: CNPJ found: 12.345.678/0001-99
+2025-11-27 12:52:21,848 [INFO] pdf_parser: Valor found: 1234.56
+2025-11-27 12:52:21,848 [INFO] pdf_parser: Vencimento found: 15/01/2026
+2025-11-27 12:52:21,848 [INFO] pdf_parser: Linha digitável found
+2025-11-27 12:52:21,849 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '12.345.678/0001-99', 'valor': '1234.56', 'vencimento': '15/01/2026', 'linha_digitavel': '12345.67890 12345.678901 12345.678901 2 98765432109876', 'ocr_usado': True}
+2025-11-27 12:52:21,849 [DEBUG] pdf_parser: Starting PDF extraction for file: fatura_88.999.000-0001-22.pdf (16 bytes)
+2025-11-27 12:52:21,856 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:52:21,861 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:52:21,862 [DEBUG] pdf_parser: CNPJ not found in text, searching filename: fatura_88.999.000-0001-22.pdf
+2025-11-27 12:52:21,862 [INFO] pdf_parser: CNPJ found: 88.999.000-0001-22
+2025-11-27 12:52:21,863 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '88.999.000-0001-22', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:52:21,863 [DEBUG] pdf_parser: Starting PDF extraction for file: documento.pdf (0 bytes)
+2025-11-27 12:52:21,867 [ERROR] pdf_parser: OCR extraction failed: Unable to get page count. Is poppler installed and in PATH?
+Traceback (most recent call last):
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1554, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] O sistema não pode encontrar o arquivo especificado
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lemop\Desktop\HUB-FINANCEIRO-STREAMLIT\modules\pdf_parser.py", line 34, in _extract_text_ocr
+    pages = convert_from_bytes(pdf_bytes, dpi=180)
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 359, in convert_from_bytes
+    return convert_from_path(
+        f.name,
+    ...<20 lines>...
+        hide_annotations=hide_annotations,
+    )
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "C:\Users\lemop\AppData\Local\Programs\Python\Python313\Lib\site-packages\pdf2image\pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:52:21,871 [WARNING] pdf_parser: OCR failed, falling back to simple extraction: Unable to get page count. Is poppler installed and in PATH?
+2025-11-27 12:52:21,872 [DEBUG] pdf_parser: CNPJ not found in text, searching filename: documento.pdf
+2025-11-27 12:52:21,872 [DEBUG] pdf_parser: CNPJ not found in text or filename
+2025-11-27 12:52:21,873 [DEBUG] pdf_parser: Extraction complete: {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:52:21,873 [INFO] validation: ✅ Parser validado em 3 cenários
+2025-11-27 12:52:21,874 [INFO] validation:    Cenário 1 (completo): 5 campos
+2025-11-27 12:52:21,874 [INFO] validation:    Cenário 2 (filename): CNPJ=88.999.000-0001-22
+2025-11-27 12:52:21,875 [INFO] validation:    Cenário 3 (vazio): {'cnpj': '', 'valor': '', 'vencimento': '', 'linha_digitavel': '', 'ocr_usado': True}
+2025-11-27 12:52:21,875 [INFO] validation: 
+📑 Teste 4: Estrutura de páginas...
+2025-11-27 12:52:21,876 [INFO] validation: ✅ Todas as 6 páginas existem
+2025-11-27 12:52:21,876 [INFO] validation:    ✓ 1_📊_Dashboard.py
+2025-11-27 12:52:21,877 [INFO] validation:    ✓ 2_💳_Contas_Pagar.py
+2025-11-27 12:52:21,877 [INFO] validation:    ✓ 3_📄_Upload_PDF.py
+2025-11-27 12:52:21,877 [INFO] validation:    ✓ 4_🏢_Tiny_ERP.py
+2025-11-27 12:52:21,877 [INFO] validation:    ✓ 5_🛍️_Shopee.py
+2025-11-27 12:52:21,878 [INFO] validation:    ✓ 6_🧠_Regras_PDF.py
+2025-11-27 12:52:21,878 [INFO] validation: 
+⚙️ Teste 5: Arquivos de configuração...
+2025-11-27 12:52:21,879 [INFO] validation: ✅ Todos os arquivos de configuração presentes
+2025-11-27 12:52:21,879 [INFO] validation: 
+📝 Teste 6: Sistema de logging...
+2025-11-27 12:52:21,907 [INFO] validation: ✅ Sistema de logs ativo (92879 bytes)
+2025-11-27 12:52:21,908 [INFO] validation: 
+======================================================================
+2025-11-27 12:52:21,908 [INFO] validation: 📊 RESUMO DA VALIDAÇÃO
+2025-11-27 12:52:21,908 [INFO] validation: ======================================================================
+2025-11-27 12:52:21,909 [INFO] validation: 
+✅ Testes passados: 6/6
+2025-11-27 12:52:21,909 [INFO] validation:    ✓ Imports
+2025-11-27 12:52:21,910 [INFO] validation:    ✓ Database
+2025-11-27 12:52:21,910 [INFO] validation:    ✓ PDF Parser
+2025-11-27 12:52:21,910 [INFO] validation:    ✓ Pages Structure
+2025-11-27 12:52:21,910 [INFO] validation:    ✓ Configuration
+2025-11-27 12:52:21,911 [INFO] validation:    ✓ Logging
+2025-11-27 12:52:21,911 [INFO] validation: 
+======================================================================
+2025-11-27 12:52:21,911 [INFO] validation: 🎉 SISTEMA 100% VALIDADO E OPERACIONAL!
+2025-11-27 12:52:21,911 [INFO] validation: ======================================================================
+

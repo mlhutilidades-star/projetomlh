@@ -1,0 +1,14 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8502
+  Network URL: http://192.168.3.105:8502
+
+2025-11-27 12:13:54,744 [INFO] root: Logging inicializado.
+2025-11-27 12:13:54,745 [INFO] root: === Hub Financeiro iniciando ===
+2025-11-27 12:13:54,746 [INFO] root: Streamlit page config OK
+2025-11-27 12:13:54,755 [INFO] root: Banco de dados inicializado com sucesso
+2025-11-27 12:16:42,549 [INFO] root: Logging inicializado.
+2025-11-27 12:16:42,550 [INFO] root: === Hub Financeiro iniciando ===
+2025-11-27 12:16:42,552 [INFO] root: Streamlit page config OK
+2025-11-27 12:16:42,556 [INFO] root: Banco de dados inicializado com sucesso

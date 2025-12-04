@@ -1,0 +1,922 @@
+2025-12-03 08:14:50,806 [INFO] root: Logging inicializado.
+2025-12-03 08:14:50,806 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 08:14:50,807 [INFO] root: Streamlit page config OK
+2025-12-03 08:14:50,822 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 08:15:06,320 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 08:16:25,719 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 08:16:35,489 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 08:16:42,880 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 08:17:03,948 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 08:17:05,640 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 08:17:08,181 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:03:30,177 [INFO] root: Logging inicializado.
+2025-12-03 09:03:30,178 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 09:03:30,179 [INFO] root: Streamlit page config OK
+2025-12-03 09:03:30,192 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 09:04:00,171 [INFO] root: Logging inicializado.
+2025-12-03 09:04:00,172 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 09:04:00,174 [INFO] root: Streamlit page config OK
+2025-12-03 09:04:00,179 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 09:04:01,760 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 09:04:17,560 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:04:28,017 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:04:48,378 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:04:56,484 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:04:57,836 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1035 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:04:59,508 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1035 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:01,178 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1035 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:02,183 [WARNING] page_upload_xml: ✗ 1035: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:03,223 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1041 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:04,871 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1041 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:06,524 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1041 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:07,527 [WARNING] page_upload_xml: ✗ 1041: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:08,481 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1103 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:10,181 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1103 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:11,888 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1103 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:12,890 [WARNING] page_upload_xml: ✗ 1103: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:13,895 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1109 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:15,526 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1109 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:17,209 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1109 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:18,213 [WARNING] page_upload_xml: ✗ 1109: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:19,166 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=247F status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:20,789 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=247F status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:22,429 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=247F status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:23,432 [WARNING] page_upload_xml: ✗ 247F: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:24,399 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=294N status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:26,033 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=294N status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:27,656 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=294N status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:28,659 [WARNING] page_upload_xml: ✗ 294N: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:29,596 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=294V status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:31,255 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=294V status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:32,897 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=294V status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:33,902 [WARNING] page_upload_xml: ✗ 294V: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:34,870 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=295N status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:36,491 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=295N status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:38,102 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=295N status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:39,104 [WARNING] page_upload_xml: ✗ 295N: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:40,070 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=295V status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:41,681 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=295V status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:43,400 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=295V status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:44,403 [WARNING] page_upload_xml: ✗ 295V: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:45,797 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=299F status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:47,589 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=299F status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:49,237 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=299F status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:50,240 [WARNING] page_upload_xml: ✗ 299F: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:51,233 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=424 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:52,843 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=424 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:54,447 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=424 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:55,450 [WARNING] page_upload_xml: ✗ 424: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:56,350 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=425 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:57,986 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=425 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:05:59,778 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=425 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:06:00,782 [WARNING] page_upload_xml: ✗ 425: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:06:01,883 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=426 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:06:03,683 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=426 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:06:05,427 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=426 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:06:06,434 [WARNING] page_upload_xml: ✗ 426: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:12:34,620 [INFO] root: Logging inicializado.
+2025-12-03 09:12:34,621 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 09:12:34,623 [INFO] root: Streamlit page config OK
+2025-12-03 09:12:34,631 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 09:18:14,611 [INFO] root: Logging inicializado.
+2025-12-03 09:18:14,612 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 09:18:14,613 [INFO] root: Streamlit page config OK
+2025-12-03 09:18:14,633 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 09:18:14,793 [INFO] root: Logging inicializado.
+2025-12-03 09:18:14,794 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 09:18:14,796 [INFO] root: Streamlit page config OK
+2025-12-03 09:18:14,804 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 09:18:32,962 [INFO] root: Logging inicializado.
+2025-12-03 09:18:32,962 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 09:18:32,963 [INFO] root: Streamlit page config OK
+2025-12-03 09:18:32,968 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 09:20:11,969 [INFO] root: Logging inicializado.
+2025-12-03 09:20:11,972 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 09:20:11,974 [INFO] root: Streamlit page config OK
+2025-12-03 09:20:11,999 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 09:29:41,173 [INFO] root: Logging inicializado.
+2025-12-03 09:29:41,174 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 09:29:41,174 [INFO] root: Streamlit page config OK
+2025-12-03 09:29:41,201 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 09:29:53,695 [INFO] root: Logging inicializado.
+2025-12-03 09:29:53,697 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 09:29:53,698 [INFO] root: Streamlit page config OK
+2025-12-03 09:29:53,705 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 09:30:18,515 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 09:30:28,975 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:30:41,322 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:31:00,828 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:31:19,957 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:31:21,301 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1035 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:23,118 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1035 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:24,853 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1035 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:25,856 [WARNING] page_upload_xml: ✗ 1035: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:26,846 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1041 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:28,600 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1041 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:30,208 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1041 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:31,211 [WARNING] page_upload_xml: ✗ 1041: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:32,168 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1103 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:33,790 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1103 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:35,413 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1103 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:36,417 [WARNING] page_upload_xml: ✗ 1103: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:37,392 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1109 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:39,017 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1109 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:40,630 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=1109 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:41,637 [WARNING] page_upload_xml: ✗ 1109: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:42,563 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=247F status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:44,232 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=247F status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:45,840 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=247F status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:46,842 [WARNING] page_upload_xml: ✗ 247F: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:47,846 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=294N status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:49,741 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=294N status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:51,476 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=294N status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:52,479 [WARNING] page_upload_xml: ✗ 294N: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:53,454 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=294V status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:55,063 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=294V status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:56,654 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=294V status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:57,657 [WARNING] page_upload_xml: ✗ 294V: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:31:58,710 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=295N status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:00,376 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=295N status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:02,101 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=295N status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:03,104 [WARNING] page_upload_xml: ✗ 295N: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:04,217 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=295V status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:05,941 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=295V status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:07,672 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=295V status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:08,674 [WARNING] page_upload_xml: ✗ 295V: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:09,745 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=299F status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:11,563 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=299F status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:13,275 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=299F status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:14,277 [WARNING] page_upload_xml: ✗ 299F: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:15,319 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=424 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:17,043 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=424 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:18,726 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=424 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:19,730 [WARNING] page_upload_xml: ✗ 424: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:20,683 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=425 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:22,326 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=425 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:24,055 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=425 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:25,057 [WARNING] page_upload_xml: ✗ 425: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:26,049 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=426 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:27,672 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=426 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:29,294 [WARNING] tiny_api: Tiny informar_custo FALHA codigo=426 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:32:30,297 [WARNING] page_upload_xml: ✗ 426: {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:34:58,024 [INFO] root: Logging inicializado.
+2025-12-03 09:34:58,027 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 09:34:58,027 [INFO] root: Streamlit page config OK
+2025-12-03 09:34:58,050 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 09:35:08,628 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 09:35:25,687 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:35:35,658 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:35:45,532 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:35:46,549 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:36:09,755 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=352716722 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:11,418 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=352716722 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:13,126 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=352716722 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:14,129 [WARNING] page_upload_xml: ✗ 1041 (ID 352716722): {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:15,121 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=352716729 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:16,859 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=352716729 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:18,508 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=352716729 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:19,512 [WARNING] page_upload_xml: ✗ 1103 (ID 352716729): {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:20,491 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=352716733 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:22,123 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=352716733 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:23,951 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=352716733 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:24,953 [WARNING] page_upload_xml: ✗ 1109 (ID 352716733): {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:26,006 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018348 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:27,622 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018348 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:29,340 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018348 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:30,342 [WARNING] page_upload_xml: ✗ 247F (ID 345018348): {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:31,272 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018351 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:32,975 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018351 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:34,568 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018351 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:35,571 [WARNING] page_upload_xml: ✗ 294N (ID 345018351): {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:36,492 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018354 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:38,148 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018354 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:39,773 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018354 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:40,777 [WARNING] page_upload_xml: ✗ 294V (ID 345018354): {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:41,673 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018357 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:43,277 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018357 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:44,934 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018357 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:45,936 [WARNING] page_upload_xml: ✗ 295N (ID 345018357): {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:46,843 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018360 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:48,631 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018360 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:50,552 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018360 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:51,554 [WARNING] page_upload_xml: ✗ 295V (ID 345018360): {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:52,469 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018363 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:54,148 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018363 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:55,748 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=345018363 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:56,750 [WARNING] page_upload_xml: ✗ 299F (ID 345018363): {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:57,699 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=342644905 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:36:59,750 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=342644905 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:37:01,500 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=342644905 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:37:02,502 [WARNING] page_upload_xml: ✗ 424 (ID 342644905): {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:37:03,615 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=349118694 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:37:05,372 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=349118694 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:37:07,089 [WARNING] tiny_api: Tiny informar_custo FALHA idProduto=349118694 status=Erro cod_erro=None http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:37:08,095 [WARNING] page_upload_xml: ✗ 426 (ID 349118694): {'retorno': {'status_processamento': '2', 'status': 'Erro', 'registros': {'registro': {'sequencia': 1, 'status': 'Erro', 'codigo_erro': '31', 'erros': [{'erro': 'Campo idProduto inválido.'}]}}}}
+2025-12-03 09:38:31,818 [INFO] root: Logging inicializado.
+2025-12-03 09:38:31,818 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 09:38:31,819 [INFO] root: Streamlit page config OK
+2025-12-03 09:38:31,844 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 09:38:50,247 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 09:39:05,453 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:40:32,504 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 09:40:32,637 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:40:42,086 [INFO] root: Logging inicializado.
+2025-12-03 09:40:42,087 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 09:40:42,088 [INFO] root: Streamlit page config OK
+2025-12-03 09:40:42,094 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 09:47:00,752 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 09:47:11,501 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:47:21,514 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:47:38,965 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:47:40,590 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:48:01,473 [INFO] root: Logging inicializado.
+2025-12-03 09:48:01,473 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 09:48:22,385 [INFO] root: Logging inicializado.
+2025-12-03 09:48:22,386 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 09:48:22,387 [INFO] root: Streamlit page config OK
+2025-12-03 09:48:22,400 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 09:48:42,786 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 09:49:14,532 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:49:20,001 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:49:29,390 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:49:30,422 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:51:32,410 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:51:42,440 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:51:56,114 [INFO] tiny_api: informar_custo: codigo=7898570571524, quantidade=0.0000, custo=32.0985
+2025-12-03 09:51:56,114 [ERROR] page_upload_xml: ✗ 247F (Tiny: 7898570571524): name '_rate_limit_sleep' is not defined
+2025-12-03 09:51:56,115 [INFO] tiny_api: informar_custo: codigo=7898570575942, quantidade=0.0000, custo=26.8371
+2025-12-03 09:51:56,116 [ERROR] page_upload_xml: ✗ 294N (Tiny: 7898570575942): name '_rate_limit_sleep' is not defined
+2025-12-03 09:51:56,118 [INFO] tiny_api: informar_custo: codigo=7898570572200, quantidade=0.0000, custo=26.8371
+2025-12-03 09:51:56,119 [ERROR] page_upload_xml: ✗ 294V (Tiny: 7898570572200): name '_rate_limit_sleep' is not defined
+2025-12-03 09:51:56,120 [INFO] tiny_api: informar_custo: codigo=7898570575959, quantidade=0.0000, custo=32.0985
+2025-12-03 09:51:56,121 [ERROR] page_upload_xml: ✗ 295N (Tiny: 7898570575959): name '_rate_limit_sleep' is not defined
+2025-12-03 09:51:56,122 [INFO] tiny_api: informar_custo: codigo=7898570572217, quantidade=0.0000, custo=32.0985
+2025-12-03 09:51:56,123 [ERROR] page_upload_xml: ✗ 295V (Tiny: 7898570572217): name '_rate_limit_sleep' is not defined
+2025-12-03 09:51:56,124 [INFO] tiny_api: informar_custo: codigo=7898570572255, quantidade=0.0000, custo=26.8371
+2025-12-03 09:51:56,124 [ERROR] page_upload_xml: ✗ 299F (Tiny: 7898570572255): name '_rate_limit_sleep' is not defined
+2025-12-03 09:51:56,126 [INFO] tiny_api: informar_custo: codigo=7899763209408, quantidade=0.0000, custo=38.3221
+2025-12-03 09:51:56,127 [ERROR] page_upload_xml: ✗ 424 (Tiny: 7899763209408): name '_rate_limit_sleep' is not defined
+2025-12-03 09:51:56,128 [INFO] tiny_api: informar_custo: codigo=40719280699, quantidade=0.0000, custo=67.6409
+2025-12-03 09:51:56,128 [ERROR] page_upload_xml: ✗ 426 (Tiny: 40719280699): name '_rate_limit_sleep' is not defined
+2025-12-03 09:53:37,286 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 09:53:37,521 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:53:40,356 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:53:53,406 [INFO] tiny_api: informar_custo: codigo=7898570571524, quantidade=0.0000, custo=32.0985
+2025-12-03 09:53:54,223 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:53:56,092 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:53:57,970 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:53:57,971 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: codigo=7898570571524
+2025-12-03 09:53:57,972 [WARNING] page_upload_xml: ✗ 247F (Tiny: 7898570571524): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></registro></registros></retorno>\n'}
+2025-12-03 09:53:58,275 [INFO] tiny_api: informar_custo: codigo=7898570575942, quantidade=0.0000, custo=26.8371
+2025-12-03 09:53:59,300 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:01,319 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:03,132 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:03,133 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: codigo=7898570575942
+2025-12-03 09:54:03,134 [WARNING] page_upload_xml: ✗ 294N (Tiny: 7898570575942): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></registro></registros></retorno>\n'}
+2025-12-03 09:54:03,436 [INFO] tiny_api: informar_custo: codigo=7898570572200, quantidade=0.0000, custo=26.8371
+2025-12-03 09:54:04,312 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:06,178 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:07,986 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:07,986 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: codigo=7898570572200
+2025-12-03 09:54:07,988 [WARNING] page_upload_xml: ✗ 294V (Tiny: 7898570572200): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></registro></registros></retorno>\n'}
+2025-12-03 09:54:08,291 [INFO] tiny_api: informar_custo: codigo=7898570575959, quantidade=0.0000, custo=32.0985
+2025-12-03 09:54:09,097 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:10,991 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:12,788 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:12,789 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: codigo=7898570575959
+2025-12-03 09:54:12,791 [WARNING] page_upload_xml: ✗ 295N (Tiny: 7898570575959): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></registro></registros></retorno>\n'}
+2025-12-03 09:54:13,093 [INFO] tiny_api: informar_custo: codigo=7898570572217, quantidade=0.0000, custo=32.0985
+2025-12-03 09:54:13,900 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:15,697 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:17,562 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:17,563 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: codigo=7898570572217
+2025-12-03 09:54:17,566 [WARNING] page_upload_xml: ✗ 295V (Tiny: 7898570572217): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></registro></registros></retorno>\n'}
+2025-12-03 09:54:17,868 [INFO] tiny_api: informar_custo: codigo=7898570572255, quantidade=0.0000, custo=26.8371
+2025-12-03 09:54:18,737 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:20,541 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:22,370 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:22,370 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: codigo=7898570572255
+2025-12-03 09:54:22,372 [WARNING] page_upload_xml: ✗ 299F (Tiny: 7898570572255): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></registro></registros></retorno>\n'}
+2025-12-03 09:54:22,675 [INFO] tiny_api: informar_custo: codigo=7899763209408, quantidade=0.0000, custo=38.3221
+2025-12-03 09:54:23,489 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:25,265 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:27,111 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:27,111 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: codigo=7899763209408
+2025-12-03 09:54:27,113 [WARNING] page_upload_xml: ✗ 424 (Tiny: 7899763209408): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></registro></registros></retorno>\n'}
+2025-12-03 09:54:27,415 [INFO] tiny_api: informar_custo: codigo=40719280699, quantidade=0.0000, custo=67.6409
+2025-12-03 09:54:28,339 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:30,116 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:31,891 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></regist
+2025-12-03 09:54:31,893 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: codigo=40719280699
+2025-12-03 09:54:31,895 [WARNING] page_upload_xml: ✗ 426 (Tiny: 40719280699): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>2</status_processamento><status>Erro</status><registros><registro><sequencia>1</sequencia><status>Erro</status><codigo_erro>31</codigo_erro><erros><erro>Campo idProduto inválido.</erro></erros></registro></registros></retorno>\n'}
+2025-12-03 09:57:08,802 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 09:57:08,950 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:57:12,369 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 09:57:25,688 [INFO] tiny_api: informar_custo: idProduto=352716722, quantidade=0.0000, custo=21.3199
+2025-12-03 09:57:26,908 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>353766314</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCria
+2025-12-03 09:57:28,753 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:57:30,625 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:57:30,626 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: idProduto=352716722
+2025-12-03 09:57:30,628 [WARNING] page_upload_xml: ✗ 1041 (Tiny ID: 352716722): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></registroCriado></registro></registros></retorno>\n'}
+2025-12-03 09:57:30,931 [INFO] tiny_api: informar_custo: idProduto=352716729, quantidade=0.0000, custo=21.3199
+2025-12-03 09:57:32,170 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>353766361</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCria
+2025-12-03 09:57:34,021 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:57:35,992 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:57:35,992 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: idProduto=352716729
+2025-12-03 09:57:35,994 [WARNING] page_upload_xml: ✗ 1103 (Tiny ID: 352716729): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></registroCriado></registro></registros></retorno>\n'}
+2025-12-03 09:57:36,296 [INFO] tiny_api: informar_custo: idProduto=352716733, quantidade=0.0000, custo=28.7534
+2025-12-03 09:57:37,463 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>353766391</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCria
+2025-12-03 09:57:39,281 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:57:41,115 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:57:41,116 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: idProduto=352716733
+2025-12-03 09:57:41,118 [WARNING] page_upload_xml: ✗ 1109 (Tiny ID: 352716733): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></registroCriado></registro></registros></retorno>\n'}
+2025-12-03 09:57:41,420 [INFO] tiny_api: informar_custo: idProduto=345018348, quantidade=0.0000, custo=32.0985
+2025-12-03 09:57:43,269 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>353766412</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCria
+2025-12-03 09:57:45,094 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:57:46,926 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:57:46,927 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: idProduto=345018348
+2025-12-03 09:57:46,929 [WARNING] page_upload_xml: ✗ 247F (Tiny ID: 345018348): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></registroCriado></registro></registros></retorno>\n'}
+2025-12-03 09:57:47,232 [INFO] tiny_api: informar_custo: idProduto=345018351, quantidade=0.0000, custo=26.8371
+2025-12-03 09:57:48,044 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:57:49,892 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:57:51,737 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:57:51,737 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: idProduto=345018351
+2025-12-03 09:57:51,739 [WARNING] page_upload_xml: ✗ 294N (Tiny ID: 345018351): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></registroCriado></registro></registros></retorno>\n'}
+2025-12-03 09:57:52,040 [INFO] tiny_api: informar_custo: idProduto=345018354, quantidade=0.0000, custo=26.8371
+2025-12-03 09:57:52,870 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:57:54,701 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:57:56,569 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:57:56,576 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: idProduto=345018354
+2025-12-03 09:57:56,579 [WARNING] page_upload_xml: ✗ 294V (Tiny ID: 345018354): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></registroCriado></registro></registros></retorno>\n'}
+2025-12-03 09:57:56,890 [INFO] tiny_api: informar_custo: idProduto=345018357, quantidade=0.0000, custo=32.0985
+2025-12-03 09:57:59,174 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>353766472</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCria
+2025-12-03 09:58:01,203 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:58:03,173 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:58:03,174 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: idProduto=345018357
+2025-12-03 09:58:03,176 [WARNING] page_upload_xml: ✗ 295N (Tiny ID: 345018357): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></registroCriado></registro></registros></retorno>\n'}
+2025-12-03 09:58:03,478 [INFO] tiny_api: informar_custo: idProduto=345018360, quantidade=0.0000, custo=32.0985
+2025-12-03 09:58:04,444 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:58:06,366 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:58:08,337 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:58:08,337 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: idProduto=345018360
+2025-12-03 09:58:08,339 [WARNING] page_upload_xml: ✗ 295V (Tiny ID: 345018360): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></registroCriado></registro></registros></retorno>\n'}
+2025-12-03 09:58:08,641 [INFO] tiny_api: informar_custo: idProduto=345018363, quantidade=0.0000, custo=26.8371
+2025-12-03 09:58:09,576 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:58:11,567 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:58:13,471 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:58:13,472 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: idProduto=345018363
+2025-12-03 09:58:13,474 [WARNING] page_upload_xml: ✗ 299F (Tiny ID: 345018363): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></registroCriado></registro></registros></retorno>\n'}
+2025-12-03 09:58:13,775 [INFO] tiny_api: informar_custo: idProduto=342644905, quantidade=0.0000, custo=38.3221
+2025-12-03 09:58:15,642 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>353766527</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCria
+2025-12-03 09:58:17,521 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:58:19,368 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:58:19,369 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: idProduto=342644905
+2025-12-03 09:58:19,371 [WARNING] page_upload_xml: ✗ 424 (Tiny ID: 342644905): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></registroCriado></registro></registros></retorno>\n'}
+2025-12-03 09:58:19,673 [INFO] tiny_api: informar_custo: idProduto=349118694, quantidade=0.0000, custo=67.6409
+2025-12-03 09:58:21,538 [WARNING] tiny_api: Tentativa 1 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>353766550</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCria
+2025-12-03 09:58:23,328 [WARNING] tiny_api: Tentativa 2 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:58:25,146 [WARNING] tiny_api: Tentativa 3 falhou: status=None, cod_erro=None, http=200, resp={'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></reg
+2025-12-03 09:58:25,147 [ERROR] tiny_api: ✗ Falha ao informar custo após 3 tentativas: idProduto=349118694
+2025-12-03 09:58:25,150 [WARNING] page_upload_xml: ✗ 426 (Tiny ID: 349118694): {'erro': True, 'mensagem': '<?xml version="1.0" encoding="UTF-8"?>\n<retorno><status_processamento>3</status_processamento><status>OK</status><registros><registro><sequencia>1</sequencia><status>OK</status><id>0</id><saldoEstoque>0</saldoEstoque><saldoReservado></saldoReservado><registroCriado></registroCriado></registro></registros></retorno>\n'}
+2025-12-03 10:01:41,328 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 10:01:41,610 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:01:45,086 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:01:59,090 [INFO] tiny_api: informar_custo: idProduto=352716722, quantidade=0.0000, custo=21.3199
+2025-12-03 10:02:00,273 [INFO] tiny_api: ✓ Custo informado: idProduto=352716722, custo=21.3199, quantidade=0.0000
+2025-12-03 10:02:00,276 [INFO] page_upload_xml: ✓ 1041 (Tiny ID: 352716722): R$ 21.3199
+2025-12-03 10:02:00,578 [INFO] tiny_api: informar_custo: idProduto=352716729, quantidade=0.0000, custo=21.3199
+2025-12-03 10:02:01,624 [INFO] tiny_api: ✓ Custo informado: idProduto=352716729, custo=21.3199, quantidade=0.0000
+2025-12-03 10:02:01,626 [INFO] page_upload_xml: ✓ 1103 (Tiny ID: 352716729): R$ 21.3199
+2025-12-03 10:02:01,928 [INFO] tiny_api: informar_custo: idProduto=352716733, quantidade=0.0000, custo=28.7534
+2025-12-03 10:02:02,959 [INFO] tiny_api: ✓ Custo informado: idProduto=352716733, custo=28.7534, quantidade=0.0000
+2025-12-03 10:02:02,961 [INFO] page_upload_xml: ✓ 1109 (Tiny ID: 352716733): R$ 28.7534
+2025-12-03 10:02:03,262 [INFO] tiny_api: informar_custo: idProduto=345018348, quantidade=0.0000, custo=32.0985
+2025-12-03 10:02:04,246 [INFO] tiny_api: ✓ Custo informado: idProduto=345018348, custo=32.0985, quantidade=0.0000
+2025-12-03 10:02:04,248 [INFO] page_upload_xml: ✓ 247F (Tiny ID: 345018348): R$ 32.0985
+2025-12-03 10:02:04,550 [INFO] tiny_api: informar_custo: idProduto=345018351, quantidade=0.0000, custo=26.8371
+2025-12-03 10:02:05,517 [INFO] tiny_api: ✓ Custo informado: idProduto=345018351, custo=26.8371, quantidade=0.0000
+2025-12-03 10:02:05,518 [INFO] page_upload_xml: ✓ 294N (Tiny ID: 345018351): R$ 26.8371
+2025-12-03 10:02:05,821 [INFO] tiny_api: informar_custo: idProduto=345018354, quantidade=0.0000, custo=26.8371
+2025-12-03 10:02:06,833 [INFO] tiny_api: ✓ Custo informado: idProduto=345018354, custo=26.8371, quantidade=0.0000
+2025-12-03 10:02:06,836 [INFO] page_upload_xml: ✓ 294V (Tiny ID: 345018354): R$ 26.8371
+2025-12-03 10:02:07,138 [INFO] tiny_api: informar_custo: idProduto=345018357, quantidade=0.0000, custo=32.0985
+2025-12-03 10:02:08,112 [INFO] tiny_api: ✓ Custo informado: idProduto=345018357, custo=32.0985, quantidade=0.0000
+2025-12-03 10:02:08,113 [INFO] page_upload_xml: ✓ 295N (Tiny ID: 345018357): R$ 32.0985
+2025-12-03 10:02:08,414 [INFO] tiny_api: informar_custo: idProduto=345018360, quantidade=0.0000, custo=32.0985
+2025-12-03 10:02:09,547 [INFO] tiny_api: ✓ Custo informado: idProduto=345018360, custo=32.0985, quantidade=0.0000
+2025-12-03 10:02:09,549 [INFO] page_upload_xml: ✓ 295V (Tiny ID: 345018360): R$ 32.0985
+2025-12-03 10:02:09,850 [INFO] tiny_api: informar_custo: idProduto=345018363, quantidade=0.0000, custo=26.8371
+2025-12-03 10:02:10,788 [INFO] tiny_api: ✓ Custo informado: idProduto=345018363, custo=26.8371, quantidade=0.0000
+2025-12-03 10:02:10,789 [INFO] page_upload_xml: ✓ 299F (Tiny ID: 345018363): R$ 26.8371
+2025-12-03 10:02:11,091 [INFO] tiny_api: informar_custo: idProduto=342644905, quantidade=0.0000, custo=38.3221
+2025-12-03 10:02:12,132 [INFO] tiny_api: ✓ Custo informado: idProduto=342644905, custo=38.3221, quantidade=0.0000
+2025-12-03 10:02:12,134 [INFO] page_upload_xml: ✓ 424 (Tiny ID: 342644905): R$ 38.3221
+2025-12-03 10:02:12,436 [INFO] tiny_api: informar_custo: idProduto=349118694, quantidade=0.0000, custo=67.6409
+2025-12-03 10:02:13,529 [INFO] tiny_api: ✓ Custo informado: idProduto=349118694, custo=67.6409, quantidade=0.0000
+2025-12-03 10:02:13,532 [INFO] page_upload_xml: ✓ 426 (Tiny ID: 349118694): R$ 67.6409
+2025-12-03 10:16:40,694 [INFO] root: Logging inicializado.
+2025-12-03 10:16:40,701 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 10:16:40,706 [INFO] root: Streamlit page config OK
+2025-12-03 10:16:40,823 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 10:17:18,370 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:17:33,834 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:17:33,992 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:17:55,350 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:19:07,230 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 10:19:07,436 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:19:10,599 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:19:10,623 [INFO] modules.nfe_modifier: SKU 1035: vUnCom 13.4800000000 → 21.3199157948
+2025-12-03 10:19:10,625 [INFO] modules.nfe_modifier: SKU 1035: vProd recalculado = 127.92
+2025-12-03 10:19:10,626 [INFO] modules.nfe_modifier: SKU 1041: vUnCom 13.4800000000 → 21.3199157948
+2025-12-03 10:19:10,626 [INFO] modules.nfe_modifier: SKU 1041: vProd recalculado = 127.92
+2025-12-03 10:19:10,627 [INFO] modules.nfe_modifier: SKU 1103: vUnCom 13.4800000000 → 21.3199157948
+2025-12-03 10:19:10,627 [INFO] modules.nfe_modifier: SKU 1103: vProd recalculado = 127.92
+2025-12-03 10:19:10,628 [INFO] modules.nfe_modifier: SKU 1109: vUnCom 18.1800000000 → 28.7534175927
+2025-12-03 10:19:10,629 [INFO] modules.nfe_modifier: SKU 1109: vProd recalculado = 172.52
+2025-12-03 10:19:10,629 [INFO] modules.nfe_modifier: SKU 247F: vUnCom 20.2950000000 → 32.0984934017
+2025-12-03 10:19:10,630 [INFO] modules.nfe_modifier: SKU 247F: vProd recalculado = 385.18
+2025-12-03 10:19:10,630 [INFO] modules.nfe_modifier: SKU 294N: vUnCom 16.9683333333 → 26.8370502851
+2025-12-03 10:19:10,631 [INFO] modules.nfe_modifier: SKU 294N: vProd recalculado = 161.02
+2025-12-03 10:19:10,632 [INFO] modules.nfe_modifier: SKU 294V: vUnCom 16.9683333333 → 26.8370502851
+2025-12-03 10:19:10,632 [INFO] modules.nfe_modifier: SKU 294V: vProd recalculado = 161.02
+2025-12-03 10:19:10,633 [INFO] modules.nfe_modifier: SKU 295N: vUnCom 20.2950000000 → 32.0984934017
+2025-12-03 10:19:10,633 [INFO] modules.nfe_modifier: SKU 295N: vProd recalculado = 385.18
+2025-12-03 10:19:10,634 [INFO] modules.nfe_modifier: SKU 295V: vUnCom 20.2950000000 → 32.0984934017
+2025-12-03 10:19:10,634 [INFO] modules.nfe_modifier: SKU 295V: vProd recalculado = 385.18
+2025-12-03 10:19:10,635 [INFO] modules.nfe_modifier: SKU 299F: vUnCom 16.9683333333 → 26.8370502851
+2025-12-03 10:19:10,635 [INFO] modules.nfe_modifier: SKU 299F: vProd recalculado = 161.02
+2025-12-03 10:19:10,636 [INFO] modules.nfe_modifier: SKU 424: vUnCom 24.2300000000 → 38.3220741623
+2025-12-03 10:19:10,636 [INFO] modules.nfe_modifier: SKU 424: vProd recalculado = 153.29
+2025-12-03 10:19:10,636 [INFO] modules.nfe_modifier: SKU 425: vUnCom 31.3600000000 → 49.5988545493
+2025-12-03 10:19:10,637 [INFO] modules.nfe_modifier: SKU 425: vProd recalculado = 595.19
+2025-12-03 10:19:10,637 [INFO] modules.nfe_modifier: SKU 426: vUnCom 42.7675000000 → 67.6409123704
+2025-12-03 10:19:10,638 [INFO] modules.nfe_modifier: SKU 426: vProd recalculado = 811.69
+2025-12-03 10:19:10,638 [INFO] modules.nfe_modifier: XML modificado: 13 itens alterados
+2025-12-03 10:19:11,618 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:19:13,335 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:19:15,018 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:21:07,173 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 10:21:07,519 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:21:11,151 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:21:11,191 [INFO] modules.nfe_modifier: SKU 1035: vUnCom 13.4800000000 → 21.3199157948
+2025-12-03 10:21:11,192 [INFO] modules.nfe_modifier: SKU 1035: vProd recalculado = 127.92
+2025-12-03 10:21:11,192 [INFO] modules.nfe_modifier: SKU 1041: vUnCom 13.4800000000 → 21.3199157948
+2025-12-03 10:21:11,193 [INFO] modules.nfe_modifier: SKU 1041: vProd recalculado = 127.92
+2025-12-03 10:21:11,193 [INFO] modules.nfe_modifier: SKU 1103: vUnCom 13.4800000000 → 21.3199157948
+2025-12-03 10:21:11,194 [INFO] modules.nfe_modifier: SKU 1103: vProd recalculado = 127.92
+2025-12-03 10:21:11,195 [INFO] modules.nfe_modifier: SKU 1109: vUnCom 18.1800000000 → 28.7534175927
+2025-12-03 10:21:11,196 [INFO] modules.nfe_modifier: SKU 1109: vProd recalculado = 172.52
+2025-12-03 10:21:11,196 [INFO] modules.nfe_modifier: SKU 247F: vUnCom 20.2950000000 → 32.0984934017
+2025-12-03 10:21:11,197 [INFO] modules.nfe_modifier: SKU 247F: vProd recalculado = 385.18
+2025-12-03 10:21:11,197 [INFO] modules.nfe_modifier: SKU 294N: vUnCom 16.9683333333 → 26.8370502851
+2025-12-03 10:21:11,198 [INFO] modules.nfe_modifier: SKU 294N: vProd recalculado = 161.02
+2025-12-03 10:21:11,199 [INFO] modules.nfe_modifier: SKU 294V: vUnCom 16.9683333333 → 26.8370502851
+2025-12-03 10:21:11,199 [INFO] modules.nfe_modifier: SKU 294V: vProd recalculado = 161.02
+2025-12-03 10:21:11,200 [INFO] modules.nfe_modifier: SKU 295N: vUnCom 20.2950000000 → 32.0984934017
+2025-12-03 10:21:11,200 [INFO] modules.nfe_modifier: SKU 295N: vProd recalculado = 385.18
+2025-12-03 10:21:11,201 [INFO] modules.nfe_modifier: SKU 295V: vUnCom 20.2950000000 → 32.0984934017
+2025-12-03 10:21:11,201 [INFO] modules.nfe_modifier: SKU 295V: vProd recalculado = 385.18
+2025-12-03 10:21:11,202 [INFO] modules.nfe_modifier: SKU 299F: vUnCom 16.9683333333 → 26.8370502851
+2025-12-03 10:21:11,202 [INFO] modules.nfe_modifier: SKU 299F: vProd recalculado = 161.02
+2025-12-03 10:21:11,203 [INFO] modules.nfe_modifier: SKU 424: vUnCom 24.2300000000 → 38.3220741623
+2025-12-03 10:21:11,203 [INFO] modules.nfe_modifier: SKU 424: vProd recalculado = 153.29
+2025-12-03 10:21:11,204 [INFO] modules.nfe_modifier: SKU 425: vUnCom 31.3600000000 → 49.5988545493
+2025-12-03 10:21:11,204 [INFO] modules.nfe_modifier: SKU 425: vProd recalculado = 595.19
+2025-12-03 10:21:11,205 [INFO] modules.nfe_modifier: SKU 426: vUnCom 42.7675000000 → 67.6409123704
+2025-12-03 10:21:11,205 [INFO] modules.nfe_modifier: SKU 426: vProd recalculado = 811.69
+2025-12-03 10:21:11,206 [INFO] modules.nfe_modifier: XML modificado: 13 itens alterados
+2025-12-03 10:21:12,062 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:21:13,952 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:21:15,682 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:25:42,465 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 10:25:42,760 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:25:52,016 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:25:52,040 [INFO] modules.nfe_modifier: SKU 1035: vUnCom 13.4800000000 → 21.3199157948
+2025-12-03 10:25:52,040 [INFO] modules.nfe_modifier: SKU 1035: vProd recalculado = 127.92
+2025-12-03 10:25:52,041 [INFO] modules.nfe_modifier: SKU 1041: vUnCom 13.4800000000 → 21.3199157948
+2025-12-03 10:25:52,041 [INFO] modules.nfe_modifier: SKU 1041: vProd recalculado = 127.92
+2025-12-03 10:25:52,042 [INFO] modules.nfe_modifier: SKU 1103: vUnCom 13.4800000000 → 21.3199157948
+2025-12-03 10:25:52,042 [INFO] modules.nfe_modifier: SKU 1103: vProd recalculado = 127.92
+2025-12-03 10:25:52,043 [INFO] modules.nfe_modifier: SKU 1109: vUnCom 18.1800000000 → 28.7534175927
+2025-12-03 10:25:52,043 [INFO] modules.nfe_modifier: SKU 1109: vProd recalculado = 172.52
+2025-12-03 10:25:52,043 [INFO] modules.nfe_modifier: SKU 247F: vUnCom 20.2950000000 → 32.0984934017
+2025-12-03 10:25:52,044 [INFO] modules.nfe_modifier: SKU 247F: vProd recalculado = 385.18
+2025-12-03 10:25:52,045 [INFO] modules.nfe_modifier: SKU 294N: vUnCom 16.9683333333 → 26.8370502851
+2025-12-03 10:25:52,045 [INFO] modules.nfe_modifier: SKU 294N: vProd recalculado = 161.02
+2025-12-03 10:25:52,045 [INFO] modules.nfe_modifier: SKU 294V: vUnCom 16.9683333333 → 26.8370502851
+2025-12-03 10:25:52,046 [INFO] modules.nfe_modifier: SKU 294V: vProd recalculado = 161.02
+2025-12-03 10:25:52,047 [INFO] modules.nfe_modifier: SKU 295N: vUnCom 20.2950000000 → 32.0984934017
+2025-12-03 10:25:52,047 [INFO] modules.nfe_modifier: SKU 295N: vProd recalculado = 385.18
+2025-12-03 10:25:52,048 [INFO] modules.nfe_modifier: SKU 295V: vUnCom 20.2950000000 → 32.0984934017
+2025-12-03 10:25:52,048 [INFO] modules.nfe_modifier: SKU 295V: vProd recalculado = 385.18
+2025-12-03 10:25:52,048 [INFO] modules.nfe_modifier: SKU 299F: vUnCom 16.9683333333 → 26.8370502851
+2025-12-03 10:25:52,048 [INFO] modules.nfe_modifier: SKU 299F: vProd recalculado = 161.02
+2025-12-03 10:25:52,048 [INFO] modules.nfe_modifier: SKU 424: vUnCom 24.2300000000 → 38.3220741623
+2025-12-03 10:25:52,049 [INFO] modules.nfe_modifier: SKU 424: vProd recalculado = 153.29
+2025-12-03 10:25:52,049 [INFO] modules.nfe_modifier: SKU 425: vUnCom 31.3600000000 → 49.5988545493
+2025-12-03 10:25:52,049 [INFO] modules.nfe_modifier: SKU 425: vProd recalculado = 595.19
+2025-12-03 10:25:52,049 [INFO] modules.nfe_modifier: SKU 426: vUnCom 42.7675000000 → 67.6409123704
+2025-12-03 10:25:52,050 [INFO] modules.nfe_modifier: SKU 426: vProd recalculado = 811.69
+2025-12-03 10:25:52,050 [INFO] modules.nfe_modifier: XML modificado: 13 itens alterados
+2025-12-03 10:25:52,826 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:25:54,500 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:25:56,270 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:26:14,175 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:26:29,239 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:26:49,226 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:26:50,954 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:26:50,970 [INFO] modules.nfe_modifier: SKU 1035: vUnCom 13.4800000000 → 21.3199157948
+2025-12-03 10:26:50,970 [INFO] modules.nfe_modifier: SKU 1035: vProd recalculado = 127.92
+2025-12-03 10:26:50,971 [INFO] modules.nfe_modifier: SKU 1041: vUnCom 13.4800000000 → 21.3199157948
+2025-12-03 10:26:50,972 [INFO] modules.nfe_modifier: SKU 1041: vProd recalculado = 127.92
+2025-12-03 10:26:50,972 [INFO] modules.nfe_modifier: SKU 1103: vUnCom 13.4800000000 → 21.3199157948
+2025-12-03 10:26:50,973 [INFO] modules.nfe_modifier: SKU 1103: vProd recalculado = 127.92
+2025-12-03 10:26:50,973 [INFO] modules.nfe_modifier: SKU 1109: vUnCom 18.1800000000 → 28.7534175927
+2025-12-03 10:26:50,973 [INFO] modules.nfe_modifier: SKU 1109: vProd recalculado = 172.52
+2025-12-03 10:26:50,974 [INFO] modules.nfe_modifier: SKU 247F: vUnCom 20.2950000000 → 32.0984934017
+2025-12-03 10:26:50,974 [INFO] modules.nfe_modifier: SKU 247F: vProd recalculado = 385.18
+2025-12-03 10:26:50,974 [INFO] modules.nfe_modifier: SKU 294N: vUnCom 16.9683333333 → 26.8370502851
+2025-12-03 10:26:50,975 [INFO] modules.nfe_modifier: SKU 294N: vProd recalculado = 161.02
+2025-12-03 10:26:50,975 [INFO] modules.nfe_modifier: SKU 294V: vUnCom 16.9683333333 → 26.8370502851
+2025-12-03 10:26:50,975 [INFO] modules.nfe_modifier: SKU 294V: vProd recalculado = 161.02
+2025-12-03 10:26:50,975 [INFO] modules.nfe_modifier: SKU 295N: vUnCom 20.2950000000 → 32.0984934017
+2025-12-03 10:26:50,975 [INFO] modules.nfe_modifier: SKU 295N: vProd recalculado = 385.18
+2025-12-03 10:26:50,976 [INFO] modules.nfe_modifier: SKU 295V: vUnCom 20.2950000000 → 32.0984934017
+2025-12-03 10:26:50,976 [INFO] modules.nfe_modifier: SKU 295V: vProd recalculado = 385.18
+2025-12-03 10:26:50,977 [INFO] modules.nfe_modifier: SKU 299F: vUnCom 16.9683333333 → 26.8370502851
+2025-12-03 10:26:50,977 [INFO] modules.nfe_modifier: SKU 299F: vProd recalculado = 161.02
+2025-12-03 10:26:50,978 [INFO] modules.nfe_modifier: SKU 424: vUnCom 24.2300000000 → 38.3220741623
+2025-12-03 10:26:50,978 [INFO] modules.nfe_modifier: SKU 424: vProd recalculado = 153.29
+2025-12-03 10:26:50,978 [INFO] modules.nfe_modifier: SKU 425: vUnCom 31.3600000000 → 49.5988545493
+2025-12-03 10:26:50,979 [INFO] modules.nfe_modifier: SKU 425: vProd recalculado = 595.19
+2025-12-03 10:26:50,980 [INFO] modules.nfe_modifier: SKU 426: vUnCom 42.7675000000 → 67.6409123704
+2025-12-03 10:26:50,981 [INFO] modules.nfe_modifier: SKU 426: vProd recalculado = 811.69
+2025-12-03 10:26:50,981 [INFO] modules.nfe_modifier: XML modificado: 13 itens alterados
+2025-12-03 10:26:51,789 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:26:53,507 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:26:55,263 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:32:52,852 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 10:32:53,446 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:33:10,381 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:33:12,228 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:33:27,144 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:33:39,282 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:33:45,261 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:36:03,497 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:36:06,506 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:36:10,967 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:36:11,242 [INFO] modules.nfe_generator: XML NF-e gerada: 13 itens, total R$ 3755.06
+2025-12-03 10:36:12,128 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:36:14,254 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:36:16,017 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:36:41,604 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:36:43,020 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:36:43,037 [INFO] modules.nfe_generator: XML NF-e gerada: 13 itens, total R$ 3755.06
+2025-12-03 10:36:43,839 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:36:45,503 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:36:47,163 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:39:16,740 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 10:39:18,744 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:39:42,796 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:39:42,847 [WARNING] modules.nfe_modifier: SKU 1035 não tem custo calculado, mantendo valor original
+2025-12-03 10:39:42,847 [WARNING] modules.nfe_modifier: SKU 1041 não tem custo calculado, mantendo valor original
+2025-12-03 10:39:42,848 [WARNING] modules.nfe_modifier: SKU 1103 não tem custo calculado, mantendo valor original
+2025-12-03 10:39:42,848 [WARNING] modules.nfe_modifier: SKU 1109 não tem custo calculado, mantendo valor original
+2025-12-03 10:39:42,849 [WARNING] modules.nfe_modifier: SKU 247F não tem custo calculado, mantendo valor original
+2025-12-03 10:39:42,849 [WARNING] modules.nfe_modifier: SKU 294N não tem custo calculado, mantendo valor original
+2025-12-03 10:39:42,850 [WARNING] modules.nfe_modifier: SKU 294V não tem custo calculado, mantendo valor original
+2025-12-03 10:39:42,851 [WARNING] modules.nfe_modifier: SKU 295N não tem custo calculado, mantendo valor original
+2025-12-03 10:39:42,851 [WARNING] modules.nfe_modifier: SKU 295V não tem custo calculado, mantendo valor original
+2025-12-03 10:39:42,852 [WARNING] modules.nfe_modifier: SKU 299F não tem custo calculado, mantendo valor original
+2025-12-03 10:39:42,852 [WARNING] modules.nfe_modifier: SKU 424 não tem custo calculado, mantendo valor original
+2025-12-03 10:39:42,852 [WARNING] modules.nfe_modifier: SKU 425 não tem custo calculado, mantendo valor original
+2025-12-03 10:39:42,853 [WARNING] modules.nfe_modifier: SKU 426 não tem custo calculado, mantendo valor original
+2025-12-03 10:39:42,853 [INFO] modules.nfe_modifier: XML modificado: 0 itens alterados
+2025-12-03 10:39:43,660 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:39:45,387 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:39:47,094 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:40:25,195 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:40:27,185 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:40:27,208 [INFO] modules.nfe_generator: XML NF-e gerada: 13 itens, total R$ 3755.06
+2025-12-03 10:40:28,012 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:40:29,680 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:40:31,378 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 10:40:37,139 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:42:35,775 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 10:42:35,985 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:42:40,137 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:42:40,166 [WARNING] modules.nfe_modifier: SKU 1035 não tem custo calculado, mantendo valor original
+2025-12-03 10:42:40,167 [WARNING] modules.nfe_modifier: SKU 1041 não tem custo calculado, mantendo valor original
+2025-12-03 10:42:40,167 [WARNING] modules.nfe_modifier: SKU 1103 não tem custo calculado, mantendo valor original
+2025-12-03 10:42:40,167 [WARNING] modules.nfe_modifier: SKU 1109 não tem custo calculado, mantendo valor original
+2025-12-03 10:42:40,168 [WARNING] modules.nfe_modifier: SKU 247F não tem custo calculado, mantendo valor original
+2025-12-03 10:42:40,168 [WARNING] modules.nfe_modifier: SKU 294N não tem custo calculado, mantendo valor original
+2025-12-03 10:42:40,169 [WARNING] modules.nfe_modifier: SKU 294V não tem custo calculado, mantendo valor original
+2025-12-03 10:42:40,170 [WARNING] modules.nfe_modifier: SKU 295N não tem custo calculado, mantendo valor original
+2025-12-03 10:42:40,170 [WARNING] modules.nfe_modifier: SKU 295V não tem custo calculado, mantendo valor original
+2025-12-03 10:42:40,171 [WARNING] modules.nfe_modifier: SKU 299F não tem custo calculado, mantendo valor original
+2025-12-03 10:42:40,171 [WARNING] modules.nfe_modifier: SKU 424 não tem custo calculado, mantendo valor original
+2025-12-03 10:42:40,172 [WARNING] modules.nfe_modifier: SKU 425 não tem custo calculado, mantendo valor original
+2025-12-03 10:42:40,172 [WARNING] modules.nfe_modifier: SKU 426 não tem custo calculado, mantendo valor original
+2025-12-03 10:42:40,173 [INFO] modules.nfe_modifier: XML modificado: 0 itens alterados
+2025-12-03 10:44:19,025 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 10:44:19,348 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:44:36,262 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 10:44:36,344 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:44:50,807 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:48:52,262 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 10:48:52,433 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:49:07,699 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:49:07,752 [WARNING] modules.nfe_modifier: Código 1035 não tem custo calculado, mantendo valor original
+2025-12-03 10:49:07,753 [WARNING] modules.nfe_modifier: Código 1041 não tem custo calculado, mantendo valor original
+2025-12-03 10:49:07,754 [WARNING] modules.nfe_modifier: Código 1103 não tem custo calculado, mantendo valor original
+2025-12-03 10:49:07,756 [WARNING] modules.nfe_modifier: Código 1109 não tem custo calculado, mantendo valor original
+2025-12-03 10:49:07,757 [WARNING] modules.nfe_modifier: Código 247F não tem custo calculado, mantendo valor original
+2025-12-03 10:49:07,758 [WARNING] modules.nfe_modifier: Código 294N não tem custo calculado, mantendo valor original
+2025-12-03 10:49:07,759 [WARNING] modules.nfe_modifier: Código 294V não tem custo calculado, mantendo valor original
+2025-12-03 10:49:07,760 [WARNING] modules.nfe_modifier: Código 295N não tem custo calculado, mantendo valor original
+2025-12-03 10:49:07,763 [WARNING] modules.nfe_modifier: Código 295V não tem custo calculado, mantendo valor original
+2025-12-03 10:49:07,763 [WARNING] modules.nfe_modifier: Código 299F não tem custo calculado, mantendo valor original
+2025-12-03 10:49:07,764 [WARNING] modules.nfe_modifier: Código 424 não tem custo calculado, mantendo valor original
+2025-12-03 10:49:07,765 [WARNING] modules.nfe_modifier: Código 425 não tem custo calculado, mantendo valor original
+2025-12-03 10:49:07,766 [WARNING] modules.nfe_modifier: Código 426 não tem custo calculado, mantendo valor original
+2025-12-03 10:49:07,766 [INFO] modules.nfe_modifier: XML modificado: 0 itens alterados
+2025-12-03 10:50:06,490 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 10:50:06,637 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:54:25,710 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:54:25,773 [INFO] modules.nfe_modifier: Código 1035: vUnCom 13.4800000000 → 21.3199
+2025-12-03 10:54:25,773 [INFO] modules.nfe_modifier: Código 1035: vProd recalculado = 127.92
+2025-12-03 10:54:25,774 [INFO] modules.nfe_modifier: Código 1041: vUnCom 13.4800000000 → 21.3199
+2025-12-03 10:54:25,775 [INFO] modules.nfe_modifier: Código 1041: vProd recalculado = 127.92
+2025-12-03 10:54:25,775 [INFO] modules.nfe_modifier: Código 1103: vUnCom 13.4800000000 → 21.3199
+2025-12-03 10:54:25,776 [INFO] modules.nfe_modifier: Código 1103: vProd recalculado = 127.92
+2025-12-03 10:54:25,776 [INFO] modules.nfe_modifier: Código 1109: vUnCom 18.1800000000 → 28.7534
+2025-12-03 10:54:25,776 [INFO] modules.nfe_modifier: Código 1109: vProd recalculado = 172.52
+2025-12-03 10:54:25,777 [INFO] modules.nfe_modifier: Código 247F: vUnCom 20.2950000000 → 32.0985
+2025-12-03 10:54:25,777 [INFO] modules.nfe_modifier: Código 247F: vProd recalculado = 385.18
+2025-12-03 10:54:25,777 [INFO] modules.nfe_modifier: Código 294N: vUnCom 16.9683333333 → 26.8371
+2025-12-03 10:54:25,778 [INFO] modules.nfe_modifier: Código 294N: vProd recalculado = 161.02
+2025-12-03 10:54:25,778 [INFO] modules.nfe_modifier: Código 294V: vUnCom 16.9683333333 → 26.8371
+2025-12-03 10:54:25,778 [INFO] modules.nfe_modifier: Código 294V: vProd recalculado = 161.02
+2025-12-03 10:54:25,779 [INFO] modules.nfe_modifier: Código 295N: vUnCom 20.2950000000 → 32.0985
+2025-12-03 10:54:25,779 [INFO] modules.nfe_modifier: Código 295N: vProd recalculado = 385.18
+2025-12-03 10:54:25,780 [INFO] modules.nfe_modifier: Código 295V: vUnCom 20.2950000000 → 32.0985
+2025-12-03 10:54:25,780 [INFO] modules.nfe_modifier: Código 295V: vProd recalculado = 385.18
+2025-12-03 10:54:25,781 [INFO] modules.nfe_modifier: Código 299F: vUnCom 16.9683333333 → 26.8371
+2025-12-03 10:54:25,781 [INFO] modules.nfe_modifier: Código 299F: vProd recalculado = 161.02
+2025-12-03 10:54:25,781 [INFO] modules.nfe_modifier: Código 424: vUnCom 24.2300000000 → 38.3221
+2025-12-03 10:54:25,782 [INFO] modules.nfe_modifier: Código 424: vProd recalculado = 153.29
+2025-12-03 10:54:25,782 [INFO] modules.nfe_modifier: Código 425: vUnCom 31.3600000000 → 49.5989
+2025-12-03 10:54:25,783 [INFO] modules.nfe_modifier: Código 425: vProd recalculado = 595.19
+2025-12-03 10:54:25,783 [INFO] modules.nfe_modifier: Código 426: vUnCom 42.7675000000 → 67.6409
+2025-12-03 10:54:25,783 [INFO] modules.nfe_modifier: Código 426: vProd recalculado = 811.69
+2025-12-03 10:54:25,784 [INFO] modules.nfe_modifier: XML modificado: 13 itens alterados
+2025-12-03 10:55:36,970 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:56:51,672 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 10:56:51,848 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:57:05,736 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 10:57:05,908 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:58:26,261 [INFO] root: Logging inicializado.
+2025-12-03 10:58:26,283 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 10:58:26,285 [INFO] root: Streamlit page config OK
+2025-12-03 10:58:26,326 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 10:58:41,457 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:58:48,914 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:59:09,778 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 10:59:09,827 [INFO] modules.nfe_modifier: Código 1035: vUnCom 13.4800000000 → 21.3199
+2025-12-03 10:59:09,829 [INFO] modules.nfe_modifier: Código 1035: vProd recalculado = 127.92
+2025-12-03 10:59:09,829 [INFO] modules.nfe_modifier: Código 1041: vUnCom 13.4800000000 → 21.3199
+2025-12-03 10:59:09,830 [INFO] modules.nfe_modifier: Código 1041: vProd recalculado = 127.92
+2025-12-03 10:59:09,830 [INFO] modules.nfe_modifier: Código 1103: vUnCom 13.4800000000 → 21.3199
+2025-12-03 10:59:09,830 [INFO] modules.nfe_modifier: Código 1103: vProd recalculado = 127.92
+2025-12-03 10:59:09,831 [INFO] modules.nfe_modifier: Código 1109: vUnCom 18.1800000000 → 28.7534
+2025-12-03 10:59:09,831 [INFO] modules.nfe_modifier: Código 1109: vProd recalculado = 172.52
+2025-12-03 10:59:09,832 [INFO] modules.nfe_modifier: Código 247F: vUnCom 20.2950000000 → 32.0985
+2025-12-03 10:59:09,832 [INFO] modules.nfe_modifier: Código 247F: vProd recalculado = 385.18
+2025-12-03 10:59:09,833 [INFO] modules.nfe_modifier: Código 294N: vUnCom 16.9683333333 → 26.8371
+2025-12-03 10:59:09,833 [INFO] modules.nfe_modifier: Código 294N: vProd recalculado = 161.02
+2025-12-03 10:59:09,833 [INFO] modules.nfe_modifier: Código 294V: vUnCom 16.9683333333 → 26.8371
+2025-12-03 10:59:09,833 [INFO] modules.nfe_modifier: Código 294V: vProd recalculado = 161.02
+2025-12-03 10:59:09,834 [INFO] modules.nfe_modifier: Código 295N: vUnCom 20.2950000000 → 32.0985
+2025-12-03 10:59:09,834 [INFO] modules.nfe_modifier: Código 295N: vProd recalculado = 385.18
+2025-12-03 10:59:09,835 [INFO] modules.nfe_modifier: Código 295V: vUnCom 20.2950000000 → 32.0985
+2025-12-03 10:59:09,836 [INFO] modules.nfe_modifier: Código 295V: vProd recalculado = 385.18
+2025-12-03 10:59:09,836 [INFO] modules.nfe_modifier: Código 299F: vUnCom 16.9683333333 → 26.8371
+2025-12-03 10:59:09,836 [INFO] modules.nfe_modifier: Código 299F: vProd recalculado = 161.02
+2025-12-03 10:59:09,837 [INFO] modules.nfe_modifier: Código 424: vUnCom 24.2300000000 → 38.3221
+2025-12-03 10:59:09,837 [INFO] modules.nfe_modifier: Código 424: vProd recalculado = 153.29
+2025-12-03 10:59:09,837 [INFO] modules.nfe_modifier: Código 425: vUnCom 31.3600000000 → 49.5989
+2025-12-03 10:59:09,838 [INFO] modules.nfe_modifier: Código 425: vProd recalculado = 595.19
+2025-12-03 10:59:09,838 [INFO] modules.nfe_modifier: Código 426: vUnCom 42.7675000000 → 67.6409
+2025-12-03 10:59:09,839 [INFO] modules.nfe_modifier: Código 426: vProd recalculado = 811.69
+2025-12-03 10:59:09,839 [INFO] modules.nfe_modifier: XML modificado: 13 itens alterados
+2025-12-03 11:00:19,641 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:01:07,811 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:01:07,828 [INFO] modules.nfe_modifier: Código 1035: vUnCom 13.4800000000 → 21.3199
+2025-12-03 11:01:07,829 [INFO] modules.nfe_modifier: Código 1035: vProd recalculado = 127.92
+2025-12-03 11:01:07,830 [INFO] modules.nfe_modifier: Código 1041: vUnCom 13.4800000000 → 21.3199
+2025-12-03 11:01:07,830 [INFO] modules.nfe_modifier: Código 1041: vProd recalculado = 127.92
+2025-12-03 11:01:07,831 [INFO] modules.nfe_modifier: Código 1103: vUnCom 13.4800000000 → 21.3199
+2025-12-03 11:01:07,831 [INFO] modules.nfe_modifier: Código 1103: vProd recalculado = 127.92
+2025-12-03 11:01:07,832 [INFO] modules.nfe_modifier: Código 1109: vUnCom 18.1800000000 → 28.7534
+2025-12-03 11:01:07,832 [INFO] modules.nfe_modifier: Código 1109: vProd recalculado = 172.52
+2025-12-03 11:01:07,833 [INFO] modules.nfe_modifier: Código 247F: vUnCom 20.2950000000 → 32.0985
+2025-12-03 11:01:07,833 [INFO] modules.nfe_modifier: Código 247F: vProd recalculado = 385.18
+2025-12-03 11:01:07,834 [INFO] modules.nfe_modifier: Código 294N: vUnCom 16.9683333333 → 26.8371
+2025-12-03 11:01:07,834 [INFO] modules.nfe_modifier: Código 294N: vProd recalculado = 161.02
+2025-12-03 11:01:07,835 [INFO] modules.nfe_modifier: Código 294V: vUnCom 16.9683333333 → 26.8371
+2025-12-03 11:01:07,835 [INFO] modules.nfe_modifier: Código 294V: vProd recalculado = 161.02
+2025-12-03 11:01:07,835 [INFO] modules.nfe_modifier: Código 295N: vUnCom 20.2950000000 → 32.0985
+2025-12-03 11:01:07,836 [INFO] modules.nfe_modifier: Código 295N: vProd recalculado = 385.18
+2025-12-03 11:01:07,836 [INFO] modules.nfe_modifier: Código 295V: vUnCom 20.2950000000 → 32.0985
+2025-12-03 11:01:07,837 [INFO] modules.nfe_modifier: Código 295V: vProd recalculado = 385.18
+2025-12-03 11:01:07,837 [INFO] modules.nfe_modifier: Código 299F: vUnCom 16.9683333333 → 26.8371
+2025-12-03 11:01:07,837 [INFO] modules.nfe_modifier: Código 299F: vProd recalculado = 161.02
+2025-12-03 11:01:07,838 [INFO] modules.nfe_modifier: Código 424: vUnCom 24.2300000000 → 38.3221
+2025-12-03 11:01:07,838 [INFO] modules.nfe_modifier: Código 424: vProd recalculado = 153.29
+2025-12-03 11:01:07,839 [INFO] modules.nfe_modifier: Código 425: vUnCom 31.3600000000 → 49.5989
+2025-12-03 11:01:07,839 [INFO] modules.nfe_modifier: Código 425: vProd recalculado = 595.19
+2025-12-03 11:01:07,840 [INFO] modules.nfe_modifier: Código 426: vUnCom 42.7675000000 → 67.6409
+2025-12-03 11:01:07,840 [INFO] modules.nfe_modifier: Código 426: vProd recalculado = 811.69
+2025-12-03 11:01:07,840 [INFO] modules.nfe_modifier: XML modificado: 13 itens alterados
+2025-12-03 11:01:14,598 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:01:18,120 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:01:18,181 [INFO] modules.nfe_modifier: Código 1035: vUnCom 13.4800000000 → 21.3199
+2025-12-03 11:01:18,217 [INFO] modules.nfe_modifier: Código 1035: vProd recalculado = 127.92
+2025-12-03 11:01:18,236 [INFO] modules.nfe_modifier: Código 1041: vUnCom 13.4800000000 → 21.3199
+2025-12-03 11:01:18,237 [INFO] modules.nfe_modifier: Código 1041: vProd recalculado = 127.92
+2025-12-03 11:01:18,237 [INFO] modules.nfe_modifier: Código 1103: vUnCom 13.4800000000 → 21.3199
+2025-12-03 11:01:18,238 [INFO] modules.nfe_modifier: Código 1103: vProd recalculado = 127.92
+2025-12-03 11:01:18,238 [INFO] modules.nfe_modifier: Código 1109: vUnCom 18.1800000000 → 28.7534
+2025-12-03 11:01:18,239 [INFO] modules.nfe_modifier: Código 1109: vProd recalculado = 172.52
+2025-12-03 11:01:18,240 [INFO] modules.nfe_modifier: Código 247F: vUnCom 20.2950000000 → 32.0985
+2025-12-03 11:01:18,240 [INFO] modules.nfe_modifier: Código 247F: vProd recalculado = 385.18
+2025-12-03 11:01:18,240 [INFO] modules.nfe_modifier: Código 294N: vUnCom 16.9683333333 → 26.8371
+2025-12-03 11:01:18,240 [INFO] modules.nfe_modifier: Código 294N: vProd recalculado = 161.02
+2025-12-03 11:01:18,240 [INFO] modules.nfe_modifier: Código 294V: vUnCom 16.9683333333 → 26.8371
+2025-12-03 11:01:18,241 [INFO] modules.nfe_modifier: Código 294V: vProd recalculado = 161.02
+2025-12-03 11:01:18,241 [INFO] modules.nfe_modifier: Código 295N: vUnCom 20.2950000000 → 32.0985
+2025-12-03 11:01:18,241 [INFO] modules.nfe_modifier: Código 295N: vProd recalculado = 385.18
+2025-12-03 11:01:18,241 [INFO] modules.nfe_modifier: Código 295V: vUnCom 20.2950000000 → 32.0985
+2025-12-03 11:01:18,242 [INFO] modules.nfe_modifier: Código 295V: vProd recalculado = 385.18
+2025-12-03 11:01:18,242 [INFO] modules.nfe_modifier: Código 299F: vUnCom 16.9683333333 → 26.8371
+2025-12-03 11:01:18,242 [INFO] modules.nfe_modifier: Código 299F: vProd recalculado = 161.02
+2025-12-03 11:01:18,242 [INFO] modules.nfe_modifier: Código 424: vUnCom 24.2300000000 → 38.3221
+2025-12-03 11:01:18,243 [INFO] modules.nfe_modifier: Código 424: vProd recalculado = 153.29
+2025-12-03 11:01:18,243 [INFO] modules.nfe_modifier: Código 425: vUnCom 31.3600000000 → 49.5989
+2025-12-03 11:01:18,243 [INFO] modules.nfe_modifier: Código 425: vProd recalculado = 595.19
+2025-12-03 11:01:18,244 [INFO] modules.nfe_modifier: Código 426: vUnCom 42.7675000000 → 67.6409
+2025-12-03 11:01:18,244 [INFO] modules.nfe_modifier: Código 426: vProd recalculado = 811.69
+2025-12-03 11:01:18,244 [INFO] modules.nfe_modifier: XML modificado: 13 itens alterados
+2025-12-03 11:06:38,575 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 11:06:39,159 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:06:55,045 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:06:55,077 [INFO] modules.nfe_modifier: DEBUG: Encontrados 13 itens no XML
+2025-12-03 11:06:55,077 [INFO] modules.nfe_modifier: DEBUG: Dicionário custos tem 13 chaves: ['1035', '1041', '1103', '1109', '247F', '294N', '294V', '295N', '295V', '299F', '424', '425', '426']
+2025-12-03 11:06:55,078 [INFO] modules.nfe_modifier: Código 1035: vUnCom 13.4800000000 → 21.3199
+2025-12-03 11:06:55,078 [INFO] modules.nfe_modifier: Código 1035: vProd recalculado = 127.92
+2025-12-03 11:06:55,078 [INFO] modules.nfe_modifier: Código 1041: vUnCom 13.4800000000 → 21.3199
+2025-12-03 11:06:55,078 [INFO] modules.nfe_modifier: Código 1041: vProd recalculado = 127.92
+2025-12-03 11:06:55,079 [INFO] modules.nfe_modifier: Código 1103: vUnCom 13.4800000000 → 21.3199
+2025-12-03 11:06:55,079 [INFO] modules.nfe_modifier: Código 1103: vProd recalculado = 127.92
+2025-12-03 11:06:55,079 [INFO] modules.nfe_modifier: Código 1109: vUnCom 18.1800000000 → 28.7534
+2025-12-03 11:06:55,079 [INFO] modules.nfe_modifier: Código 1109: vProd recalculado = 172.52
+2025-12-03 11:06:55,080 [INFO] modules.nfe_modifier: Código 247F: vUnCom 20.2950000000 → 32.0985
+2025-12-03 11:06:55,080 [INFO] modules.nfe_modifier: Código 247F: vProd recalculado = 385.18
+2025-12-03 11:06:55,080 [INFO] modules.nfe_modifier: Código 294N: vUnCom 16.9683333333 → 26.8371
+2025-12-03 11:06:55,080 [INFO] modules.nfe_modifier: Código 294N: vProd recalculado = 161.02
+2025-12-03 11:06:55,080 [INFO] modules.nfe_modifier: Código 294V: vUnCom 16.9683333333 → 26.8371
+2025-12-03 11:06:55,081 [INFO] modules.nfe_modifier: Código 294V: vProd recalculado = 161.02
+2025-12-03 11:06:55,081 [INFO] modules.nfe_modifier: Código 295N: vUnCom 20.2950000000 → 32.0985
+2025-12-03 11:06:55,081 [INFO] modules.nfe_modifier: Código 295N: vProd recalculado = 385.18
+2025-12-03 11:06:55,081 [INFO] modules.nfe_modifier: Código 295V: vUnCom 20.2950000000 → 32.0985
+2025-12-03 11:06:55,081 [INFO] modules.nfe_modifier: Código 295V: vProd recalculado = 385.18
+2025-12-03 11:06:55,082 [INFO] modules.nfe_modifier: Código 299F: vUnCom 16.9683333333 → 26.8371
+2025-12-03 11:06:55,082 [INFO] modules.nfe_modifier: Código 299F: vProd recalculado = 161.02
+2025-12-03 11:06:55,082 [INFO] modules.nfe_modifier: Código 424: vUnCom 24.2300000000 → 38.3221
+2025-12-03 11:06:55,082 [INFO] modules.nfe_modifier: Código 424: vProd recalculado = 153.29
+2025-12-03 11:06:55,082 [INFO] modules.nfe_modifier: Código 425: vUnCom 31.3600000000 → 49.5989
+2025-12-03 11:06:55,083 [INFO] modules.nfe_modifier: Código 425: vProd recalculado = 595.19
+2025-12-03 11:06:55,083 [INFO] modules.nfe_modifier: Código 426: vUnCom 42.7675000000 → 67.6409
+2025-12-03 11:06:55,083 [INFO] modules.nfe_modifier: Código 426: vProd recalculado = 811.69
+2025-12-03 11:06:55,084 [INFO] modules.nfe_modifier: XML modificado: 13 itens alterados
+2025-12-03 11:07:07,338 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:07:08,801 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:07:08,833 [INFO] modules.nfe_generator: XML NF-e gerada: 13 itens, total R$ 3755.06
+2025-12-03 11:07:52,772 [INFO] root: Logging inicializado.
+2025-12-03 11:07:52,772 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 11:07:52,773 [INFO] root: Streamlit page config OK
+2025-12-03 11:07:52,780 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 11:08:17,273 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:08:30,105 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:08:36,978 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:08:40,046 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:08:40,981 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:08:41,008 [INFO] modules.nfe_generator: XML NF-e gerada: 13 itens, total R$ 3755.06
+2025-12-03 11:11:10,705 [INFO] root: Logging inicializado.
+2025-12-03 11:11:10,710 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 11:11:10,712 [INFO] root: Streamlit page config OK
+2025-12-03 11:11:10,738 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 11:11:25,727 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 11:11:37,449 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:12:09,003 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:12:21,665 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:12:22,315 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:12:22,391 [INFO] modules.nfe_generator: XML NF-e gerada: 13 itens, total R$ 3755.06
+2025-12-03 11:12:34,567 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:12:34,606 [INFO] modules.nfe_generator: XML NF-e gerada: 13 itens, total R$ 3755.06
+2025-12-03 11:12:35,534 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 11:12:37,276 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 11:12:38,999 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 11:14:09,237 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:14:09,258 [INFO] modules.nfe_generator: XML NF-e gerada: 13 itens, total R$ 3755.06
+2025-12-03 11:14:24,099 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:20:47,939 [INFO] root: Logging inicializado.
+2025-12-03 11:20:47,947 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 11:20:47,949 [INFO] root: Streamlit page config OK
+2025-12-03 11:20:47,983 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 11:20:57,956 [INFO] root: Logging inicializado.
+2025-12-03 11:20:57,957 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 11:20:57,958 [INFO] root: Streamlit page config OK
+2025-12-03 11:20:57,963 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 11:21:07,115 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 11:21:18,642 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:21:22,917 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:21:40,919 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:21:42,192 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:21:43,254 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:24:20,023 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 11:24:20,479 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:39:26,147 [INFO] root: Logging inicializado.
+2025-12-03 11:39:26,189 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 11:39:41,513 [INFO] root: Logging inicializado.
+2025-12-03 11:39:41,515 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 11:39:41,516 [INFO] root: Streamlit page config OK
+2025-12-03 11:39:41,546 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 11:39:56,540 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 11:40:18,735 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:40:24,900 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:40:41,480 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:40:41,592 [INFO] modules.nfe_generator: XML NF-e gerada: 13 itens, total R$ 3755.06
+2025-12-03 11:40:42,981 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:40:43,906 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:40:43,949 [INFO] modules.nfe_generator: XML NF-e gerada: 13 itens, total R$ 3755.06
+2025-12-03 11:40:50,770 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:40:51,466 [INFO] modules.nfe_generator: XML NF-e gerada: 13 itens, total R$ 3755.06
+2025-12-03 11:40:52,368 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 11:40:54,093 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 11:40:55,778 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 11:44:25,403 [INFO] root: Logging inicializado.
+2025-12-03 11:44:25,403 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 11:44:25,404 [INFO] root: Streamlit page config OK
+2025-12-03 11:44:25,424 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 11:44:56,799 [INFO] root: Logging inicializado.
+2025-12-03 11:44:56,799 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 11:44:56,800 [INFO] root: Streamlit page config OK
+2025-12-03 11:44:56,805 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 11:45:16,053 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 11:46:05,668 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:46:12,610 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:46:19,298 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:46:21,048 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:46:21,147 [INFO] modules.nfe_generator: XML NF-e gerada: 13 itens, total R$ 3755.06
+2025-12-03 11:46:39,304 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 11:46:39,723 [INFO] modules.nfe_generator: XML NF-e gerada: 13 itens, total R$ 3755.06
+2025-12-03 11:46:40,534 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 11:46:42,250 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 11:46:43,947 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 11:50:11,964 [INFO] root: Logging inicializado.
+2025-12-03 11:50:11,971 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 11:50:12,001 [INFO] root: Streamlit page config OK
+2025-12-03 11:50:12,183 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 11:50:17,987 [INFO] root: Logging inicializado.
+2025-12-03 11:50:17,987 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 11:50:17,990 [INFO] root: Streamlit page config OK
+2025-12-03 11:50:18,002 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 11:50:18,012 [INFO] root: Logging inicializado.
+2025-12-03 11:50:18,013 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 11:50:18,014 [INFO] root: Streamlit page config OK
+2025-12-03 11:50:18,021 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 12:25:01,262 [INFO] root: Logging inicializado.
+2025-12-03 12:25:01,263 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 12:25:01,264 [INFO] root: Streamlit page config OK
+2025-12-03 12:25:01,284 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 12:25:13,826 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 12:25:24,303 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 12:25:33,349 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 12:25:39,837 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 12:25:39,925 [INFO] modules.nfe_generator: XML NF-e gerada: 13 itens, total R$ 3755.71
+2025-12-03 12:25:41,997 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 12:25:42,045 [INFO] modules.nfe_generator: XML NF-e gerada: 13 itens, total R$ 3755.71
+2025-12-03 12:25:46,610 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 12:25:47,080 [INFO] modules.nfe_generator: XML NF-e gerada: 13 itens, total R$ 3755.71
+2025-12-03 12:25:48,266 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 12:25:50,288 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 12:25:52,312 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 13:10:09,601 [INFO] root: Logging inicializado.
+2025-12-03 13:10:09,602 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 13:10:51,956 [INFO] root: Logging inicializado.
+2025-12-03 13:10:51,976 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 13:10:51,977 [INFO] root: Streamlit page config OK
+2025-12-03 13:10:52,010 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 13:11:08,464 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)

@@ -1,63 +1,9 @@
-# ===== SECURITY: Environment Variables & Secrets =====
-# CRITICAL: Nunca faça commit de arquivos .env que contenham API keys, tokens ou credenciais
-# Esses arquivos devem existir apenas localmente no seu disco
-.env
-.env.local
-.env.*.local
-secrets/
-*.secrets
-config_local.py
-oauth_tokens.json
-
-# ===== SECURITY: API Keys & Tokens =====
-# CRITICAL: Shopee, Tiny, OAuth e outros tokens de terceiros
-# Esses dados foram expostos e devem ser rotacionados IMEDIATAMENTE
-.shopee*
-.tiny*
-*oauth*
-*token*
-*credential*
-*api_key*
-
-# Bancos de dados locais
-*.db
-
-# Testes e coverage
-coverage.xml
-.coverage
-htmlcov/
-
-# Streamlit
-.streamlit/
-
-# Aider AI logs
-.aider.chat.history.md
-.aider.input.history
-.aider.tags.cache.v4/
-
-# Arquivos de sistema temporários
-_pycache_/
-.tmp.driveupload/
-*.log
-
-# Executáveis e scripts locais
-*.bat
-*.vbs
-*.exe
-installed_requirements.json
-agent_monitor_state.json
-
-# Diretórios de build
-build/
-app_universal*/
-SCRIPT XML E XML ALTERADO/
-
-# VSCode & IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Sistema
+venv/ 
+.venv/ 
+__pycache__/ 
+*.pyc 
+.vscode/ 
+.idea/ 
+*.egg-info/ 
+.env 
 .DS_Store
-node_modules/

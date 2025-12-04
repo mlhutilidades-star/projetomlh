@@ -1,0 +1,16 @@
+{
+    "pytest\u003e=7.4.0":  "pytest\u003e=7.4.0",
+    "openpyxl==3.1.2":  "openpyxl==3.1.2",
+    "python-dotenv==1.0.1":  "python-dotenv==1.0.1",
+    "pytest-asyncio\u003e=0.21.0":  "pytest-asyncio\u003e=0.21.0",
+    "plotly==5.18.0":  "plotly==5.18.0",
+    "sqlalchemy":  "sqlalchemy",
+    "Pillow==10.2.0":  "Pillow==10.2.0",
+    "pytesseract==0.3.10":  "pytesseract==0.3.10",
+    "pdf2image==1.17.0":  "pdf2image==1.17.0",
+    "pytest-cov\u003e=4.1.0":  "pytest-cov\u003e=4.1.0",
+    "requests==2.31.0":  "requests==2.31.0",
+    "pandas==2.2.0":  "pandas==2.2.0",
+    "sqlalchemy==2.0.25":  "sqlalchemy==2.0.25",
+    "streamlit==1.31.0":  "streamlit==1.31.0"
+}

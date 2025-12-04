@@ -1,0 +1,683 @@
+2025-12-02 13:10:29,763 [INFO] root: Logging inicializado.
+2025-12-02 13:10:29,765 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 13:10:29,769 [INFO] root: Streamlit page config OK
+2025-12-02 13:10:29,804 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 13:11:10,725 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 13:56:22,959 [INFO] root: Logging inicializado.
+2025-12-02 13:56:22,960 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 13:56:22,961 [INFO] root: Streamlit page config OK
+2025-12-02 13:56:23,032 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 13:59:26,137 [INFO] root: Logging inicializado.
+2025-12-02 13:59:26,138 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 13:59:26,140 [INFO] root: Streamlit page config OK
+2025-12-02 13:59:26,162 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 13:59:33,212 [INFO] root: Logging inicializado.
+2025-12-02 13:59:33,213 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 13:59:33,221 [INFO] root: Streamlit page config OK
+2025-12-02 13:59:33,230 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 13:59:33,277 [INFO] root: Logging inicializado.
+2025-12-02 13:59:33,279 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 13:59:33,287 [INFO] root: Streamlit page config OK
+2025-12-02 13:59:33,293 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 13:59:36,246 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 14:01:11,530 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 14:05:03,078 [INFO] root: Logging inicializado.
+2025-12-02 14:05:03,078 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 14:05:03,079 [INFO] root: Streamlit page config OK
+2025-12-02 14:05:03,087 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 14:05:07,778 [INFO] root: Logging inicializado.
+2025-12-02 14:05:07,778 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 14:05:07,780 [INFO] root: Streamlit page config OK
+2025-12-02 14:05:07,790 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 14:05:09,595 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 14:05:57,213 [INFO] root: Logging inicializado.
+2025-12-02 14:05:57,213 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 14:05:57,214 [INFO] root: Streamlit page config OK
+2025-12-02 14:05:57,219 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 14:06:31,375 [INFO] root: Logging inicializado.
+2025-12-02 14:06:31,375 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 14:06:31,376 [INFO] root: Streamlit page config OK
+2025-12-02 14:06:31,381 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 14:08:41,258 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 14:09:37,639 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 14:13:57,419 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 14:16:16,453 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 14:21:03,116 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 14:24:26,765 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 14:25:58,965 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 15:16:26,266 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 15:17:54,001 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 15:21:06,985 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 15:23:49,606 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 15:25:08,852 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 15:26:09,769 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 15:34:03,954 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 15:36:56,311 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 15:37:04,820 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 15:38:18,113 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 15:46:30,925 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 15:46:39,472 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 15:46:48,873 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 15:47:07,163 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 15:48:01,061 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 15:51:24,558 [INFO] root: Logging inicializado.
+2025-12-02 15:51:24,560 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 15:51:24,561 [INFO] root: Streamlit page config OK
+2025-12-02 15:51:24,586 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 15:51:35,015 [INFO] root: Logging inicializado.
+2025-12-02 15:51:35,016 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 15:51:35,017 [INFO] root: Streamlit page config OK
+2025-12-02 15:51:35,024 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 15:51:36,650 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 16:08:03,161 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 16:09:40,027 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 16:14:01,033 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 16:20:02,046 [INFO] root: Logging inicializado.
+2025-12-02 16:20:02,047 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 16:20:02,049 [INFO] root: Streamlit page config OK
+2025-12-02 16:20:02,075 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 16:20:18,073 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 16:20:20,869 [INFO] root: Logging inicializado.
+2025-12-02 16:20:20,870 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 16:20:20,871 [INFO] root: Streamlit page config OK
+2025-12-02 16:20:20,880 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 16:20:22,306 [INFO] root: Logging inicializado.
+2025-12-02 16:20:22,306 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 16:20:22,308 [INFO] root: Streamlit page config OK
+2025-12-02 16:20:22,314 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 16:24:25,426 [INFO] root: Logging inicializado.
+2025-12-02 16:24:25,432 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 16:24:25,432 [INFO] root: Streamlit page config OK
+2025-12-02 16:24:25,455 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 16:24:48,805 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 16:33:28,435 [INFO] root: Logging inicializado.
+2025-12-02 16:33:28,449 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 16:33:28,450 [INFO] root: Streamlit page config OK
+2025-12-02 16:33:28,679 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 16:42:35,487 [INFO] root: Logging inicializado.
+2025-12-02 16:42:35,488 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 16:42:35,490 [INFO] root: Streamlit page config OK
+2025-12-02 16:42:35,505 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 16:43:13,546 [INFO] root: Logging inicializado.
+2025-12-02 16:43:13,547 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 16:43:13,548 [INFO] root: Streamlit page config OK
+2025-12-02 16:43:13,554 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 16:43:15,390 [INFO] root: Logging inicializado.
+2025-12-02 16:43:15,391 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 16:43:15,391 [INFO] root: Streamlit page config OK
+2025-12-02 16:43:15,395 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 16:43:16,990 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 16:58:55,348 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 16:59:34,821 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:00:04,292 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:00:11,789 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:00:18,681 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:00:24,327 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:00:31,383 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((ipi_total / quantidade) * 0.7) + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:00:35,043 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((ipi_total / quantidade) * 0.7) + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:00:35,052 [INFO] page_upload_xml: [XML Upload] Teste fórmula | modo='🎯 Assistido (Recomendado)' | usar_frete=True | vUnCom=18.7425 | vProd=224.91 | qtd=12 | ipi_aliq=6.50 | rateio_frete=24.179596 | vFrete_total=282.22
+2025-12-02 17:00:35,053 [INFO] page_upload_xml: [XML Upload] Resultado teste (1º item): 29.642800
+2025-12-02 17:05:50,130 [INFO] root: Logging inicializado.
+2025-12-02 17:05:50,130 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 17:05:50,131 [INFO] root: Streamlit page config OK
+2025-12-02 17:05:50,143 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 17:05:52,867 [INFO] root: Logging inicializado.
+2025-12-02 17:05:52,868 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 17:05:52,870 [INFO] root: Streamlit page config OK
+2025-12-02 17:05:52,876 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 17:05:54,756 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 17:06:24,261 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:06:48,083 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:07:50,841 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:08:00,244 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:08:02,831 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((ipi_total / quantidade) * 0.7) + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:08:06,205 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:08:12,539 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:08:12,548 [INFO] page_upload_xml: [XML Upload] Teste fórmula | modo='🎯 Assistido (Recomendado)' | usar_frete=True | vUnCom=18.7425 | vProd=224.91 | qtd=12 | ipi_aliq=6.50 | rateio_frete=24.179596 | vFrete_total=282.22
+2025-12-02 17:08:12,550 [INFO] page_upload_xml: [XML Upload] Resultado teste (1º item): 30.008229
+2025-12-02 17:10:36,239 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 17:10:36,797 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:10:38,172 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) - (rateio_desconto / quantidade) | usar_frete=False
+2025-12-02 17:10:41,346 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) - (rateio_desconto / quantidade) | usar_frete=False
+2025-12-02 17:10:41,354 [INFO] page_upload_xml: [XML Upload] Teste fórmula | modo='🎯 Assistido (Recomendado)' | usar_frete=False | vUnCom=18.7425 | vProd=224.91 | qtd=12 | ipi_aliq=6.50 | rateio_frete=24.179596 | vFrete_total=282.22
+2025-12-02 17:10:41,356 [INFO] page_upload_xml: [XML Upload] Resultado teste (1º item): 27.993263
+2025-12-02 17:11:28,783 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:11:33,807 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:11:33,812 [INFO] page_upload_xml: [XML Upload] Teste fórmula | modo='🎯 Assistido (Recomendado)' | usar_frete=True | vUnCom=18.7425 | vProd=224.91 | qtd=12 | ipi_aliq=6.50 | rateio_frete=24.179596 | vFrete_total=282.22
+2025-12-02 17:11:33,813 [INFO] page_upload_xml: [XML Upload] Resultado teste (1º item): 30.008229
+2025-12-02 17:15:45,174 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:16:00,116 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:16:00,126 [INFO] page_upload_xml: [XML Upload] Teste fórmula | modo='🎯 Assistido (Recomendado)' | usar_frete=True | vUnCom=13.4800 | vProd=80.88 | qtd=6 | ipi_aliq=6.50 | rateio_frete=9.614085 | vFrete_total=282.22
+2025-12-02 17:16:00,127 [INFO] page_upload_xml: [XML Upload] Resultado teste (1º item): 21.331271
+2025-12-02 17:17:31,502 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:17:34,855 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:17:34,862 [INFO] page_upload_xml: [XML Upload] Teste fórmula | modo='🎯 Assistido (Recomendado)' | usar_frete=True | vUnCom=13.4800 | vProd=80.88 | qtd=6 | ipi_aliq=6.50 | rateio_frete=9.545953 | vFrete_total=280.22
+2025-12-02 17:17:34,863 [INFO] page_upload_xml: [XML Upload] Resultado teste (1º item): 21.319916
+2025-12-02 17:18:08,165 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:18:08,705 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:22:41,768 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:26:16,977 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 17:28:56,241 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 17:28:56,453 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:29:17,819 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:30:05,080 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:30:46,908 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 17:30:47,006 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:30:47,510 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:30:53,408 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:30:53,421 [INFO] page_upload_xml: [XML Upload] Teste fórmula | modo='🎯 Assistido (Recomendado)' | usar_frete=True | vUnCom=13.4800 | vProd=80.88 | qtd=6 | ipi_aliq=6.50 | rateio_frete=9.545953 | vFrete_total=280.22
+2025-12-02 17:30:53,422 [INFO] page_upload_xml: [XML Upload] Resultado teste (1º item): 14.666573
+2025-12-02 17:30:54,739 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:30:54,747 [INFO] page_upload_xml: [XML Upload] Teste fórmula | modo='🎯 Assistido (Recomendado)' | usar_frete=True | vUnCom=13.4800 | vProd=80.88 | qtd=6 | ipi_aliq=6.50 | rateio_frete=9.545953 | vFrete_total=280.22
+2025-12-02 17:30:54,748 [INFO] page_upload_xml: [XML Upload] Resultado teste (1º item): 14.666573
+2025-12-02 17:31:06,594 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:31:24,864 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:31:30,832 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:31:34,662 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:31:36,101 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:31:37,176 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:31:38,001 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:31:39,448 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:32:34,458 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:32:39,482 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((ipi_total / quantidade) * 0.7) + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:32:41,399 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:32:46,193 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:32:46,205 [INFO] page_upload_xml: [XML Upload] Teste fórmula | modo='🎯 Assistido (Recomendado)' | usar_frete=True | vUnCom=13.4800 | vProd=80.88 | qtd=6 | ipi_aliq=6.50 | rateio_frete=9.545953 | vFrete_total=280.22
+2025-12-02 17:32:46,206 [INFO] page_upload_xml: [XML Upload] Resultado teste (1º item): 21.319916
+2025-12-02 17:32:52,137 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:32:52,286 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: (vUnCom / 0.7) + ((vProd * ipi_aliq / 100) / quantidade) + (rateio_frete / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:33:30,810 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:33:45,377 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:34:00,552 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:34:00,557 [INFO] page_upload_xml: [XML Upload] Teste fórmula | modo='🎯 Assistido (Recomendado)' | usar_frete=True | vUnCom=13.4800 | vProd=80.88 | qtd=6 | ipi_aliq=6.50 | rateio_frete=9.545953 | vFrete_total=280.22
+2025-12-02 17:34:00,561 [INFO] page_upload_xml: [XML Upload] Resultado teste (1º item): 14.666573
+2025-12-02 17:34:11,743 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:34:13,272 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:37:29,707 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 17:37:29,832 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:41:16,575 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:48:26,186 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 17:48:26,586 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:48:40,750 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:50:57,471 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:50:57,640 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:57:01,885 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 17:57:02,034 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:57:08,670 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:57:41,271 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 17:57:43,043 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:06:46,853 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 18:06:47,258 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:06:55,348 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:07:10,562 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:07:15,466 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:08:10,554 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 18:08:10,650 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:08:55,952 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 18:08:56,035 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:09:59,678 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:12:52,793 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:13:16,718 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:13:51,380 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:14:09,981 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:14:25,435 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:15:28,777 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 18:15:29,256 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:16:25,630 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 18:16:25,721 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:19:21,449 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 18:19:21,592 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:20:11,632 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:20:24,085 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:20:50,853 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:25:49,853 [INFO] root: Logging inicializado.
+2025-12-02 18:25:49,854 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 18:25:49,855 [INFO] root: Streamlit page config OK
+2025-12-02 18:25:49,874 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 18:26:01,694 [INFO] root: Logging inicializado.
+2025-12-02 18:26:01,694 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 18:26:01,695 [INFO] root: Streamlit page config OK
+2025-12-02 18:26:01,700 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 18:26:03,447 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 18:26:25,993 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:26:31,644 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:26:44,642 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:26:55,590 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:26:55,737 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:27:08,954 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:27:09,116 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:28:40,359 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:29:06,257 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:29:07,522 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:29:09,733 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:31:20,563 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 18:31:20,872 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:31:32,599 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:34:02,032 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 18:34:02,533 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:39:42,435 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:39:49,621 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:44:35,724 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 18:44:35,920 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:44:51,351 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 18:44:51,563 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:49:10,176 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 18:50:50,625 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:51:02,550 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:51:32,948 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:54:03,808 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 18:54:03,933 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:58:58,461 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 18:59:04,773 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:01:17,780 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 19:01:18,034 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:30:18,152 [INFO] root: Logging inicializado.
+2025-12-02 19:30:18,159 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 19:30:18,162 [INFO] root: Streamlit page config OK
+2025-12-02 19:30:18,192 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 19:30:21,793 [INFO] root: Logging inicializado.
+2025-12-02 19:30:21,794 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 19:30:21,796 [INFO] root: Streamlit page config OK
+2025-12-02 19:30:21,803 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 19:30:24,048 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 19:32:14,806 [INFO] root: Logging inicializado.
+2025-12-02 19:32:14,812 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 19:32:14,814 [INFO] root: Streamlit page config OK
+2025-12-02 19:32:14,848 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 19:32:19,834 [INFO] root: Logging inicializado.
+2025-12-02 19:32:19,835 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 19:32:19,836 [INFO] root: Streamlit page config OK
+2025-12-02 19:32:19,842 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 19:32:30,876 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:32:38,586 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:32:43,662 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:32:45,707 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:43:01,922 [INFO] root: Logging inicializado.
+2025-12-02 19:43:01,922 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 19:43:01,923 [INFO] root: Streamlit page config OK
+2025-12-02 19:43:01,944 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 19:43:19,542 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 19:43:29,277 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:43:42,398 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:43:50,295 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:43:53,421 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:44:26,665 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:44:27,181 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:44:27,584 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:44:28,030 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:44:28,169 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:46:52,435 [INFO] root: Logging inicializado.
+2025-12-02 19:46:52,447 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 19:46:52,448 [INFO] root: Streamlit page config OK
+2025-12-02 19:46:53,343 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 19:47:40,950 [INFO] root: Logging inicializado.
+2025-12-02 19:47:40,951 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 19:47:40,952 [INFO] root: Streamlit page config OK
+2025-12-02 19:47:40,973 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 19:47:52,161 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 19:48:10,676 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:48:17,207 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:49:29,953 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:49:31,052 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:49:40,232 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:49:40,600 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:49:40,802 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:49:40,947 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:56:06,676 [INFO] root: Logging inicializado.
+2025-12-02 19:56:06,677 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 19:56:06,677 [INFO] root: Streamlit page config OK
+2025-12-02 19:56:06,699 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 19:56:37,520 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 19:56:46,024 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:56:54,170 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:57:05,040 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:57:13,832 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:57:37,825 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:58:44,527 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:58:48,035 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:58:48,543 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:58:48,756 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 19:58:49,694 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:01:20,893 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 20:01:34,389 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:01:38,809 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:01:41,922 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:01:42,785 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:01:42,801 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=False, limitar_itens=0)
+2025-12-02 20:06:12,060 [INFO] root: Logging inicializado.
+2025-12-02 20:06:12,076 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 20:06:12,078 [INFO] root: Streamlit page config OK
+2025-12-02 20:06:12,144 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 20:06:41,069 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:06:48,169 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:06:51,501 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:06:51,519 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=True, limitar_itens=0)
+2025-12-02 20:09:36,022 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 20:09:52,457 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:09:57,554 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:10:02,257 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:10:02,975 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:10:02,996 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=False, limitar_itens=0)
+2025-12-02 20:13:20,275 [INFO] root: Logging inicializado.
+2025-12-02 20:13:20,276 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 20:13:20,277 [INFO] root: Streamlit page config OK
+2025-12-02 20:13:20,298 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 20:13:25,881 [INFO] root: Logging inicializado.
+2025-12-02 20:13:25,882 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 20:13:25,883 [INFO] root: Streamlit page config OK
+2025-12-02 20:13:25,889 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 20:13:28,072 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 20:13:43,955 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:13:48,639 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:13:52,754 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:13:52,772 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=True, limitar_itens=0)
+2025-12-02 20:14:17,556 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:14:18,388 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:14:18,408 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=False, limitar_itens=0)
+2025-12-02 20:18:34,792 [INFO] root: Logging inicializado.
+2025-12-02 20:18:34,797 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 20:18:34,807 [INFO] root: Streamlit page config OK
+2025-12-02 20:18:34,870 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 20:18:45,887 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 20:19:00,090 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:19:04,747 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:19:11,028 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:19:12,019 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 20:19:12,059 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=False, limitar_itens=0)
+2025-12-02 21:05:39,426 [INFO] root: Logging inicializado.
+2025-12-02 21:05:39,427 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 21:05:39,428 [INFO] root: Streamlit page config OK
+2025-12-02 21:05:39,454 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 21:05:53,182 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 21:06:02,704 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:06:13,110 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:06:17,269 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:06:18,155 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:06:18,183 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=False, limitar_itens=0)
+2025-12-02 21:07:28,506 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:07:34,384 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:07:34,414 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=False, limitar_itens=0)
+2025-12-02 21:18:37,112 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:18:43,307 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:18:43,326 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=False, limitar_itens=0)
+2025-12-02 21:42:04,702 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 21:42:25,854 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:42:30,098 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:42:42,629 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:42:43,709 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:42:44,346 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:42:48,906 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:42:51,657 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:42:51,685 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=True, limitar_itens=0)
+2025-12-02 21:42:55,832 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:43:01,178 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:43:01,206 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=False, limitar_itens=0)
+2025-12-02 21:49:40,065 [INFO] root: Logging inicializado.
+2025-12-02 21:49:40,067 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 21:49:40,069 [INFO] root: Streamlit page config OK
+2025-12-02 21:49:40,097 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 21:49:42,238 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 21:49:49,961 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:49:55,288 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:50:00,497 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:50:04,894 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:50:12,767 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 21:50:12,787 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=False, limitar_itens=0)
+2025-12-02 21:50:15,059 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572781 preco_custo=21.3199 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 21:50:19,723 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570573078 preco_custo=21.3199 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 21:50:24,838 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574310 preco_custo=21.3199 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 21:50:29,882 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574372 preco_custo=28.7534 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 21:50:34,750 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570571524 preco_custo=32.0985 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 21:50:39,465 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 21:50:43,229 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 21:50:50,012 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 21:51:03,022 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570575942 preco_custo=26.8371 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 21:51:07,868 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572200 preco_custo=26.8371 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 21:51:12,667 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570575959 preco_custo=32.0985 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 21:51:17,515 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572217 preco_custo=32.0985 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 21:51:22,277 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572255 preco_custo=26.8371 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 21:51:26,858 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574563 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 21:51:30,815 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574563 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 21:51:37,585 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574563 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 21:51:50,292 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574563 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 21:52:15,249 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574563 preco_custo=38.3221 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 21:52:20,234 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574570 preco_custo=49.5989 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 21:52:24,967 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574587 preco_custo=67.6409 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:14:22,454 [INFO] root: Logging inicializado.
+2025-12-02 22:14:22,455 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 22:14:22,456 [INFO] root: Streamlit page config OK
+2025-12-02 22:14:22,477 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 22:14:28,066 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 22:17:11,139 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:17:19,688 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:17:48,745 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:18:02,605 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:18:02,643 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=False, limitar_itens=0)
+2025-12-02 22:18:05,308 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572781 preco_custo=21.3199 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:18:08,686 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570573078 preco_custo=21.3199 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:18:12,109 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574310 preco_custo=21.3199 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:18:15,560 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574372 preco_custo=28.7534 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:18:18,336 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570571524 preco_custo=32.0985 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:18:21,103 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:18:23,143 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:18:26,751 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:18:33,660 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:18:46,521 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:19:13,507 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572200 preco_custo=26.8371 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:19:16,887 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570575959 preco_custo=32.0985 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:19:19,624 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572217 preco_custo=32.0985 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:19:22,926 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572255 preco_custo=26.8371 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:19:25,828 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574563 preco_custo=38.3221 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:19:28,712 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574570 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:19:30,784 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574570 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:19:34,423 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574570 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:19:41,296 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574570 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:19:54,178 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574570 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:20:21,354 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574587 preco_custo=67.6409 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:31:05,832 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:31:06,047 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:31:06,075 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=False, limitar_itens=0)
+2025-12-02 22:31:08,338 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572781 preco_custo=21.3199 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:31:13,147 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570573078 preco_custo=21.3199 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:31:17,207 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574310 preco_custo=21.3199 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:31:21,286 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574372 preco_custo=28.7534 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:31:25,443 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570571524 preco_custo=32.0985 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:31:29,867 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:31:33,370 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:31:39,318 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:31:49,983 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:32:10,929 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570575942 preco_custo=26.8371 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:32:15,604 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572200 preco_custo=26.8371 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:32:20,002 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570575959 preco_custo=32.0985 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:32:24,296 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572217 preco_custo=32.0985 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:32:28,842 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572255 preco_custo=26.8371 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:32:33,198 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574563 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:32:36,474 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574563 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:32:42,408 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574563 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:32:53,247 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574563 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:33:14,104 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574563 preco_custo=38.3221 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:33:18,306 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574570 preco_custo=49.5989 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:33:22,603 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574587 preco_custo=67.6409 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:36:03,581 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:36:04,032 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:36:04,065 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=False, limitar_itens=0)
+2025-12-02 22:36:06,071 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572781 preco_custo=21.3199 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:36:19,807 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:36:28,057 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:37:16,443 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:37:18,166 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:37:52,091 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:37:52,127 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=False, limitar_itens=0)
+2025-12-02 22:37:54,296 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572781 preco_custo=21.3237 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:37:57,596 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570573078 preco_custo=21.3237 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:38:00,902 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574310 preco_custo=21.3237 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:38:04,105 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574372 preco_custo=28.7585 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:38:07,309 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570571524 preco_custo=32.1041 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:38:10,440 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570575942 preco_custo=26.8418 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:38:13,276 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570572200 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:38:15,364 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570572200 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:38:19,063 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570572200 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:38:25,617 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570572200 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:38:38,177 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570572200 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:39:04,894 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570575959 preco_custo=32.1041 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:39:07,614 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572217 preco_custo=32.1041 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:39:10,370 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572255 preco_custo=26.8418 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:39:13,149 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574563 preco_custo=38.3288 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:39:16,259 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574570 preco_custo=49.6076 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:39:18,980 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574587 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:39:21,014 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574587 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:39:24,575 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574587 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:39:31,133 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574587 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:39:43,712 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574587 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:39:56,744 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:39:56,937 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:39:57,189 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:39:58,319 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:40:06,399 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:40:06,427 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=False, limitar_itens=0)
+2025-12-02 22:40:08,230 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572781 preco_custo=21.3237 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:40:13,836 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570573078 preco_custo=21.3237 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:40:19,429 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574310 preco_custo=21.3237 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:40:25,131 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574372 preco_custo=28.7585 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:40:31,019 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570571524 preco_custo=32.1041 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:40:36,930 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:40:41,745 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:40:50,747 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:41:07,605 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570575942 preco_custo=26.8418 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:41:13,502 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572200 preco_custo=26.8418 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:41:19,074 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570575959 preco_custo=32.1041 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:41:24,861 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572217 preco_custo=32.1041 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:41:30,626 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572255 preco_custo=26.8418 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:41:36,071 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574563 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:41:40,845 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574563 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:41:49,737 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574563 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:42:06,753 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574563 preco_custo=38.3288 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:42:12,557 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574570 preco_custo=49.6076 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:42:18,356 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574587 preco_custo=67.6528 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:42:43,432 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:42:48,947 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:45:14,066 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 22:45:31,299 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:45:37,434 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:45:46,101 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:45:57,633 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:46:26,823 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:46:31,037 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:46:53,392 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:46:53,617 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:46:53,845 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:46:55,160 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:46:55,833 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:46:59,603 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:46:59,627 [INFO] page_upload_xml: [XML Upload] Iniciando atualização de custos no Tiny (dry_run=False, limitar_itens=0)
+2025-12-02 22:47:01,635 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572781 preco_custo=21.3199 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:47:07,701 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570573078 preco_custo=21.3199 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:47:14,307 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574310 preco_custo=21.3199 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:47:20,364 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574372 preco_custo=28.7534 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:47:25,650 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570571524 preco_custo=32.0985 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:47:30,935 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:47:35,557 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:47:44,312 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570575942 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:48:01,234 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570575942 preco_custo=26.8371 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:48:07,178 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572200 preco_custo=26.8371 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:48:12,979 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570575959 preco_custo=32.0985 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:48:18,938 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572217 preco_custo=32.0985 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:48:24,607 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570572255 preco_custo=26.8371 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:48:30,259 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574563 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:48:35,235 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574563 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:48:44,078 [WARNING] tiny_api: Tiny produto.alterar Falha codigo=7898570574563 status=Erro cod_erro=6 http=200 x-limit=None x-remain=None resp={'retorno': {'status_processamento': 1, 'status': 'Erro', 'codigo_erro': 6, 'erros': [{'erro': 'API Bloqueada - Excedido o número de acessos a API, aguarde alguns minutos e tente novamente'}]}}
+2025-12-02 22:49:01,104 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574563 preco_custo=38.3221 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:49:07,005 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574570 preco_custo=49.5989 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:49:13,156 [INFO] tiny_api: Tiny produto.alterar OK codigo=7898570574587 preco_custo=67.6409 status_proc=3 x-limit=60 x-remain=None
+2025-12-02 22:54:57,317 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 22:55:11,427 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:55:18,808 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:55:47,663 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:58:29,361 [INFO] root: Logging inicializado.
+2025-12-02 22:58:29,362 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 22:58:29,362 [INFO] root: Streamlit page config OK
+2025-12-02 22:58:29,385 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 22:58:35,897 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 22:59:25,851 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 22:59:39,325 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 23:06:24,192 [INFO] root: Logging inicializado.
+2025-12-02 23:06:24,195 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 23:06:24,196 [INFO] root: Streamlit page config OK
+2025-12-02 23:06:24,470 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 23:06:26,386 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 23:06:47,664 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 23:06:51,548 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 23:06:57,038 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 23:07:01,976 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 23:07:07,204 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 23:07:10,420 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 23:07:12,306 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Entrada número 52679 - GGBPLAST BRINQUEDOS E UTILIDADES PLASTICAS LTDA - nota em ambiente de homologação'}]}}
+2025-12-02 23:07:14,893 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Entrada número 52679 - GGBPLAST BRINQUEDOS E UTILIDADES PLASTICAS LTDA - nota em ambiente de homologação'}]}}
+2025-12-02 23:07:17,407 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Entrada número 52679 - GGBPLAST BRINQUEDOS E UTILIDADES PLASTICAS LTDA - nota em ambiente de homologação'}]}}
+2025-12-02 23:07:19,827 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Entrada número 52679 - GGBPLAST BRINQUEDOS E UTILIDADES PLASTICAS LTDA - nota em ambiente de homologação'}]}}
+2025-12-02 23:07:22,381 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Entrada número 52679 - GGBPLAST BRINQUEDOS E UTILIDADES PLASTICAS LTDA - nota em ambiente de homologação'}]}}
+2025-12-02 23:11:53,046 [INFO] root: Logging inicializado.
+2025-12-02 23:11:53,047 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 23:11:53,048 [INFO] root: Streamlit page config OK
+2025-12-02 23:11:53,071 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 23:17:37,858 [INFO] root: Logging inicializado.
+2025-12-02 23:17:37,859 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 23:17:37,860 [INFO] root: Streamlit page config OK
+2025-12-02 23:17:37,884 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 23:19:11,142 [INFO] root: Logging inicializado.
+2025-12-02 23:19:11,143 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-02 23:19:11,145 [INFO] root: Streamlit page config OK
+2025-12-02 23:19:11,167 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-02 23:19:16,134 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-02 23:19:24,261 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 23:19:39,770 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 23:19:47,958 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 23:19:49,538 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-02 23:19:52,226 [INFO] tiny_api: Tiny incluir.nota.xml OK idNotaFiscal=353713417 x-limit=60 x-remain=None
+2025-12-03 07:46:01,873 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 07:46:05,396 [INFO] tiny_api: Tiny incluir.nota.xml OK idNotaFiscal=353740780 x-limit=60 x-remain=None
+2025-12-03 07:46:27,699 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 07:46:39,480 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 07:46:44,225 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 07:46:45,403 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 07:46:47,904 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 07:46:49,735 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 07:46:50,397 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 07:46:51,908 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 07:46:53,049 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 07:46:53,062 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 07:46:55,611 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 07:46:55,621 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 07:46:58,120 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 07:47:00,883 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 07:47:03,450 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 07:54:06,097 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 07:54:22,133 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 07:54:27,364 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 07:54:32,083 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 07:54:41,290 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 07:54:42,362 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 07:54:44,816 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 07:54:47,256 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 07:54:49,733 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 07:54:52,157 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Já existe uma nota fiscal importada com a mesma chave de acesso NFe de Saída número 52679 - MLH COMERCIO E DISTRIBUICAO'}]}}
+2025-12-03 08:03:29,665 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 08:03:30,199 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 08:04:34,941 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 08:04:42,041 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 08:04:53,923 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 08:05:11,583 [INFO] page_upload_xml: [XML Upload] Fórmula gerada: vUnCom + (rateio_frete / quantidade) + (rateio_seguro / quantidade) + (rateio_outros / quantidade) - (rateio_desconto / quantidade) | usar_frete=True
+2025-12-03 08:05:12,929 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 08:05:15,582 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 08:05:18,119 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 08:05:20,579 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 08:05:23,148 [WARNING] tiny_api: Tiny incluir.nota.xml falha status=ERRO cod_erro=35 http=200 resp={'retorno': {'status_processamento': '2', 'status': 'Erro', 'codigo_erro': 35, 'erros': [{'erro': 'Esse XML não é de uma nota fiscal de mercadorias'}]}}
+2025-12-03 08:07:05,573 [INFO] root: Logging inicializado.
+2025-12-03 08:07:05,579 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 08:07:05,583 [INFO] root: Streamlit page config OK
+2025-12-03 08:07:05,621 [INFO] root: Banco de dados inicializado com sucesso
+2025-12-03 08:10:58,449 [INFO] pdf_parser: OCR dependencies loaded successfully (pytesseract + pdf2image)
+2025-12-03 08:11:13,944 [INFO] root: Logging inicializado.
+2025-12-03 08:11:13,945 [INFO] root: === Hub Financeiro iniciando ===
+2025-12-03 08:11:13,946 [INFO] root: Streamlit page config OK
+2025-12-03 08:11:13,963 [INFO] root: Banco de dados inicializado com sucesso
