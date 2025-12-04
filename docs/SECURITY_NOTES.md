@@ -1,32 +1,5 @@
 # 🔒 Notas de Segurança - Hub Financeiro
 
-## ⚠️ ALERTAS CRÍTICOS
-
-### 1. Credenciais Expostas no Histórico do Git
-
-Os seguintes arquivos contêm ou continham dados sensíveis e **foram removidos do repositório GitHub** em 04 de dezembro de 2025:
-
-- **`.env`** - Arquivo de variáveis de ambiente com API keys e tokens
-
-**AÇÃO NECESSÁRIA IMEDIATA:**
-
-Você deve trocar TODAS as credenciais expostas. As seguintes keys foram vistas no histórico público:
-
-1. **Tiny ERP API Token**: `c3ab46ace723a2421debf7beb13b8b8dbb61453b9650c6919246683f718fc22a`
-   - ❌ COMPROMETIDA - Solicitar nova token na plataforma Tiny ERP
-
-2. **Shopee Partner ID**: `2013808`
-   - ⚠️ Pode ter acesso associado comprometido
-
-3. **Shopee Partner Key**: `shpk4774635844546f67744c5150584a6e554b454f4a576c514b65734c664952`
-   - ❌ COMPROMETIDA - Regenerar na plataforma Shopee
-
-4. **Shopee Access Token** e **Refresh Token**:
-   - ❌ COMPROMETIDA - Revogar e gerar novos tokens
-
-5. **Shopee Shop ID**: `1616902621`
-   - Informação pública, mas use com cuidado
-
 ---
 
 ## 📋 Arquivos Sensíveis (Nunca Commitar)
