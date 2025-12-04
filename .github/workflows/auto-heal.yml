@@ -23,7 +23,7 @@ jobs:
         id: ensure
         run: |
           set -euo pipefail
-          if ! grep -q 'pytest-cov' requirements.txt; then
+          if ! grep -q '^pytest-cov' requirements.txt; then
             echo 'pytest-cov>=4.0.0' >> requirements.txt
             echo "changed=true" >> $GITHUB_OUTPUT
           else
@@ -41,4 +41,3 @@ jobs:
             This PR was opened automatically by the auto-heal workflow to add pytest-cov to requirements.txt so pytest recognizes --cov options in CI.
           base: ${{ github.event.workflow_run.head_branch }}
           branch: auto/ci-fix-pytest-cov-${{ github.run_id }}
-
