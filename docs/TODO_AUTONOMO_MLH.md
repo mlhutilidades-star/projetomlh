@@ -14,7 +14,7 @@ Lista consolidada de tarefas para as FASES 3 e 4.
 - [x] **SHOPEE_PROCESS_FEES:** Implementar o processamento de taxas e comissões da Shopee.
 - [x] **SHOPEE_TESTS:** Criar testes unitários para todos os módulos da Shopee.
 - [x] **PDF_PROCESS_BOLETOS:** Criar o serviço para extrair dados de boletos em PDF.
-- [ ] **PDF_PREFILL_PAYABLES:** Integrar o processador de PDF para pré-preencher contas a pagar.
+- [x] **PDF_PREFILL_PAYABLES:** Integrar o processador de PDF para pré-preencher contas a pagar.
 
 ## FASE 4: Dashboard, Testes e Deploy
 
