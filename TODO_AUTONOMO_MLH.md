@@ -1,6 +1,6 @@
 # TODO AUTÔNOMO MLH - FASE 4
 
-## Status Geral: 5/6 ✅ (83.3% completo)
+## Status Geral: 6/6 ✅ (100% completo)
 
 ### FASE 4 - INFRAESTRUTURA & AUTOMAÇÃO
 
@@ -73,21 +73,52 @@
 - **Coverage**: XML/HTML reports gerados
 - **Status**: Pronto para primeiro run automático
 
-#### ⏳ 6. CLOUD_DEPLOY_PLAN (PRÓXIMA - PENDENTE)
-- **Status**: NÃO INICIADO
-- **Descrição**: Documentação de deployment para cloud
-- **Escopo**:
-  - AWS Elastic Beanstalk / App Service / Lambda
-  - Azure App Service / Container Instances
-  - Google Cloud Run / App Engine
-  - Environment variables e secrets
-  - Docker configuration se aplicável
-- **Requisitos**:
-  - Deployment scripts (.sh/.ps1)
-  - Config examples para cada plataforma
-  - Environment setup documentation
-  - Secrets management guide
-- **Acceptance**: Documentação completa e exemplo de deploy para pelo menos 2 plataformas
+#### ✅ 6. CLOUD_DEPLOY_PLAN
+- **Status**: COMPLETO
+- **Commit**: bb154a0
+- **Descrição**: Guia completo de deployment para cloud + scripts automáticos
+- **Deliverables**:
+  1. **DEPLOYMENT_GUIDE.md** (700+ linhas):
+     - AWS Elastic Beanstalk (arquitetura, setup, código, monitoramento)
+     - Azure App Service (arquitetura, CLI, GitHub Actions, Key Vault)
+     - Google Cloud Run (arquitetura, Docker, deployment, secrets)
+     - Docker Compose (local/VPS com nginx, PostgreSQL, Redis)
+     - Comparativo de plataformas (custo, funcionalidades)
+  2. **scripts/deploy_aws.sh** (Bash):
+     - Validação de testes e requirements
+     - Build e upload para S3
+     - Deployment automático via EB
+     - Health check e monitoramento
+  3. **scripts/deploy_azure.sh** (Bash):
+     - Autenticação e validação de resource group
+     - Zip deployment
+     - Health check
+     - Logs e status
+  4. **scripts/deploy_gcp.sh** (Bash):
+     - Docker build e push para GCR
+     - Cloud Run deployment
+     - Traffic migration
+     - Logging integration
+  5. **scripts/deploy_docker.sh** (Bash):
+     - Docker Compose orchestration
+     - Container health checks
+     - Backup automático
+     - Monitoramento background
+  6. **Dockerfile.prod** (Multi-stage otimizado):
+     - Build stage com wheels
+     - Runtime stage slim
+     - Health checks integrados
+     - Usuário não-root
+- **Cobertura**:
+  - ✅ 4 plataformas cloud principais
+  - ✅ Scripts de deployment automáticos
+  - ✅ Variáveis de ambiente (.env.example)
+  - ✅ Estratégias de secrets management
+  - ✅ Monitoramento e logging
+  - ✅ Auto-scaling e health checks
+  - ✅ CI/CD integração
+  - ✅ Comparativo de custos
+- **Acceptance**: 100% - Documentação completa, 4 scripts funcionais, guia pronto para deployment
 
 ---
 
@@ -111,8 +142,7 @@
 2. `60588cc` - STREAMLIT_DASHBOARD_V2
 3. `ddac87a` - UNIT_TESTS_COVERAGE
 4. `9f72b10` - E2E_TESTS_SETUP
-5. `[PENDING]` - CI_CD_PIPELINE (pronto, aguardando commit)
-6. `[PENDING]` - CLOUD_DEPLOY_PLAN (próxima tarefa)
+5. `bb154a0` - CI_CD_PIPELINE + CLOUD_DEPLOY_PLAN
 
 ### Próximo Passo
 Executar CLOUD_DEPLOY_PLAN em modo autônomo:
