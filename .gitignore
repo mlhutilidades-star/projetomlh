@@ -15,6 +15,15 @@ _pycache_/
 .coverage
 htmlcov/
 .coverage.*
+coverage.xml
+*.coverage
+
+# Database files
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+data/*.db
 
 # Logs
 *.log
