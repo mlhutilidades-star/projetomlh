@@ -13,7 +13,8 @@ class TinyERPPayables:
     def create_payable(self, payable_data: dict) -> dict:
         access_token = self.auth_client.get_access_token()
         endpoint = f"{self.base_url}/incluir.conta.pagar.php"
-        payload = {"token": access_token, "formato": "json", "conta": f"[{str(payable_data).replace('\'', '\"')}]"}
+        conta_json = str(payable_data).replace("'", '"')
+        payload = {"token": access_token, "formato": "json", "conta": f"[{conta_json}]"}
         try:
             response = requests.post(endpoint, data=payload)
             response.raise_for_status()
