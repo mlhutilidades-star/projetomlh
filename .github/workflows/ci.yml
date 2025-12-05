@@ -38,6 +38,8 @@ jobs:
 
       - name: Upload coverage
         uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: coverage-report
-          path: .
+          path: coverage.xml
+          if-no-files-found: warn
