@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy==2.0.23
+alembic
+psycopg2-binary
+python-jose[cryptography]
+passlib
+pydantic[email]
+pydantic-settings
+redis
+rq
+python-multipart
+requests
